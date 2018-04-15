@@ -1,0 +1,12 @@
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/upload_eeprom.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/upload_alc.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/get_fuses.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/get_status.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/set_fuses.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/get_calibration.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/set_calibration.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/disassemble_alc.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/rebuild_cache.dir

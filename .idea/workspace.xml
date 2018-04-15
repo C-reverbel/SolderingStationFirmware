@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="SolderingStationFirmware" targetName="set_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="get_status" />
+      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
+      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="alc" />
+      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
+      <config projectName="SolderingStationFirmware" targetName="disassemble_alc" />
+      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot; -IS_WINDOWS=TRUE -DAVR_UPLOADTOOL_PORT=&quot;COM7&quot;" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot; -IS_WINDOWS=TRUE -DAVR_UPLOADTOOL_PORT=&quot;COM7&quot;" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02601ca3-10fc-4113-906a-c2fcd90bf415" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Source/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#26#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FastGPIO.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/GPIO/FastGPIO.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31">
+              <caret line="173" column="15" lean-forward="true" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
+              <folding>
+                <element signature="e#1093#1112#0" expanded="true" />
+                <element signature="e#1833#2313#0" />
+                <element signature="e#6091#6104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LiquidCrystal.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#38#56#0" expanded="true" />
+                <element signature="e#156#178#0" />
+                <element signature="e#760#1047#0" />
+                <element signature="e#1049#1325#0" />
+                <element signature="e#1327#1533#0" />
+                <element signature="e#1535#1731#0" />
+                <element signature="e#1733#2602#0" />
+                <element signature="e#2604#4885#0" />
+                <element signature="e#4887#5111#0" />
+                <element signature="e#5113#5269#0" />
+                <element signature="e#5271#5537#0" />
+                <element signature="e#5539#5701#0" />
+                <element signature="e#5702#5824#0" />
+                <element signature="e#5826#5986#0" />
+                <element signature="e#5987#6107#0" />
+                <element signature="e#6109#6269#0" />
+                <element signature="e#6270#6388#0" />
+                <element signature="e#6390#6562#0" />
+                <element signature="e#6563#6675#0" />
+                <element signature="e#6677#6844#0" />
+                <element signature="e#6846#7014#0" />
+                <element signature="e#7016#7197#0" />
+                <element signature="e#7199#7382#0" />
+                <element signature="e#7384#7695#0" />
+                <element signature="e#7697#7831#0" />
+                <element signature="e#7833#7940#0" />
+                <element signature="e#8001#8432#0" />
+                <element signature="e#8434#8734#0" />
+                <element signature="e#8945#9152#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LiquidCrystal.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/LiquidCrystal.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="e#43#64#0" expanded="true" />
+                <element signature="e#1015#2768#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Print.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/Print.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#928#947#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Printable.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/Printable.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WString.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/WString.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="205" column="2" selection-start-line="205" selection-start-column="2" selection-end-line="205" selection-end-column="2" />
+              <folding>
+                <element signature="e#1003#1022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WString.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/LCD/WString.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="734" column="30" selection-start-line="734" selection-start-column="30" selection-end-line="734" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AVR_UPLOAD_MCU</find>
+      <find>AVR_PROGRAMMER</find>
+      <find>upload_</find>
+      <find>AVR_</find>
+      <find>EXECUTABLE_NAME</find>
+      <find>AVR_UPLOAD</find>
+      <find>AVR_UPLOADTOOL</find>
+      <find>hex_file</find>
+      <find>UPLOADTOOL</find>
+      <find>%1</find>
+      <find>avrdude</find>
+      <find>pinloan</find>
+      <find>toDouble</find>
+      <find>init</find>
+      <find>flag</find>
+      <find>setOutput(</find>
+      <find>template</find>
+      <find>templ</find>
+      <find>_FG_</find>
+      <find>pinStructs</find>
+      <find>add_de</find>
+      <find>set_fuses</find>
+      <find>pinMode</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Source/LCD/lcd.c" />
+        <option value="$PROJECT_DIR$/Source/LCD/lcd.h" />
+        <option value="$PROJECT_DIR$/Source/LCD/WString.h" />
+        <option value="$PROJECT_DIR$/Source/LCD/WString.cpp" />
+        <option value="$PROJECT_DIR$/Source/LCD/Print.cpp" />
+        <option value="$PROJECT_DIR$/Source/LCD/lcd.hpp" />
+        <option value="$PROJECT_DIR$/Source/LCD/lcd.cpp" />
+        <option value="$PROJECT_DIR$/CMake/Toolchains/AVR.cmake" />
+        <option value="$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp" />
+        <option value="$PROJECT_DIR$/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="291" />
+    <option name="y" value="-8" />
+    <option name="width" value="800" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="CMake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="CMake" type="462c0819:PsiDirectoryNode" />
+              <item name="Toolchains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="GPIO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="LCD" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.upload_alc">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="alc-ATMEGA328P.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="alc-ATMEGA328P.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="alc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="disassemble_alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="disassemble_alc" CONFIG_NAME="Debug" />
+    <configuration name="get_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_calibration" CONFIG_NAME="Debug" />
+    <configuration name="get_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="get_status" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_status" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="set_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_calibration" CONFIG_NAME="Debug" />
+    <configuration name="set_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="upload_alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_alc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
+    <configuration name="upload_eeprom" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_eeprom" CONFIG_NAME="Debug" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.alc" />
+      <item itemvalue="Application.alc-ATMEGA328P.elf" />
+      <item itemvalue="Application.disassemble_alc" />
+      <item itemvalue="Application.get_calibration" />
+      <item itemvalue="Application.get_fuses" />
+      <item itemvalue="Application.get_status" />
+      <item itemvalue="Application.set_calibration" />
+      <item itemvalue="Application.set_fuses" />
+      <item itemvalue="Application.upload_alc" />
+      <item itemvalue="Application.upload_eeprom" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02601ca3-10fc-4113-906a-c2fcd90bf415" name="Default" comment="" />
+      <created>1523746974469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523746974469</updated>
+      <workItem from="1523746976273" duration="2793000" />
+      <workItem from="1523749875864" duration="7796000" />
+      <workItem from="1523824601456" duration="9227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19816000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123125" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.19448094" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.2693824" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+          <folding>
+            <element signature="e#26#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMake/Toolchains/avrdude.conf" />
+    <entry file="file://$PROJECT_DIR$/Source/LCD/Print.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastGPIO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/lcd.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#244#305#0" />
+            <element signature="e#307#362#0" />
+            <element signature="e#625#887#0" />
+            <element signature="e#889#1692#0" />
+            <element signature="e#1694#1808#0" />
+            <element signature="e#1810#1926#0" />
+            <element signature="e#1928#2001#0" />
+            <element signature="e#2003#2080#0" />
+            <element signature="e#2082#2207#0" />
+            <element signature="e#2209#2336#0" />
+            <element signature="e#2338#2462#0" />
+            <element signature="e#2464#2590#0" />
+            <element signature="e#2592#2687#0" />
+            <element signature="e#2689#2786#0" />
+            <element signature="e#2788#2915#0" />
+            <element signature="e#2917#3045#0" />
+            <element signature="e#3047#3184#0" />
+            <element signature="e#3186#3325#0" />
+            <element signature="e#3327#3509#0" />
+            <element signature="e#3511#3709#0" />
+            <element signature="e#3711#3805#0" />
+            <element signature="e#3807#3987#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="734" column="30" selection-start-line="734" selection-start-column="30" selection-end-line="734" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="205" column="2" selection-start-line="205" selection-start-column="2" selection-end-line="205" selection-end-column="2" />
+          <folding>
+            <element signature="e#1003#1022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/Printable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/lcd.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/lcd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/lcd.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#125#147#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/Print.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#928#947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/LiquidCrystal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#43#64#0" expanded="true" />
+            <element signature="e#1015#2768#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMake/Toolchains/AVR.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="254" column="38" lean-forward="true" selection-start-line="254" selection-start-column="38" selection-end-line="254" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#38#56#0" expanded="true" />
+            <element signature="e#156#178#0" />
+            <element signature="e#760#1047#0" />
+            <element signature="e#1049#1325#0" />
+            <element signature="e#1327#1533#0" />
+            <element signature="e#1535#1731#0" />
+            <element signature="e#1733#2602#0" />
+            <element signature="e#2604#4885#0" />
+            <element signature="e#4887#5111#0" />
+            <element signature="e#5113#5269#0" />
+            <element signature="e#5271#5537#0" />
+            <element signature="e#5539#5701#0" />
+            <element signature="e#5702#5824#0" />
+            <element signature="e#5826#5986#0" />
+            <element signature="e#5987#6107#0" />
+            <element signature="e#6109#6269#0" />
+            <element signature="e#6270#6388#0" />
+            <element signature="e#6390#6562#0" />
+            <element signature="e#6563#6675#0" />
+            <element signature="e#6677#6844#0" />
+            <element signature="e#6846#7014#0" />
+            <element signature="e#7016#7197#0" />
+            <element signature="e#7199#7382#0" />
+            <element signature="e#7384#7695#0" />
+            <element signature="e#7697#7831#0" />
+            <element signature="e#7833#7940#0" />
+            <element signature="e#8001#8432#0" />
+            <element signature="e#8434#8734#0" />
+            <element signature="e#8945#9152#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastGPIO.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="173" column="15" lean-forward="true" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
+          <folding>
+            <element signature="e#1093#1112#0" expanded="true" />
+            <element signature="e#1833#2313#0" />
+            <element signature="e#6091#6104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#26#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

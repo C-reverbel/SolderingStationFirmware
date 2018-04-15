@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/main.cpp
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+avr/io.h
+-
+util/delay.h
+-
+

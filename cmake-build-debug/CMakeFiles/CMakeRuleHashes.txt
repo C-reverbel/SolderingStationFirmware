@@ -1,0 +1,12 @@
+# Hashes of file build rules.
+bca41896a3e8a8a90b3c779384b11a68 CMakeFiles/alc
+cd041f8560e34688cf92e0f998b45036 CMakeFiles/disassemble_alc
+6a927038c38b0f7f7596b257044cb6e6 CMakeFiles/get_calibration
+6f9acc3fdb5113618dc6ca1a2675b97b CMakeFiles/get_fuses
+f4ccd01989be1fb72b2edc0b5e6fba48 CMakeFiles/get_status
+1aa96a869e3cc7c4ce9422e30dacb423 CMakeFiles/set_calibration
+39d224f2b825a3586b7f95ec82986593 CMakeFiles/set_fuses
+2addb43b3dd85c1ee097dc6661cae4c7 CMakeFiles/upload_alc
+51f12ddbbb9b579f6f67d3da09bd7eac CMakeFiles/upload_eeprom
+2d647d9c68274bcf01c65874b690a5a0 alc-ATMEGA328P-eeprom.hex
+222dcb33012e7ab1d01a9d001d05679f alc-ATMEGA328P.hex

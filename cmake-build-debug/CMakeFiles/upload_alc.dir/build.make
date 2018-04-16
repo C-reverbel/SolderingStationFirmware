@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware
+CMAKE_SOURCE_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug
 
 # Utility rule file for upload_alc.
 
@@ -53,11 +53,11 @@ CMAKE_BINARY_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\Sold
 include CMakeFiles/upload_alc.dir/progress.make
 
 CMakeFiles/upload_alc: alc-ATMEGA328P.hex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading alc-ATMEGA328P.hex to ATMEGA328P using arduino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Uploading alc-ATMEGA328P.hex to ATMEGA328P using arduino"
 	"C:\Program Files (x86)\Arduino Programmer\avrdude.exe" -p atmega328p -c arduino -b 115200 -D -U flash:w:alc-ATMEGA328P.hex:i -P COM7 -v
 
 alc-ATMEGA328P.hex: alc-ATMEGA328P.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating alc-ATMEGA328P.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating alc-ATMEGA328P.hex"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-objcopy.exe -j .text -j .data -O ihex alc-ATMEGA328P.elf alc-ATMEGA328P.hex
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-size.exe -C --mcu=ATMEGA328P alc-ATMEGA328P.elf
 
@@ -77,6 +77,6 @@ CMakeFiles/upload_alc.dir/clean:
 .PHONY : CMakeFiles/upload_alc.dir/clean
 
 CMakeFiles/upload_alc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles\upload_alc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carlos\Desktop\Git\SolderingStationFirmware C:\Users\carlos\Desktop\Git\SolderingStationFirmware C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles\upload_alc.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/upload_alc.dir/depend
 

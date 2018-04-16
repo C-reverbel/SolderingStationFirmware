@@ -6,15 +6,41 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/main.cpp
+../Source/GPIO/FastGPIO.h
+FastGPIO.h
+-
+avr/io.h
+-
+stdint.h
+-
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastGPIO.cpp
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastGPIO.h
+FastGPIO.h
+-
+avr/io.h
+-
+stdint.h
+-
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.cpp
+LCD.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
 stdio.h
 -
 stdlib.h
 -
 inttypes.h
 -
-avr/io.h
--
-util/delay.h
--
+GPIO/FastGPIO.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/GPIO/FastGPIO.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp
+LCD/LCD.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
+GPIO/FastGPIO.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastGPIO.h
 

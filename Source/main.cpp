@@ -1,26 +1,35 @@
-#include <avr/io.h>
-#include <util/delay.h>
+#define HIGH 1
+#define LOW 0
 
+
+#include "LCD/LCD.h"
 #include "GPIO/FastGPIO.h"
-//#include "LCD/LiquidCrystal.h"
+
+template <uint8_t pin>
+void setPinHigh(FastGPIO::Pin<pin> pino){
+    pino.setOutputHigh();
+}
+template <uint8_t pin>
+void setPinLow(FastGPIO::Pin<pin> pino){
+    pino.setOutputLow();
+}
+
+int main(){
+    FastGPIO::Pin<13> led;
+    FastGPIO::Pin<5> btn_1;
+
+    LiquidCrystal<FastGPIO::Pin<13>><> lcd(led,btn_1);
 
 
-extern "C"
-int main (void)
-{
-    const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
-    //LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-    //lcd.begin(8,2);
+    //btn_1.setInputPulledUp();
 
-    FastGPIO::Pin<13>::setOutput(0);
-    FastGPIO::Pin<5>::setInputPulledUp();
+    //setPinLow(led);
 
 
-
-
-    while(1) {
-        FastGPIO::Pin<13>::setOutputValue(FastGPIO::Pin<5>::isInputHigh());
-
+    while(1){
+        //led.setOutput(btn_1.isInputHigh());
     }
 }
+
+

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware
+CMAKE_SOURCE_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -266,86 +266,32 @@ Source/GPIO/FastGPIO.cpp.s:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.s
 .PHONY : Source/GPIO/FastGPIO.cpp.s
 
-Source/LCD/LiquidCrystal.obj: Source/LCD/LiquidCrystal.cpp.obj
+Source/LCD/LCD.obj: Source/LCD/LCD.cpp.obj
 
-.PHONY : Source/LCD/LiquidCrystal.obj
-
-# target to build an object file
-Source/LCD/LiquidCrystal.cpp.obj:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LiquidCrystal.cpp.obj
-.PHONY : Source/LCD/LiquidCrystal.cpp.obj
-
-Source/LCD/LiquidCrystal.i: Source/LCD/LiquidCrystal.cpp.i
-
-.PHONY : Source/LCD/LiquidCrystal.i
-
-# target to preprocess a source file
-Source/LCD/LiquidCrystal.cpp.i:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LiquidCrystal.cpp.i
-.PHONY : Source/LCD/LiquidCrystal.cpp.i
-
-Source/LCD/LiquidCrystal.s: Source/LCD/LiquidCrystal.cpp.s
-
-.PHONY : Source/LCD/LiquidCrystal.s
-
-# target to generate assembly for a file
-Source/LCD/LiquidCrystal.cpp.s:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LiquidCrystal.cpp.s
-.PHONY : Source/LCD/LiquidCrystal.cpp.s
-
-Source/LCD/Print.obj: Source/LCD/Print.cpp.obj
-
-.PHONY : Source/LCD/Print.obj
+.PHONY : Source/LCD/LCD.obj
 
 # target to build an object file
-Source/LCD/Print.cpp.obj:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj
-.PHONY : Source/LCD/Print.cpp.obj
+Source/LCD/LCD.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj
+.PHONY : Source/LCD/LCD.cpp.obj
 
-Source/LCD/Print.i: Source/LCD/Print.cpp.i
+Source/LCD/LCD.i: Source/LCD/LCD.cpp.i
 
-.PHONY : Source/LCD/Print.i
-
-# target to preprocess a source file
-Source/LCD/Print.cpp.i:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.i
-.PHONY : Source/LCD/Print.cpp.i
-
-Source/LCD/Print.s: Source/LCD/Print.cpp.s
-
-.PHONY : Source/LCD/Print.s
-
-# target to generate assembly for a file
-Source/LCD/Print.cpp.s:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.s
-.PHONY : Source/LCD/Print.cpp.s
-
-Source/LCD/WString.obj: Source/LCD/WString.cpp.obj
-
-.PHONY : Source/LCD/WString.obj
-
-# target to build an object file
-Source/LCD/WString.cpp.obj:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj
-.PHONY : Source/LCD/WString.cpp.obj
-
-Source/LCD/WString.i: Source/LCD/WString.cpp.i
-
-.PHONY : Source/LCD/WString.i
+.PHONY : Source/LCD/LCD.i
 
 # target to preprocess a source file
-Source/LCD/WString.cpp.i:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.i
-.PHONY : Source/LCD/WString.cpp.i
+Source/LCD/LCD.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.i
+.PHONY : Source/LCD/LCD.cpp.i
 
-Source/LCD/WString.s: Source/LCD/WString.cpp.s
+Source/LCD/LCD.s: Source/LCD/LCD.cpp.s
 
-.PHONY : Source/LCD/WString.s
+.PHONY : Source/LCD/LCD.s
 
 # target to generate assembly for a file
-Source/LCD/WString.cpp.s:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.s
-.PHONY : Source/LCD/WString.cpp.s
+Source/LCD/LCD.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.s
+.PHONY : Source/LCD/LCD.cpp.s
 
 Source/main.obj: Source/main.cpp.obj
 
@@ -395,15 +341,9 @@ help:
 	@echo ... Source/GPIO/FastGPIO.obj
 	@echo ... Source/GPIO/FastGPIO.i
 	@echo ... Source/GPIO/FastGPIO.s
-	@echo ... Source/LCD/LiquidCrystal.obj
-	@echo ... Source/LCD/LiquidCrystal.i
-	@echo ... Source/LCD/LiquidCrystal.s
-	@echo ... Source/LCD/Print.obj
-	@echo ... Source/LCD/Print.i
-	@echo ... Source/LCD/Print.s
-	@echo ... Source/LCD/WString.obj
-	@echo ... Source/LCD/WString.i
-	@echo ... Source/LCD/WString.s
+	@echo ... Source/LCD/LCD.obj
+	@echo ... Source/LCD/LCD.i
+	@echo ... Source/LCD/LCD.s
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s

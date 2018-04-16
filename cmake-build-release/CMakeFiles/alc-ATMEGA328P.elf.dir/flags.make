@@ -6,5 +6,5 @@ CXX_FLAGS =  -flto -Os -O3 -DNDEBUG   -mmcu=ATMEGA328P -std=gnu++14
 
 CXX_DEFINES = -DF_CPU=16000000UL
 
-CXX_INCLUDES = -IC:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\Source 
+CXX_INCLUDES = -IC:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source 
 

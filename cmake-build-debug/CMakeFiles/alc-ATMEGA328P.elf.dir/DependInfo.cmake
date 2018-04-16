@@ -4,11 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/GPIO/FastGPIO.cpp" "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.obj"
-  "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/LCD/LiquidCrystal.cpp" "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LiquidCrystal.cpp.obj"
-  "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/LCD/Print.cpp" "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj"
-  "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/LCD/WString.cpp" "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj"
-  "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/Source/main.cpp" "C:/Users/carlos/Dropbox/Projetos/Estacao_de_solda/Codigo/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj"
+  "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastGPIO.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.obj"
+  "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj"
+  "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

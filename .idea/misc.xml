@@ -4,6 +4,7 @@
   <component name="CidrRootsConfiguration">
     <sourceRoots>
       <file path="$PROJECT_DIR$/Source" />
+      <file path="$PROJECT_DIR$/Source/AVRTools" />
     </sourceRoots>
   </component>
   <component name="JavaScriptSettings">

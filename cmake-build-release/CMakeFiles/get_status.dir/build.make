@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware
+CMAKE_SOURCE_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release
 
 # Utility rule file for get_status.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\Sold
 include CMakeFiles/get_status.dir/progress.make
 
 CMakeFiles/get_status:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Get status from ATMEGA328P"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Get status from ATMEGA328P"
 	"C:\Program Files (x86)\Arduino Programmer\avrdude.exe" -p ATMEGA328P -c arduino -P COM7 -n -v
 
 get_status: CMakeFiles/get_status
@@ -71,6 +71,6 @@ CMakeFiles/get_status.dir/clean:
 .PHONY : CMakeFiles/get_status.dir/clean
 
 CMakeFiles/get_status.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-release C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-release C:\Users\carlos\Dropbox\Projetos\Estacao_de_solda\Codigo\SolderingStationFirmware\cmake-build-release\CMakeFiles\get_status.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\carlos\Desktop\Git\SolderingStationFirmware C:\Users\carlos\Desktop\Git\SolderingStationFirmware C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\get_status.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/get_status.dir/depend
 

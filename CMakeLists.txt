@@ -29,11 +29,21 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -flto -Os")
 set(CMAKE_C_FLAGS_DEBUG "-Os")
 set(CMAKE_CXX_FLAGS_DEBUG "-Os")
 
-file(GLOB_RECURSE srcs
-        Source/*.h
-        Source/*.hpp
-        Source/*.c
-        Source/*.cpp)
+#file(GLOB_RECURSE srcs
+#        Source/*.h
+#        Source/*.hpp
+#        Source/*.c
+#        Source/*.cpp)
+
+#file(GLOB_RECURSE AVRTools Source/AVRTools/*.cpp)
+
+set(srcs Source/main.cpp
+        Source/LCD/LCD.cpp
+        #Source/LCD/LiquidCrystal.cpp
+        Source/GPIO/FastGPIO.cpp
+        #${AVRTools}
+        )
+
 add_avr_executable(alc ${srcs})
 target_include_directories(alc-${AVR_MCU}.elf
         PUBLIC Source)

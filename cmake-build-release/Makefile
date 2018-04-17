@@ -239,59 +239,32 @@ disassemble_alc/fast:
 	$(MAKE) -f CMakeFiles\disassemble_alc.dir\build.make CMakeFiles/disassemble_alc.dir/build
 .PHONY : disassemble_alc/fast
 
-Source/GPIO/FastGPIO.obj: Source/GPIO/FastGPIO.cpp.obj
+Source/GPIO/GPIO.obj: Source/GPIO/GPIO.cpp.obj
 
-.PHONY : Source/GPIO/FastGPIO.obj
-
-# target to build an object file
-Source/GPIO/FastGPIO.cpp.obj:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.obj
-.PHONY : Source/GPIO/FastGPIO.cpp.obj
-
-Source/GPIO/FastGPIO.i: Source/GPIO/FastGPIO.cpp.i
-
-.PHONY : Source/GPIO/FastGPIO.i
-
-# target to preprocess a source file
-Source/GPIO/FastGPIO.cpp.i:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.i
-.PHONY : Source/GPIO/FastGPIO.cpp.i
-
-Source/GPIO/FastGPIO.s: Source/GPIO/FastGPIO.cpp.s
-
-.PHONY : Source/GPIO/FastGPIO.s
-
-# target to generate assembly for a file
-Source/GPIO/FastGPIO.cpp.s:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastGPIO.cpp.s
-.PHONY : Source/GPIO/FastGPIO.cpp.s
-
-Source/LCD/LCD.obj: Source/LCD/LCD.cpp.obj
-
-.PHONY : Source/LCD/LCD.obj
+.PHONY : Source/GPIO/GPIO.obj
 
 # target to build an object file
-Source/LCD/LCD.cpp.obj:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj
-.PHONY : Source/LCD/LCD.cpp.obj
+Source/GPIO/GPIO.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj
+.PHONY : Source/GPIO/GPIO.cpp.obj
 
-Source/LCD/LCD.i: Source/LCD/LCD.cpp.i
+Source/GPIO/GPIO.i: Source/GPIO/GPIO.cpp.i
 
-.PHONY : Source/LCD/LCD.i
+.PHONY : Source/GPIO/GPIO.i
 
 # target to preprocess a source file
-Source/LCD/LCD.cpp.i:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.i
-.PHONY : Source/LCD/LCD.cpp.i
+Source/GPIO/GPIO.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.i
+.PHONY : Source/GPIO/GPIO.cpp.i
 
-Source/LCD/LCD.s: Source/LCD/LCD.cpp.s
+Source/GPIO/GPIO.s: Source/GPIO/GPIO.cpp.s
 
-.PHONY : Source/LCD/LCD.s
+.PHONY : Source/GPIO/GPIO.s
 
 # target to generate assembly for a file
-Source/LCD/LCD.cpp.s:
-	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.s
-.PHONY : Source/LCD/LCD.cpp.s
+Source/GPIO/GPIO.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.s
+.PHONY : Source/GPIO/GPIO.cpp.s
 
 Source/main.obj: Source/main.cpp.obj
 
@@ -338,12 +311,9 @@ help:
 	@echo ... disassemble_alc
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Source/GPIO/FastGPIO.obj
-	@echo ... Source/GPIO/FastGPIO.i
-	@echo ... Source/GPIO/FastGPIO.s
-	@echo ... Source/LCD/LCD.obj
-	@echo ... Source/LCD/LCD.i
-	@echo ... Source/LCD/LCD.s
+	@echo ... Source/GPIO/GPIO.obj
+	@echo ... Source/GPIO/GPIO.i
+	@echo ... Source/GPIO/GPIO.s
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s

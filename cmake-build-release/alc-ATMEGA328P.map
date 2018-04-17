@@ -8,9 +8,10 @@ Discarded input sections
  .data          0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
  .bss           0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
  .text          0x00000000        0x0 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj (symbol from plugin)
- .text          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
- .bss           0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
+ .text          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
+ .bss           0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
+ .text          0x00000000        0x0 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  .data          0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
@@ -45,7 +46,8 @@ Linker script and memory map
 Address of section .data set to 0x800100
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
 LOAD CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj
-LOAD C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
+LOAD C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
+LOAD CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
 START GROUP
@@ -152,7 +154,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000       0xc0
+.text           0x00000000       0x90
  *(.vectors)
  .vectors       0x00000000       0x68 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -235,13 +237,13 @@ END GROUP
                 0x00000078                __vector_20
                 0x0000007a                . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x0000007a       0x42 C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
+ .text.startup  0x0000007a       0x12 C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
                 0x0000007a                main
-                0x000000bc                . = ALIGN (0x2)
+                0x0000008c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000000bc        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
-                0x000000bc                _exit
-                0x000000bc                exit
+ .fini9         0x0000008c        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x0000008c                _exit
+                0x0000008c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -260,11 +262,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000000bc        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x0000008c        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000000c0                _etext = .
+                0x00000090                _etext = .
 
-.data           0x00800100        0x0 load address 0x000000c0
+.data           0x00800100        0x0 load address 0x00000090
                 [!provide]                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -281,8 +283,8 @@ END GROUP
  *(.bss*)
  *(COMMON)
                 [!provide]                PROVIDE (__bss_end, .)
-                0x000000c0                __data_load_start = LOADADDR (.data)
-                0x000000c0                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00000090                __data_load_start = LOADADDR (.data)
+                0x00000090                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x00800100        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
@@ -330,7 +332,7 @@ END GROUP
 
 .comment        0x00000000       0x11
  *(.comment)
- .comment       0x00000000       0x11 C:\Users\carlos\AppData\Local\Temp\ccyGB6eh.ltrans0.ltrans.o
+ .comment       0x00000000       0x11 C:\Users\carlos\AppData\Local\Temp\ccz6R08H.ltrans0.ltrans.o
                                  0x12 (size before relaxing)
 
 .note.gnu.avr.deviceinfo

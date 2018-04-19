@@ -4,12 +4,20 @@
 
 #include "GPIO.h"
 
-Pin::Pin(uint8_t pin){
+Pin::Pin(uint8_t pin = 21){
     _pin = pin;
 }
 
+//Pin Pin::none = Pin(21);
+
 
 // Public functions
+bool Pin::isValidPin() {
+    if(_pin == IO_NONE)
+        return 0;
+    else
+        return 1;
+}
 void Pin::setOutputToggle() {
     setOutputValueToggle();
     _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
@@ -52,3 +60,5 @@ void Pin::setOutputValue(bool value) {
         _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
     }
 }
+
+

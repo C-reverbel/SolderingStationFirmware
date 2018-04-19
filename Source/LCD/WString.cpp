@@ -738,15 +738,13 @@ long String::toInt(void) const
 	return 0;
 }
 
-//double String::toDouble(void) const
-//{
-//	if (buffer) return atof(buffer);
-//	return 0;
-//}
-//
 //float String::toFloat(void) const
 //{
 //	return float(toDouble());
 //}
 
-
+//double String::toDouble(void) const
+//{
+//	if (buffer) return atof(buffer);
+//	return 0;
+//}

@@ -4,6 +4,25 @@
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj: ../Source/GPIO/GPIO.cpp
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj: ../Source/GPIO/GPIO.h
 
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/GPIO/GPIO.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/LCD/LCD.cpp
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/LCD/LCD.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/LCD/Print.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/LCD/Printable.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj: ../Source/LCD/WString.h
+
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj: ../Source/LCD/Print.cpp
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj: ../Source/LCD/Print.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj: ../Source/LCD/Printable.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj: ../Source/LCD/WString.h
+
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj: ../Source/LCD/WString.cpp
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj: ../Source/LCD/WString.h
+
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/GPIO/GPIO.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/LCD.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/Print.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/Printable.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/WString.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/main.cpp
 

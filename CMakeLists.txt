@@ -38,9 +38,11 @@ set(CMAKE_CXX_FLAGS_DEBUG "-Os")
 #file(GLOB_RECURSE AVRTools Source/AVRTools/*.cpp)
 
 set(srcs Source/main.cpp
-        #Source/LCD/LCD.cpp
+        Source/LCD/LCD.cpp
         #Source/LCD/LiquidCrystal.cpp
         Source/GPIO/GPIO.cpp
+        Source/LCD/WString.cpp
+        Source/LCD/Print.cpp
         #${AVRTools}
         )
 

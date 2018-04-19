@@ -107,8 +107,16 @@ private:
     void setOutputValue(bool value);
 public:
 
+    //static Pin none;
+
+    Pin& operator=(bool state) {
+        setOutput(state);
+        return *this;
+    }
+
     Pin(uint8_t pin);
 
+    bool isValidPin();
     void setOutputToggle();
     void setOutput(bool value);
     void setAsInputPulledUp();

@@ -174,7 +174,28 @@
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/Print.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/Print.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/CMakeLists.txt">

@@ -75,7 +75,7 @@ all: CMakeFiles/alc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 8
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/alc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/alc.dir/rule
@@ -102,12 +102,12 @@ clean: CMakeFiles/alc.dir/clean
 CMakeFiles/alc-ATMEGA328P.elf.dir/all:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/depend
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target alc-ATMEGA328P.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=3,4,5,6,7,8 "Built target alc-ATMEGA328P.elf"
 .PHONY : CMakeFiles/alc-ATMEGA328P.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alc-ATMEGA328P.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/alc-ATMEGA328P.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/alc-ATMEGA328P.elf.dir/rule
@@ -134,12 +134,12 @@ clean: CMakeFiles/alc-ATMEGA328P.elf.dir/clean
 CMakeFiles/upload_eeprom.dir/all: CMakeFiles/alc-ATMEGA328P.elf.dir/all
 	$(MAKE) -f CMakeFiles\upload_eeprom.dir\build.make CMakeFiles/upload_eeprom.dir/depend
 	$(MAKE) -f CMakeFiles\upload_eeprom.dir\build.make CMakeFiles/upload_eeprom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target upload_eeprom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target upload_eeprom"
 .PHONY : CMakeFiles/upload_eeprom.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/upload_eeprom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 8
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/upload_eeprom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/upload_eeprom.dir/rule
@@ -166,12 +166,12 @@ clean: CMakeFiles/upload_eeprom.dir/clean
 CMakeFiles/upload_alc.dir/all: CMakeFiles/alc-ATMEGA328P.elf.dir/all
 	$(MAKE) -f CMakeFiles\upload_alc.dir\build.make CMakeFiles/upload_alc.dir/depend
 	$(MAKE) -f CMakeFiles\upload_alc.dir\build.make CMakeFiles/upload_alc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target upload_alc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target upload_alc"
 .PHONY : CMakeFiles/upload_alc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/upload_alc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 8
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/upload_alc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/upload_alc.dir/rule
@@ -198,7 +198,7 @@ clean: CMakeFiles/upload_alc.dir/clean
 CMakeFiles/get_fuses.dir/all:
 	$(MAKE) -f CMakeFiles\get_fuses.dir\build.make CMakeFiles/get_fuses.dir/depend
 	$(MAKE) -f CMakeFiles\get_fuses.dir\build.make CMakeFiles/get_fuses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=7 "Built target get_fuses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=10 "Built target get_fuses"
 .PHONY : CMakeFiles/get_fuses.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +230,7 @@ clean: CMakeFiles/get_fuses.dir/clean
 CMakeFiles/get_status.dir/all:
 	$(MAKE) -f CMakeFiles\get_status.dir\build.make CMakeFiles/get_status.dir/depend
 	$(MAKE) -f CMakeFiles\get_status.dir\build.make CMakeFiles/get_status.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=8 "Built target get_status"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=11 "Built target get_status"
 .PHONY : CMakeFiles/get_status.dir/all
 
 # Build rule for subdir invocation for target.
@@ -262,7 +262,7 @@ clean: CMakeFiles/get_status.dir/clean
 CMakeFiles/set_fuses.dir/all:
 	$(MAKE) -f CMakeFiles\set_fuses.dir\build.make CMakeFiles/set_fuses.dir/depend
 	$(MAKE) -f CMakeFiles\set_fuses.dir\build.make CMakeFiles/set_fuses.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=10 "Built target set_fuses"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=13 "Built target set_fuses"
 .PHONY : CMakeFiles/set_fuses.dir/all
 
 # Build rule for subdir invocation for target.
@@ -294,7 +294,7 @@ clean: CMakeFiles/set_fuses.dir/clean
 CMakeFiles/get_calibration.dir/all:
 	$(MAKE) -f CMakeFiles\get_calibration.dir\build.make CMakeFiles/get_calibration.dir/depend
 	$(MAKE) -f CMakeFiles\get_calibration.dir\build.make CMakeFiles/get_calibration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=6 "Built target get_calibration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=9 "Built target get_calibration"
 .PHONY : CMakeFiles/get_calibration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -326,7 +326,7 @@ clean: CMakeFiles/get_calibration.dir/clean
 CMakeFiles/set_calibration.dir/all:
 	$(MAKE) -f CMakeFiles\set_calibration.dir\build.make CMakeFiles/set_calibration.dir/depend
 	$(MAKE) -f CMakeFiles\set_calibration.dir\build.make CMakeFiles/set_calibration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=9 "Built target set_calibration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=12 "Built target set_calibration"
 .PHONY : CMakeFiles/set_calibration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,7 +363,7 @@ CMakeFiles/disassemble_alc.dir/all: CMakeFiles/alc-ATMEGA328P.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/disassemble_alc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 6
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/disassemble_alc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/disassemble_alc.dir/rule

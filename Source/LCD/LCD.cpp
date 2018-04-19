@@ -205,16 +205,16 @@ inline size_t LiquidCrystal::write(uint8_t value) {
 
 /* Low level private functions - data pushing commands */
 void LiquidCrystal::send(uint8_t value, bool mode) {
-    //_rs = mode;
+    _rs = mode;
     // if there is a RW pin indicated, set it low to Write
     if(_rw.isValidPin())
-        //_rw = LOW;
+        _rw = LOW;
     if (_displayfunction & LCD_8BITMODE){
-        //write8bits(value);
+        write8bits(value);
     }
     else {
-        //write4bits(value>>4);
-        //write4bits(value);
+        write4bits(value>>4);
+        write4bits(value);
     }
 }
 void LiquidCrystal::pulseEnable() {

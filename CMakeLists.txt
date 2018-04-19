@@ -25,6 +25,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_FLAGS   "${CMAKE_C_FLAGS}   -flto -Os")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -flto -Os")
 
+
 # Optimize for size in Debug
 set(CMAKE_C_FLAGS_DEBUG "-Os")
 set(CMAKE_CXX_FLAGS_DEBUG "-Os")
@@ -43,6 +44,7 @@ set(srcs Source/main.cpp
         Source/GPIO/GPIO.cpp
         Source/LCD/WString.cpp
         Source/LCD/Print.cpp
+        #Source/LCD/Printable.h
         #${AVRTools}
         )
 

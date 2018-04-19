@@ -32,11 +32,12 @@ int main(){
     Pin d6(IO_C4);
     Pin d7(IO_D1);
 
+    Pin test(13);
+
     LiquidCrystal lcd(rs,en,d4,d5,d6,d7);
     lcd.begin(8,2);
-    lcd._pins = 3;
-
-
+    lcd.print("funciona");
+    //lcd._pins = 15;
 
     while(1){
 

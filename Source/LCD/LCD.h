@@ -92,7 +92,7 @@ public:
         // O ERRO ESTA AQUI
         PinCollection& operator=(uint8_t value) {
             for (int i = 0; i < _size; i++) {
-                //_pins[i] = (value >> i);
+                _pins[i] = (value >> i) & 0x01;
             }
             return *this;
         }

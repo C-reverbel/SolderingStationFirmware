@@ -24,7 +24,9 @@ void Pin::setOutputToggle() {
 }
 void Pin::setOutput(bool value) {
     setOutputValue(value);
-    _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
+
 }
 void Pin::setAsInputPulledUp() {
     _FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
@@ -53,11 +55,13 @@ void Pin::setOutputValueToggle() {
 void Pin::setOutputValue(bool value) {
     if (value)
     {
-        _FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+       // _FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+        *pinStructs[_pin].portAddr |= (1 << pinStructs[_pin].bit);
     }
     else
     {
-        _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+        //_FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+        *pinStructs[_pin].portAddr &= ~(1 << pinStructs[_pin].bit);
     }
 }
 

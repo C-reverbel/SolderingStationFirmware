@@ -26,11 +26,13 @@
      _SFR_MEM_ADDR(DDR##port), bit }
 /** @endcond */
 
+#define IO_STRUCT_ENTRY(P, B) {&PIN##P, &PORT##P, &DDR##P, B}
+
 typedef struct IOStruct
 {
-    uint8_t pinAddr;
-    uint8_t portAddr;
-    uint8_t ddrAddr;
+    volatile uint8_t* pinAddr;
+    volatile uint8_t* portAddr;
+    volatile uint8_t* ddrAddr;
     uint8_t bit;
 
     volatile uint8_t * pin() const
@@ -51,28 +53,28 @@ typedef struct IOStruct
 /** @endcond */
 
 const IOStruct pinStructs[] = {
-        _FG_PIN(D, 0),
-        _FG_PIN(D, 1),
-        _FG_PIN(D, 2),
-        _FG_PIN(D, 3),
-        _FG_PIN(D, 4),
-        _FG_PIN(D, 5),
-        _FG_PIN(D, 6),
-        _FG_PIN(D, 7),
-        _FG_PIN(B, 0),
-        _FG_PIN(B, 1),
-        _FG_PIN(B, 2),
-        _FG_PIN(B, 3),
-        _FG_PIN(B, 4),
-        _FG_PIN(B, 5),
-        _FG_PIN(C, 0),
-        _FG_PIN(C, 1),
-        _FG_PIN(C, 2),
-        _FG_PIN(C, 3),
-        _FG_PIN(C, 4),
-        _FG_PIN(C, 5),
-        _FG_PIN(C, 6), // RESET
-        _FG_PIN(C, 7), // Null pin (IO_NONE)
+        IO_STRUCT_ENTRY(D, 0),
+        IO_STRUCT_ENTRY(D, 1),
+        IO_STRUCT_ENTRY(D, 2),
+        IO_STRUCT_ENTRY(D, 3),
+        IO_STRUCT_ENTRY(D, 4),
+        IO_STRUCT_ENTRY(D, 5),
+        IO_STRUCT_ENTRY(D, 6),
+        IO_STRUCT_ENTRY(D, 7),
+        IO_STRUCT_ENTRY(B, 0),
+        IO_STRUCT_ENTRY(B, 1),
+        IO_STRUCT_ENTRY(B, 2),
+        IO_STRUCT_ENTRY(B, 3),
+        IO_STRUCT_ENTRY(B, 4),
+        IO_STRUCT_ENTRY(B, 5),
+        IO_STRUCT_ENTRY(C, 0),
+        IO_STRUCT_ENTRY(C, 1),
+        IO_STRUCT_ENTRY(C, 2),
+        IO_STRUCT_ENTRY(C, 3),
+        IO_STRUCT_ENTRY(C, 4),
+        IO_STRUCT_ENTRY(C, 5),
+        IO_STRUCT_ENTRY(C, 6), // RESET
+        IO_STRUCT_ENTRY(C, 7), // Null pin (IO_NONE)
 };
 
 #define IO_D0 0

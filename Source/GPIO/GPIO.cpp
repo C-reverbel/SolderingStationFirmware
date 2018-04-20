@@ -20,7 +20,8 @@ bool Pin::isValidPin() {
 }
 void Pin::setOutputToggle() {
     setOutputValueToggle();
-    _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
+   // _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutput(bool value) {
     setOutputValue(value);
@@ -29,20 +30,30 @@ void Pin::setOutput(bool value) {
 
 }
 void Pin::setAsInputPulledUp() {
-    _FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
-    _FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].ddrAddr &= ~(1 << pinStructs[_pin].bit);
+    *pinStructs[_pin].portAddr |= (1 << pinStructs[_pin].bit);
+    //_FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    //_FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
 }
 void Pin::setAsInput() {
-    _FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
-    _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+
+    *pinStructs[_pin].ddrAddr &= ~(1 << pinStructs[_pin].bit);
+    *pinStructs[_pin].portAddr &= ~(1 << pinStructs[_pin].bit);
+   // _FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+   // _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutputLow(){
-    _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
-    _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].portAddr &= ~(1 << pinStructs[_pin].bit);
+    *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
+    //_FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutputHigh(){
-    _FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
-    _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].portAddr |= (1 << pinStructs[_pin].bit);
+    *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
+
+    //_FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
+    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 bool Pin::getInput(){
     return *pinStructs[_pin].pin() >> pinStructs[_pin].bit & 1;
@@ -50,7 +61,8 @@ bool Pin::getInput(){
 
 // Private functions
 void Pin::setOutputValueToggle() {
-    _FG_SBI(pinStructs[_pin].pinAddr, pinStructs[_pin].bit);
+    *pinStructs[_pin].pinAddr |= (1 << pinStructs[_pin].bit);
+    //_FG_SBI(pinStructs[_pin].pinAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutputValue(bool value) {
     if (value)

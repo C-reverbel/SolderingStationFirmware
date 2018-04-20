@@ -13,6 +13,7 @@ BTN_1     | PD5   | 5
 BTN_2     | PD6   | 6
 ENC_A     | PB0   | 8
 ENC_B     | PD7   | 7
+
 LCD_RS    | PC2   | A2
 LCD_EN    | PC3   | A3
 LCD_DB4   | PC5   | A5
@@ -32,12 +33,19 @@ int main(){
     Pin d6(IO_C4);
     Pin d7(IO_D1);
 
+    Pin btn(5);
     Pin test(13);
+
+    test.setOutputLow();
+
+    btn.setAsInputPulledUp();
 
     LiquidCrystal lcd(rs,en,d4,d5,d6,d7);
     lcd.begin(8,2);
-    lcd.print("funciona");
-    //lcd._pins = 15;
+    lcd.setCursor(0,0);
+    lcd.print("S:350\337C ");
+    lcd.setCursor(0,1);
+    lcd.print("M:345\337C ");
 
     while(1){
 

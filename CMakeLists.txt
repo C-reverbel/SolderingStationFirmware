@@ -44,6 +44,8 @@ set(srcs Source/main.cpp
         Source/GPIO/GPIO.cpp
         Source/LCD/WString.cpp
         Source/LCD/Print.cpp
+        Source/Menu/Menu.cpp
+        Source/Menu/ApplicationMenu.cpp
         #Source/LCD/Printable.h
         #${AVRTools}
         )

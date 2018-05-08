@@ -19,10 +19,29 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj: ../Source/LCD/WStrin
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj: ../Source/LCD/WString.cpp
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj: ../Source/LCD/WString.h
 
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/GPIO/GPIO.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/LCD/LCD.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/LCD/Print.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/LCD/Printable.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/LCD/WString.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/Menu/ApplicationMenu.cpp
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/Menu/ApplicationMenu.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/Menu/Menu.h
+
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/GPIO/GPIO.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/LCD/LCD.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/LCD/Print.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/LCD/Printable.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/LCD/WString.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/Menu/Menu.cpp
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/Menu/Menu.h
+
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/GPIO/GPIO.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/LCD.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/Print.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/Printable.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/LCD/WString.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/Menu/ApplicationMenu.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/Menu/Menu.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj: ../Source/main.cpp
 

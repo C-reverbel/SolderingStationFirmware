@@ -4,6 +4,8 @@
 
 #include "GPIO/GPIO.h"
 #include "LCD/LCD.h"
+#include "Menu/Menu.h"
+#include "Menu/ApplicationMenu.h"
 /*
 MICROCONTROLLER PINOUT
 -----------------------------------------------
@@ -21,8 +23,17 @@ LCD_DB5   | PD0   | 0
 LCD_DB6   | PC4   | A4
 LCD_DB7   | PD1   | 1
 -----------------------------------------------
- */
 
+ LCD_TO_ARDUINO CONNECTIONS
+-----------------------------------------------
+ 1      A4
+ 0      A5
+ NC     NC
+ NC     NC
+ A3     GND
+ A2     GND
+ 5V     GND
+ */
 
 int main(){
 
@@ -37,18 +48,23 @@ int main(){
     Pin test(13);
 
     test.setOutputLow();
-
     btn.setAsInputPulledUp();
 
     LiquidCrystal lcd(rs,en,d4,d5,d6,d7);
-    lcd.begin(8,2);
-    lcd.setCursor(0,0);
-    lcd.print("S:350\337C ");
-    lcd.setCursor(0,1);
-    lcd.print("M:345\337C ");
+    Menu::attachLCD(&lcd);
+
+    ApplicationMenu appMenu;
+
+    appMenu.refreshScreen();
+
+
+    //Menu::_lcd = &lcd;
+
+//    lcd.print("S:350\337C ");
+//    lcd.setCursor(0,1);
+//    lcd.print("M:345\337C ");
 
     while(1){
 
     }
 }
-

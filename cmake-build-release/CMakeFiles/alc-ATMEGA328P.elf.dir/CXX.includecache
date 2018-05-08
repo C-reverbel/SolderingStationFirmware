@@ -74,6 +74,24 @@ ctype.h
 avr/pgmspace.h
 -
 
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp
+ApplicationMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
+stdint.h
+-
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+../LCD/LCD.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
+
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp
 avr/io.h
 -
@@ -83,4 +101,8 @@ GPIO/GPIO.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.h
 LCD/LCD.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
+Menu/Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+Menu/ApplicationMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
 

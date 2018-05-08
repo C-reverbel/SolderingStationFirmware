@@ -347,6 +347,60 @@ Source/LCD/WString.cpp.s:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.s
 .PHONY : Source/LCD/WString.cpp.s
 
+Source/Menu/ApplicationMenu.obj: Source/Menu/ApplicationMenu.cpp.obj
+
+.PHONY : Source/Menu/ApplicationMenu.obj
+
+# target to build an object file
+Source/Menu/ApplicationMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj
+.PHONY : Source/Menu/ApplicationMenu.cpp.obj
+
+Source/Menu/ApplicationMenu.i: Source/Menu/ApplicationMenu.cpp.i
+
+.PHONY : Source/Menu/ApplicationMenu.i
+
+# target to preprocess a source file
+Source/Menu/ApplicationMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.i
+.PHONY : Source/Menu/ApplicationMenu.cpp.i
+
+Source/Menu/ApplicationMenu.s: Source/Menu/ApplicationMenu.cpp.s
+
+.PHONY : Source/Menu/ApplicationMenu.s
+
+# target to generate assembly for a file
+Source/Menu/ApplicationMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.s
+.PHONY : Source/Menu/ApplicationMenu.cpp.s
+
+Source/Menu/Menu.obj: Source/Menu/Menu.cpp.obj
+
+.PHONY : Source/Menu/Menu.obj
+
+# target to build an object file
+Source/Menu/Menu.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj
+.PHONY : Source/Menu/Menu.cpp.obj
+
+Source/Menu/Menu.i: Source/Menu/Menu.cpp.i
+
+.PHONY : Source/Menu/Menu.i
+
+# target to preprocess a source file
+Source/Menu/Menu.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.i
+.PHONY : Source/Menu/Menu.cpp.i
+
+Source/Menu/Menu.s: Source/Menu/Menu.cpp.s
+
+.PHONY : Source/Menu/Menu.s
+
+# target to generate assembly for a file
+Source/Menu/Menu.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.s
+.PHONY : Source/Menu/Menu.cpp.s
+
 Source/main.obj: Source/main.cpp.obj
 
 .PHONY : Source/main.obj
@@ -404,6 +458,12 @@ help:
 	@echo ... Source/LCD/WString.obj
 	@echo ... Source/LCD/WString.i
 	@echo ... Source/LCD/WString.s
+	@echo ... Source/Menu/ApplicationMenu.obj
+	@echo ... Source/Menu/ApplicationMenu.i
+	@echo ... Source/Menu/ApplicationMenu.s
+	@echo ... Source/Menu/Menu.obj
+	@echo ... Source/Menu/Menu.i
+	@echo ... Source/Menu/Menu.s
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s

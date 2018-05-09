@@ -77,6 +77,8 @@ avr/pgmspace.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp
 ApplicationMenu.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
+string.h
+-
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
 stdint.h

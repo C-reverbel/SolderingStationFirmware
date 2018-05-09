@@ -13,7 +13,7 @@ class Menu {
 protected:
     static const char leftArrow = '<';
     static const char rightArrow = '>';
-    static const char degree = '\337';
+    static const char degree_symbol = '\337';
     static LiquidCrystal* _lcd;
 
 public:

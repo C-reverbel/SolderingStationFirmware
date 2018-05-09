@@ -3,49 +3,43 @@
 //
 
 #include "ApplicationMenu.h"
+#include <string.h>
 
 // HIGH LEVEL FUNCTIONS
 void ApplicationMenu::update() {
-
+    //TODO update members of the class
 }
 void ApplicationMenu::refreshScreen() {
+    _lcd->clear();
     // print first line
-    _lcd->setCursor(0,0); printSetTemp();
+    _lcd->setCursor(0,0); printSetTemp(setTemp,tempUnity);
     // print second line
-    _lcd->setCursor(0,1); printMesTemp();
+    _lcd->setCursor(0,1); printMesTemp(mesTemp,tempUnity);
     //TODO include locked symbol
-
 }
-
 
 // MID LEVEL FUNCTIONS
-void ApplicationMenu::printSetTemp() {
-    _lcd->print("S:");_lcd->print(convertedTemp(setTemp));_lcd->print(degree);_lcd->print(getTempUnity());
+void ApplicationMenu::printSetTemp(uint16_t temperature, TempUnity unity) {
+    _lcd->print("S:");_lcd->print(getTempString(setTemp,unity));
 }
-void ApplicationMenu::printMesTemp() {
-    _lcd->print("M:");_lcd->print(convertedTemp(mesTemp));_lcd->print(degree);_lcd->print(getTempUnity());
+void ApplicationMenu::printMesTemp(uint16_t temperature, TempUnity unity) {
+    _lcd->print("M:");_lcd->print(getTempString(mesTemp,unity));
 }
-
 
 // LOW LEVEL FUNCTIONS
-char ApplicationMenu::getTempUnity() {
-    switch (tempUnity){
+String ApplicationMenu::getTempString(uint16_t value, ApplicationMenu::TempUnity unity){
+    String result = "";
+    switch(unity){
         case CELSIUS:
-            return 'C';
+            result += value;
+            result += degree_symbol;
+            result += 'C';
             break;
         case FAHRENHEIT:
-            return 'F';
+            result += (value * 9 / 5 + 32);
+            result += degree_symbol;
+            result += 'F';
             break;
     }
-    return 'E';
-}
-uint16_t ApplicationMenu::convertedTemp(uint16_t temp) {
-    switch (tempUnity){
-        case CELSIUS:
-            return temp;
-            break;
-        case FAHRENHEIT:
-            return (temp * 9) / 5 + 32;
-            break;
-    }
+    return result;
 }

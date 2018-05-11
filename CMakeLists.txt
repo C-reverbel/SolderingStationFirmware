@@ -46,6 +46,7 @@ set(srcs Source/main.cpp
         Source/LCD/Print.cpp
         Source/Menu/Menu.cpp
         Source/Menu/ApplicationMenu.cpp
+        Source/USER_IO/RotaryEncoder.cpp
         #Source/LCD/Printable.h
         #${AVRTools}
         )

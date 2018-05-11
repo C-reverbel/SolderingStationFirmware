@@ -204,6 +204,12 @@
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>

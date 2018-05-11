@@ -1,11 +1,13 @@
 
 #include <avr/io.h>
+#include <avr/interrupt.h>
 #include <util/delay.h>
 
 #include "GPIO/GPIO.h"
 #include "LCD/LCD.h"
 #include "Menu/Menu.h"
 #include "Menu/ApplicationMenu.h"
+#include "USER_IO/RotaryEncoder.h"
 /*
 MICROCONTROLLER PINOUT
 -----------------------------------------------
@@ -35,7 +37,19 @@ LCD_DB7   | PD1   | 1
  5V     GND
  */
 
+
+
+
+
+
+
 int main(){
+
+    uint16_t setTemp = 300;
+    uint16_t mesTemp = 350;
+
+    Pin rotA(IO_B0);
+    Pin rotB(IO_D7);
 
     Pin rs(IO_C2);
     Pin en(IO_C3);
@@ -44,27 +58,43 @@ int main(){
     Pin d6(IO_C4);
     Pin d7(IO_D1);
 
-    Pin btn(5);
-    Pin test(13);
-
-    test.setOutputLow();
-    btn.setAsInputPulledUp();
+    Pin btn1(IO_D5);
+    Pin btn2(IO_D6);
 
     LiquidCrystal lcd(rs,en,d4,d5,d6,d7);
+    ApplicationMenu appMenu(&setTemp, &mesTemp);
+
+    btn1.setAsInputPulledUp();
+    btn2.setAsInputPulledUp();
+
+
     Menu::attachLCD(&lcd);
 
-    ApplicationMenu appMenu;
-
+    RotaryEncoder rotEnc(&rotA, &rotB);
     appMenu.refreshScreen();
 
-
-    //Menu::_lcd = &lcd;
-
-//    lcd.print("S:350\337C ");
-//    lcd.setCursor(0,1);
-//    lcd.print("M:345\337C ");
-
     while(1){
+//
+        _delay_ms(100);
+        rotEnc.updateState();
+        switch (rotEnc.rotaryState){
+            case RotaryEncoder::RotaryState::UP:
+                setTemp++;
+                break;
+            case RotaryEncoder::RotaryState::DOWN:
+                setTemp--;
+                break;
+            case RotaryEncoder::RotaryState::UP_FAST:
+                setTemp = setTemp + 10;
+                break;
+            case RotaryEncoder::RotaryState::DOWN_FAST:
+                setTemp = setTemp - 10;
+                break;
+        }
+        appMenu.refreshScreen();
+
+//        setTemp += rotEnc.readRotaryEnc();
+//        appMenu.refreshScreen();
 
     }
 }

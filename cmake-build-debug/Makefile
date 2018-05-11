@@ -401,6 +401,33 @@ Source/Menu/Menu.cpp.s:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.s
 .PHONY : Source/Menu/Menu.cpp.s
 
+Source/USER_IO/RotaryEncoder.obj: Source/USER_IO/RotaryEncoder.cpp.obj
+
+.PHONY : Source/USER_IO/RotaryEncoder.obj
+
+# target to build an object file
+Source/USER_IO/RotaryEncoder.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.obj
+.PHONY : Source/USER_IO/RotaryEncoder.cpp.obj
+
+Source/USER_IO/RotaryEncoder.i: Source/USER_IO/RotaryEncoder.cpp.i
+
+.PHONY : Source/USER_IO/RotaryEncoder.i
+
+# target to preprocess a source file
+Source/USER_IO/RotaryEncoder.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.i
+.PHONY : Source/USER_IO/RotaryEncoder.cpp.i
+
+Source/USER_IO/RotaryEncoder.s: Source/USER_IO/RotaryEncoder.cpp.s
+
+.PHONY : Source/USER_IO/RotaryEncoder.s
+
+# target to generate assembly for a file
+Source/USER_IO/RotaryEncoder.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.s
+.PHONY : Source/USER_IO/RotaryEncoder.cpp.s
+
 Source/main.obj: Source/main.cpp.obj
 
 .PHONY : Source/main.obj
@@ -464,6 +491,9 @@ help:
 	@echo ... Source/Menu/Menu.obj
 	@echo ... Source/Menu/Menu.i
 	@echo ... Source/Menu/Menu.s
+	@echo ... Source/USER_IO/RotaryEncoder.obj
+	@echo ... Source/USER_IO/RotaryEncoder.i
+	@echo ... Source/USER_IO/RotaryEncoder.s
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s

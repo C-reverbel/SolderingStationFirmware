@@ -5,6 +5,11 @@
 #include "ApplicationMenu.h"
 #include <string.h>
 
+ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp){
+    this->mesTemp = mesTemp;
+    this->setTemp = setTemp;
+}
+
 // HIGH LEVEL FUNCTIONS
 void ApplicationMenu::update() {
     //TODO update members of the class
@@ -12,18 +17,18 @@ void ApplicationMenu::update() {
 void ApplicationMenu::refreshScreen() {
     _lcd->clear();
     // print first line
-    _lcd->setCursor(0,0); printSetTemp(setTemp,tempUnity);
+    _lcd->setCursor(0,0); printSetTemp(*setTemp,tempUnity);
     // print second line
-    _lcd->setCursor(0,1); printMesTemp(mesTemp,tempUnity);
+    _lcd->setCursor(0,1); printMesTemp(*mesTemp,tempUnity);
     //TODO include locked symbol
 }
 
 // MID LEVEL FUNCTIONS
 void ApplicationMenu::printSetTemp(uint16_t temperature, TempUnity unity) {
-    _lcd->print("S:");_lcd->print(getTempString(setTemp,unity));
+    _lcd->print("S:");_lcd->print(getTempString(*setTemp,unity));
 }
 void ApplicationMenu::printMesTemp(uint16_t temperature, TempUnity unity) {
-    _lcd->print("M:");_lcd->print(getTempString(mesTemp,unity));
+    _lcd->print("M:");_lcd->print(getTempString(*mesTemp,unity));
 }
 
 // LOW LEVEL FUNCTIONS

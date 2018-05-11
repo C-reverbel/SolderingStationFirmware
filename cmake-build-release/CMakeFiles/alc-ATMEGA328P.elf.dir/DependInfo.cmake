@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj"
+  "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

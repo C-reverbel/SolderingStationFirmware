@@ -2,6 +2,9 @@
 // Created by carlos on 17/04/2018.
 //
 
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
 #include "GPIO.h"
 
 Pin::Pin(uint8_t pin = 21){
@@ -58,6 +61,47 @@ void Pin::setOutputHigh(){
 bool Pin::getInput(){
     return *pinStructs[_pin].pin() >> pinStructs[_pin].bit & 1;
 }
+
+void Pin::setInterruptOnPinChange() {
+    sei();
+    if(_pin < 8){
+        // PCINT[0:7] <=> PORTB[0:7]
+        // Use ISR(PCINT0_vect)
+        PCICR |= (1 << PCIE0);
+        PCMSK0 |= (1 << _pin);
+    } else if(_pin < 16){
+        // PCINT[8:14] <=> PORTC[0:6]
+        // Use ISR(PCINT1_vect)
+        PCICR |= (1 << PCIE1);
+        PCMSK1 |= (1 << (_pin-8));
+    } else if (_pin < 24){
+        // PCINT[16:23] <=> PORTD[0:7]
+        // Use ISR(PCINT2_vect)
+        PCICR |= (1 << PCIE2);
+        PCMSK2 |= (1 << (_pin-16));
+    }
+
+
+}
+
+void Pin::clearInterruptOnPinChange() {
+    if(_pin < 8){
+        // PCINT[0:7] <=> PORTB[0:7]
+        PCICR &= ~(1 << PCIE0);
+        PCMSK0 &= ~(1 << _pin);
+    } else if(_pin < 16){
+        // PCINT[8:14] <=> PORTC[0:6]
+        PCICR &= ~(1 << PCIE1);
+        PCMSK1 &= ~(1 << (_pin-8));
+    } else if (_pin < 24){
+        // PCINT[16:23] <=> PORTD[0:7]
+        PCICR &= ~(1 << PCIE2);
+        PCMSK2 &= ~(1 << (_pin-16));
+    }
+}
+
+
+
 
 // Private functions
 void Pin::setOutputValueToggle() {

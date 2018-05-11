@@ -9,13 +9,10 @@
 #include "Menu.h"
 
 
-
-
-
 class ApplicationMenu : public Menu {
 private:
-    uint16_t mesTemp = 300;
-    uint16_t setTemp = 350;
+    uint16_t* mesTemp;
+    uint16_t* setTemp;
     enum TempUnity {
         CELSIUS,
         FAHRENHEIT
@@ -23,6 +20,8 @@ private:
     bool isLocked = false;
 
 public:
+    ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp);
+
     // update menu variables based on rotary state
     void update();
     void refreshScreen();

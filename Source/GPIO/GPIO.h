@@ -53,20 +53,14 @@ typedef struct IOStruct
 /** @endcond */
 
 const IOStruct pinStructs[] = {
-        IO_STRUCT_ENTRY(D, 0),
-        IO_STRUCT_ENTRY(D, 1),
-        IO_STRUCT_ENTRY(D, 2),
-        IO_STRUCT_ENTRY(D, 3),
-        IO_STRUCT_ENTRY(D, 4),
-        IO_STRUCT_ENTRY(D, 5),
-        IO_STRUCT_ENTRY(D, 6),
-        IO_STRUCT_ENTRY(D, 7),
         IO_STRUCT_ENTRY(B, 0),
         IO_STRUCT_ENTRY(B, 1),
         IO_STRUCT_ENTRY(B, 2),
         IO_STRUCT_ENTRY(B, 3),
         IO_STRUCT_ENTRY(B, 4),
         IO_STRUCT_ENTRY(B, 5),
+        IO_STRUCT_ENTRY(B, 6), // XTAL1
+        IO_STRUCT_ENTRY(B, 7), // XTAL2
         IO_STRUCT_ENTRY(C, 0),
         IO_STRUCT_ENTRY(C, 1),
         IO_STRUCT_ENTRY(C, 2),
@@ -75,29 +69,43 @@ const IOStruct pinStructs[] = {
         IO_STRUCT_ENTRY(C, 5),
         IO_STRUCT_ENTRY(C, 6), // RESET
         IO_STRUCT_ENTRY(C, 7), // Null pin (IO_NONE)
+        IO_STRUCT_ENTRY(D, 0),
+        IO_STRUCT_ENTRY(D, 1),
+        IO_STRUCT_ENTRY(D, 2),
+        IO_STRUCT_ENTRY(D, 3),
+        IO_STRUCT_ENTRY(D, 4),
+        IO_STRUCT_ENTRY(D, 5),
+        IO_STRUCT_ENTRY(D, 6),
+        IO_STRUCT_ENTRY(D, 7),
+
 };
 
-#define IO_D0 0
-#define IO_D1 1
-#define IO_D2 2
-#define IO_D3 3
-#define IO_D4 4
-#define IO_D5 5
-#define IO_D6 6
-#define IO_D7 7
-#define IO_B0 8
-#define IO_B1 9
-#define IO_B2 10
-#define IO_B3 11
-#define IO_B4 12
-#define IO_B5 13
-#define IO_C0 14
-#define IO_C1 15
-#define IO_C2 16
-#define IO_C3 17
-#define IO_C4 18
-#define IO_C5 19
-#define IO_C6 20
+#define IO_B0 0
+#define IO_B1 1
+#define IO_B2 2
+#define IO_B3 3
+#define IO_B4 4
+#define IO_B5 5
+#define IO_B6 6
+#define IO_B7 7
+#define IO_C0 8
+#define IO_C1 9
+#define IO_C2 10
+#define IO_C3 11
+#define IO_C4 12
+#define IO_C5 13
+#define IO_C6 14
+#define IO_C7 15
+#define IO_D0 16
+#define IO_D1 17
+#define IO_D2 18
+#define IO_D3 19
+#define IO_D4 20
+#define IO_D5 21
+#define IO_D6 22
+#define IO_D7 23
+
+
 #define IO_NONE 21
 
 
@@ -126,6 +134,9 @@ public:
     void setOutputLow();
     void setOutputHigh();
     bool getInput();
+
+    void setInterruptOnPinChange();
+    void clearInterruptOnPinChange();
 
 
 

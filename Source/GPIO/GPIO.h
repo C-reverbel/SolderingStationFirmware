@@ -110,21 +110,21 @@ const IOStruct pinStructs[] = {
 
 
 class Pin{
-private:
+
+protected:
     uint8_t _pin;
 
     void setOutputValueToggle();
     void setOutputValue(bool value);
+
 public:
 
-    //static Pin none;
+    Pin(uint8_t pin);
 
     Pin& operator=(bool state) {
         setOutput(state);
         return *this;
     }
-
-    Pin(uint8_t pin);
 
     bool isValidPin();
     void setOutputToggle();
@@ -137,8 +137,6 @@ public:
 
     void setInterruptOnPinChange();
     void clearInterruptOnPinChange();
-
-
 
 };
 

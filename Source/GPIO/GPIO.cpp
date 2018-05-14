@@ -7,11 +7,9 @@
 
 #include "GPIO.h"
 
-Pin::Pin(uint8_t pin = 21){
+Pin::Pin(uint8_t pin = 15){
     _pin = pin;
 }
-
-//Pin Pin::none = Pin(21);
 
 
 // Public functions
@@ -24,39 +22,26 @@ bool Pin::isValidPin() {
 void Pin::setOutputToggle() {
     setOutputValueToggle();
     *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
-   // _FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutput(bool value) {
     setOutputValue(value);
-    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
     *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
-
 }
 void Pin::setAsInputPulledUp() {
     *pinStructs[_pin].ddrAddr &= ~(1 << pinStructs[_pin].bit);
     *pinStructs[_pin].portAddr |= (1 << pinStructs[_pin].bit);
-    //_FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
-    //_FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
 }
 void Pin::setAsInput() {
-
     *pinStructs[_pin].ddrAddr &= ~(1 << pinStructs[_pin].bit);
     *pinStructs[_pin].portAddr &= ~(1 << pinStructs[_pin].bit);
-   // _FG_CBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
-   // _FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutputLow(){
     *pinStructs[_pin].portAddr &= ~(1 << pinStructs[_pin].bit);
     *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
-    //_FG_CBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
-    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 void Pin::setOutputHigh(){
     *pinStructs[_pin].portAddr |= (1 << pinStructs[_pin].bit);
     *pinStructs[_pin].ddrAddr |= (1 << pinStructs[_pin].bit);
-
-    //_FG_SBI(pinStructs[_pin].portAddr, pinStructs[_pin].bit);
-    //_FG_SBI(pinStructs[_pin].ddrAddr, pinStructs[_pin].bit);
 }
 bool Pin::getInput(){
     return *pinStructs[_pin].pin() >> pinStructs[_pin].bit & 1;

@@ -239,6 +239,33 @@ disassemble_alc/fast:
 	$(MAKE) -f CMakeFiles\disassemble_alc.dir\build.make CMakeFiles/disassemble_alc.dir/build
 .PHONY : disassemble_alc/fast
 
+Source/GPIO/FastPWMPin.obj: Source/GPIO/FastPWMPin.cpp.obj
+
+.PHONY : Source/GPIO/FastPWMPin.obj
+
+# target to build an object file
+Source/GPIO/FastPWMPin.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.obj
+.PHONY : Source/GPIO/FastPWMPin.cpp.obj
+
+Source/GPIO/FastPWMPin.i: Source/GPIO/FastPWMPin.cpp.i
+
+.PHONY : Source/GPIO/FastPWMPin.i
+
+# target to preprocess a source file
+Source/GPIO/FastPWMPin.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.i
+.PHONY : Source/GPIO/FastPWMPin.cpp.i
+
+Source/GPIO/FastPWMPin.s: Source/GPIO/FastPWMPin.cpp.s
+
+.PHONY : Source/GPIO/FastPWMPin.s
+
+# target to generate assembly for a file
+Source/GPIO/FastPWMPin.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.s
+.PHONY : Source/GPIO/FastPWMPin.cpp.s
+
 Source/GPIO/GPIO.obj: Source/GPIO/GPIO.cpp.obj
 
 .PHONY : Source/GPIO/GPIO.obj
@@ -473,6 +500,9 @@ help:
 	@echo ... disassemble_alc
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Source/GPIO/FastPWMPin.obj
+	@echo ... Source/GPIO/FastPWMPin.i
+	@echo ... Source/GPIO/FastPWMPin.s
 	@echo ... Source/GPIO/GPIO.obj
 	@echo ... Source/GPIO/GPIO.i
 	@echo ... Source/GPIO/GPIO.s

@@ -168,6 +168,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastPWMPin.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastPWMPin.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>

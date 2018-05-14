@@ -27,7 +27,6 @@ ISR(PCINT0_vect){
         thisRotaryEncoder->rotSpeed++;
     }
 
-
     if(thisRotaryEncoder->rotSpeed == 255) thisRotaryEncoder->rotSpeed = ROTARY_UP_FAST_THRESHOLD;
     else if(thisRotaryEncoder->rotSpeed == 0) thisRotaryEncoder->rotSpeed = ROTARY_DOWN_FAST_THRESHOLD;
 }
@@ -45,7 +44,6 @@ RotaryEncoder::RotaryEncoder(Pin* rotA, Pin* rotB) {
     this->rotA->setInterruptOnPinChange();
 
     thisRotaryEncoder = this;
-
 }
 
 // temp function

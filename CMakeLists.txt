@@ -43,6 +43,7 @@ set(srcs Source/main.cpp
         #Source/LCD/LiquidCrystal.cpp
         Source/GPIO/GPIO.cpp
         Source/GPIO/FastPWMPin.cpp
+        Source/GPIO/AnalogPin.cpp
         Source/LCD/WString.cpp
         Source/LCD/Print.cpp
         Source/Menu/Menu.cpp

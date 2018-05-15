@@ -17,6 +17,10 @@
  * get pin full status (input/output, pull-up/no pull-up, pin current value)
 */
 
+#define SET_BIT(p,n) ((p) |= (1 << (n)))
+#define CLR_BIT(p,n) ((p) &= ~((1) << (n)))
+
+
 /** @cond */
 #define _FG_SBI(mem_addr, bit) asm volatile("sbi %0, %1\n" : \
     : "I" (mem_addr - __SFR_OFFSET), "I" (bit))

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
-      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
-      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
-      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
-      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
-      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
-      <config projectName="SolderingStationFirmware" targetName="set_calibration" />
       <config projectName="SolderingStationFirmware" targetName="get_status" />
+      <config projectName="SolderingStationFirmware" targetName="set_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
+      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
       <config projectName="SolderingStationFirmware" targetName="alc" />
+      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
       <config projectName="SolderingStationFirmware" targetName="disassemble_alc" />
+      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -33,26 +33,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Release" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4252218">
+    <splitter split-orientation="horizontal" split-proportion="0.46744695">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ApplicationMenu.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/ApplicationMenu.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-                  <folding>
-                    <element signature="e#146#165#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Source/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="155">
-                  <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+                <state relative-caret-position="221">
+                  <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
                   <folding>
                     <element signature="e#1#20#0" expanded="true" />
                   </folding>
@@ -60,23 +48,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="RotaryEncoder.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.h">
+          <file leaf-file-name="AnalogPin.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GPIO.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-493">
-                  <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#137#156#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="136">
+                  <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -84,8 +60,20 @@
           <file leaf-file-name="FastPWMPin.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+                <state relative-caret-position="560">
+                  <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GPIO.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+                  <folding>
+                    <element signature="e#137#156#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -94,13 +82,25 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="FastPWMPin.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="FastPWMPin.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="46" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="46" />
                   <folding>
                     <element signature="e#43#60#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AnalogPin.cpp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-425">
+                  <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#42#61#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -109,32 +109,11 @@
           <file leaf-file-name="GPIO.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" selection-start-line="13" selection-end-line="13" />
+                <state relative-caret-position="330">
+                  <caret line="108" selection-start-line="108" selection-end-line="108" />
                   <folding>
                     <element signature="e#43#62#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationMenu.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#43#71#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RotaryEncoder.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="60" selection-start-line="60" selection-end-line="60" />
                 </state>
               </provider>
             </entry>
@@ -211,14 +190,16 @@
         <option value="$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.h" />
         <option value="$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp" />
         <option value="$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Source/GPIO/GPIO.h" />
         <option value="$PROJECT_DIR$/Source/GPIO/PWMPin.cpp" />
         <option value="$PROJECT_DIR$/Source/GPIO/PWMPin.h" />
-        <option value="$PROJECT_DIR$/Source/GPIO/GPIO.cpp" />
         <option value="$PROJECT_DIR$/Source/GPIO/FastPWMPin.h" />
         <option value="$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Source/GPIO/GPIO.cpp" />
+        <option value="$PROJECT_DIR$/Source/GPIO/GPIO.h" />
+        <option value="$PROJECT_DIR$/Source/GPIO/AnalogPin.cpp" />
         <option value="$PROJECT_DIR$/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/Source/GPIO/AnalogPin.h" />
       </list>
     </option>
   </component>
@@ -230,6 +211,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="-8" />
     <option name="width" value="1600" />
     <option name="height" value="860" />
   </component>
@@ -237,7 +220,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="GPIO" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -320,11 +327,12 @@
       <workItem from="1526047253049" duration="15692000" />
       <workItem from="1526091815653" duration="4226000" />
       <workItem from="1526253129352" duration="6395000" />
+      <workItem from="1526337423191" duration="4597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136851000" />
+    <option name="totallyTimeSpent" value="141448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,9 +347,9 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15462612" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13371356" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.30352303" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.3821138" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.2682927" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -363,14 +371,14 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15462612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13371356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.30352303" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.3821138" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -391,20 +399,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3485">
-          <caret line="205" column="2" selection-start-line="205" selection-start-column="2" selection-end-line="205" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12478">
-          <caret line="734" column="30" selection-start-line="734" selection-start-column="30" selection-end-line="734" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -646,10 +640,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <element signature="e#43#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="330">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#43#62#0" expanded="true" />
           </folding>
@@ -658,49 +676,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
           <folding>
             <element signature="e#137#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/avr/include/avr/iom328p.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="516" column="8" selection-start-line="516" selection-start-column="8" selection-end-line="516" selection-end-column="8" />
+          <caret line="454" column="8" selection-start-line="454" selection-start-column="8" selection-end-line="454" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.h">
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="-425">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <element signature="e#43#60#0" expanded="true" />
+            <element signature="e#42#61#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="221">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
           <folding>
             <element signature="e#1#20#0" expanded="true" />
           </folding>

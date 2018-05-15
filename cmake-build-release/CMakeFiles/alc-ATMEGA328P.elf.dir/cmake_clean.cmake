@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/AnalogPin.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj"

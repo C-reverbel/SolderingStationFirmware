@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/AnalogPin.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/AnalogPin.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastPWMPin.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj"
   "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.cpp" "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj"

@@ -5,6 +5,7 @@
 
 #include "GPIO/GPIO.h"
 #include "GPIO/FastPWMPin.h"
+#include "GPIO/AnalogPin.h"
 #include "LCD/LCD.h"
 #include "Menu/Menu.h"
 #include "Menu/ApplicationMenu.h"
@@ -44,9 +45,10 @@ LCD_DB7   | PD1         | 1
 /*
  * TODO
  * TIMER
- * PWM
+ * PWM              OK
  * ANALOG READ
  * OTHER MENUS
+ * PID
  */
 
 
@@ -93,6 +95,11 @@ int main(){
     dimOut.setPWMValue(pwmVal);
     //setTemp = dimOut.pwmParameters.top;
 
+    //todo tirar isso
+    AnalogPin ptc_read(IO_C0, FREE_RUNNING);
+
+
+
 
 
     appMenu.refreshScreen();
@@ -120,6 +127,8 @@ int main(){
         else if (pwmVal < 0)
             pwmVal = 0;
         dimOut.setPWMValue(pwmVal);
+        setTemp = ptc_read.getAnalogValue();
+        appMenu.refreshScreen();
 
 
 //

@@ -2,8 +2,9 @@
 // Created by carlos on 08/05/2018.
 //
 
-#include "ApplicationMenu.h"
 #include <string.h>
+
+#include "ApplicationMenu.h"
 
 ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp){
     this->mesTemp = mesTemp;

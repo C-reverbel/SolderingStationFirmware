@@ -30,6 +30,7 @@ public:
     RotaryEncoder(Pin* rotA, Pin* rotB);
 
     void updateState();
+    int update();
 
 
 

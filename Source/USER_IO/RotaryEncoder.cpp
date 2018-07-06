@@ -57,4 +57,22 @@ void RotaryEncoder::updateState(){
     else rotaryState = NONE;
 }
 
+int RotaryEncoder::update() {
+    this->updateState();
+    switch (this->rotaryState){
+        case RotaryEncoder::RotaryState::UP:
+            return 1;
+            break;
+        case RotaryEncoder::RotaryState::DOWN:
+            return -1;
+            break;
+        case RotaryEncoder::RotaryState::UP_FAST:
+            return 10;
+            break;
+        case RotaryEncoder::RotaryState::DOWN_FAST:
+            return - 10;
+            break;
+    }
+    return 0;
+}
 

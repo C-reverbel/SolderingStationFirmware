@@ -19,8 +19,8 @@ protected:
 public:
     Menu();
     static void attachLCD(LiquidCrystal* lcd);
-    void refreshScreen();
-    void update();
+    virtual void refreshScreen();
+    virtual void update();
 
 
 };

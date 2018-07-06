@@ -3,9 +3,12 @@ set(CMAKE_TOOLCHAIN_FILE CMake/Toolchains/AVR.cmake)
 
 set(AVR_PROGRAMMER arduino)
 
-if(NOT AVR_UPLOADTOOL_PORT)
-    set(AVR_UPLOADTOOL_PORT usb)
-endif()
+#if(NOT AVR_UPLOADTOOL_PORT)
+#    set(AVR_UPLOADTOOL_PORT usb)
+#endif()
+
+set(AVR_UPLOADTOOL_PORT COM3)
+
 # AVR and fuses needs to be set
 
 set(AVR_MCU         ATMEGA328P)
@@ -49,6 +52,8 @@ set(srcs Source/main.cpp
         Source/Menu/Menu.cpp
         Source/Menu/ApplicationMenu.cpp
         Source/USER_IO/RotaryEncoder.cpp
+        Source/PID/PID_v1.cpp
+        Source/AVRTools/SystemClock.cpp
         #Source/LCD/Printable.h
         #${AVRTools}
         )

@@ -62,7 +62,6 @@ void FastPWMPin::setPWMValue(float percent){
     }
 }
 
-
 // PRIVATE FUNCTIONS
 bool FastPWMPin::setPWMRegisters(uint8_t pin){
 /*
@@ -88,26 +87,26 @@ PD3   | OC2B                | TIMER 2 | 3
 
     } else if (pin == OC1A){
         // non-inverting Mode
-        TCCR1A |=  (1 << COM1A1);
+        TCCR1A |=   (1 << COM1A1);
         TCCR1A &=  ~(1 << COM1A0);
         // Fast PWM Mode - TOP = ICR1
         TCCR1A &= ~(1 << WGM10);
-        TCCR1A |= (1 << WGM11);
-        TCCR1B |= (1 << WGM12);
-        TCCR1B |= (1 << WGM13);
+        TCCR1A |=  (1 << WGM11);
+        TCCR1B |=  (1 << WGM12);
+        TCCR1B |=  (1 << WGM13);
         // set ICR1 and prescaler based on calculated resolution
         ICR1 = pwmParameters.top;
         TCCR1B |= pwmParameters.prescaler;
 
     } else if (pin == OC1B){
         // non-inverting Mode
-        TCCR1A |=  (1 << COM1B1);
+        TCCR1A |=   (1 << COM1B1);
         TCCR1A &=  ~(1 << COM1B0);
         // Fast PWM Mode - TOP = ICR1
         TCCR1A &= ~(1 << WGM10);
-        TCCR1A |= (1 << WGM11);
-        TCCR1B |= (1 << WGM12);
-        TCCR1B |= (1 << WGM13);
+        TCCR1A |=  (1 << WGM11);
+        TCCR1B |=  (1 << WGM12);
+        TCCR1B |=  (1 << WGM13);
         // set ICR1 (TOP) and clk prescaler based on calculated resolution
         ICR1 = pwmParameters.top;
         TCCR1B |= pwmParameters.prescaler;

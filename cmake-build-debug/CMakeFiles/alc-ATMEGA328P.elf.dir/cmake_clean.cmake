@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/PID/PID_v1.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/AVRTools/SystemClock.cpp.obj"
   "alc-ATMEGA328P.elf.pdb"
   "alc-ATMEGA328P.elf"
   "alc-ATMEGA328P.elf.manifest"

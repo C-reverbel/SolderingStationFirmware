@@ -3,7 +3,7 @@
 //
 
 #include "Menu.h"
-// reserv memory to the static variable to avoid linker errors
+// reserve memory to the static variable to avoid linker errors
 LiquidCrystal *Menu::_lcd;
 
 Menu::Menu(){

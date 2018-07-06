@@ -124,8 +124,8 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SolderingStationFirmware
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-ld.exe
 
-//Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe
+//Program used to build from makefiles.
+CMAKE_MAKE_PROGRAM:STRING=nmake
 
 //Flags used by the linker during the creation of modules.
 CMAKE_MODULE_LINKER_FLAGS:STRING=
@@ -159,9 +159,6 @@ CMAKE_PROJECT_NAME:STATIC=SolderingStationFirmware
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-ranlib.exe
-
-//Path to a program.
-CMAKE_SH:FILEPATH=CMAKE_SH-NOTFOUND
 
 //Flags used by the linker during the creation of dll's.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
@@ -325,7 +322,7 @@ CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_HOSTED_
 //C compiler system include directories
 CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS:INTERNAL=c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include;c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include-fixed;c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
+CMAKE_GENERATOR:INTERNAL=NMake Makefiles
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
@@ -361,8 +358,6 @@ CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
 CMAKE_ROOT:INTERNAL=C:/Program Files/JetBrains/CLion 2018.1/bin/cmake/share/cmake-3.10
-//ADVANCED property for variable: CMAKE_SH
-CMAKE_SH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG

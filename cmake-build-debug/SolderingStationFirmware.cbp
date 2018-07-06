@@ -11,20 +11,20 @@
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="alc">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 alc"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 alc"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="alc-ATMEGA328P.elf">
@@ -41,10 +41,10 @@
 					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 alc-ATMEGA328P.elf"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 alc-ATMEGA328P.elf"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="alc-ATMEGA328P.elf/fast">
@@ -61,113 +61,119 @@
 					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 alc-ATMEGA328P.elf/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 alc-ATMEGA328P.elf/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="upload_eeprom">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload_eeprom"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 upload_eeprom"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="upload_alc">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload_alc"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 upload_alc"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="get_fuses">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_fuses"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 get_fuses"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="get_status">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_status"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 get_status"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="set_fuses">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_fuses"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 set_fuses"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="get_calibration">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_calibration"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 get_calibration"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="set_calibration">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 set_calibration"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 set_calibration"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="disassemble_alc">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 disassemble_alc"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 disassemble_alc"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/AVRTools/SystemClock.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/AVRTools/SystemClock.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/AnalogPin.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
@@ -214,6 +220,12 @@
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.cpp">

@@ -40,7 +40,7 @@ bool FastPWMPin::startPWM(double pwmFreq){
 
     // calculate values for registers based on pwmMode and pwmFeq
     // init correct timer (0, 1 or 2)
-    // if it is valid, update registers and return true
+    // if it is valid, updateFromBtns registers and return true
     // if it is invalid, return false
     return true;
 }

@@ -66,8 +66,6 @@ void Pin::setInterruptOnPinChange() {
         PCICR |= (1 << PCIE2);
         PCMSK2 |= (1 << (_pin-16));
     }
-
-
 }
 
 void Pin::clearInterruptOnPinChange() {

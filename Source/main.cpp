@@ -9,6 +9,7 @@
 #include "Menu/Menu.h"
 #include "Menu/ApplicationMenu.h"
 #include "USER_IO/RotaryEncoder.h"
+#include "USER_IO/Button.h"
 #include "PID/PID_v1.h"
 
 /*
@@ -50,8 +51,13 @@ LCD_DB7   | PD1         | 1
  * ANALOG READ      OK
  * OTHER MENUS
  * PID              OK -- Falta testar
+ * BUTTONS INPUT    OK
  */
 
+// BUTTONS INITIALIZATION
+Button btn1(IO_D5);
+Button btn2(IO_D6);
+bool btn1_pressed, btn2_pressed;
 
 int main(){
 
@@ -79,15 +85,13 @@ int main(){
     Pin rotB(IO_D7);
     RotaryEncoder rotEnc(&rotA, &rotB);
 
-    // BUTTONS INITIALIZATION
-    Pin btn1(IO_D5);
-    Pin btn2(IO_D6);
-    btn1.setAsInputPulledUp();
-    btn2.setAsInputPulledUp();
-
     // MENUS INITIALIZATION
     Menu::attachLCD(&lcd);
+    Menu::attachButtonsValues(&btn1_pressed, &btn2_pressed);
+
     ApplicationMenu appMenu(&setTemp, &mesTemp);
+
+    Menu* currentMenu = &appMenu;
 
     // PWM INITIALIZATION
     FastPWMPin dimOut(OC1B);
@@ -104,14 +108,14 @@ int main(){
     while(1){
         _delay_ms(100);
 
-        // update rotary encoder
+        // updateFromBtns rotary encoder
         setTemp += rotEnc.update();
         if(setTemp > 400)
             setTemp = 400;
         else if (setTemp < 100)
             setTemp = 100;
 
-        // read iron temperature and update display
+        // read iron temperature and updateFromBtns display
         mesTemp = ptc_read.getAnalogValue();
 
         // calculate and set PWM value
@@ -121,7 +125,22 @@ int main(){
         pwmVal = (float) Output;
         dimOut.setPWMValue(pwmVal);
 
-        // refresh screen
-        appMenu.refreshScreen();
+        // refresh current screen
+        currentMenu->updateFromBtns();
+        currentMenu->refreshScreen();
     }
+}
+
+ISR(PCINT2_vect){
+    _delay_us(800);
+    // read btn 1
+    if(btn1.isPressed()){
+        btn1_pressed = true;
+    }
+
+    // read btn 2
+    if(btn2.isPressed()){
+        btn2_pressed = true;
+    }
+    // buttons will be cleared on read inside updateFromBtns() function
 }

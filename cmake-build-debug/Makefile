@@ -511,6 +511,33 @@ Source\PID\PID_v1.cpp.s:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\PID\PID_v1.cpp.s
 .PHONY : Source\PID\PID_v1.cpp.s
 
+Source\USER_IO\Button.obj: Source\USER_IO\Button.cpp.obj
+
+.PHONY : Source\USER_IO\Button.obj
+
+# target to build an object file
+Source\USER_IO\Button.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.obj
+.PHONY : Source\USER_IO\Button.cpp.obj
+
+Source\USER_IO\Button.i: Source\USER_IO\Button.cpp.i
+
+.PHONY : Source\USER_IO\Button.i
+
+# target to preprocess a source file
+Source\USER_IO\Button.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.i
+.PHONY : Source\USER_IO\Button.cpp.i
+
+Source\USER_IO\Button.s: Source\USER_IO\Button.cpp.s
+
+.PHONY : Source\USER_IO\Button.s
+
+# target to generate assembly for a file
+Source\USER_IO\Button.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.s
+.PHONY : Source\USER_IO\Button.cpp.s
+
 Source\USER_IO\RotaryEncoder.obj: Source\USER_IO\RotaryEncoder.cpp.obj
 
 .PHONY : Source\USER_IO\RotaryEncoder.obj
@@ -613,6 +640,9 @@ help:
 	@echo ... Source/PID/PID_v1.obj
 	@echo ... Source/PID/PID_v1.i
 	@echo ... Source/PID/PID_v1.s
+	@echo ... Source/USER_IO/Button.obj
+	@echo ... Source/USER_IO/Button.i
+	@echo ... Source/USER_IO/Button.s
 	@echo ... Source/USER_IO/RotaryEncoder.obj
 	@echo ... Source/USER_IO/RotaryEncoder.i
 	@echo ... Source/USER_IO/RotaryEncoder.s

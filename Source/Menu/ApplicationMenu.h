@@ -22,8 +22,8 @@ private:
 public:
     ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp);
 
-    // update menu variables based on rotary state
-    void update();
+    // updateFromBtns menu variables based on rotary state
+    void updateFromBtns();
     void refreshScreen();
 
 private:

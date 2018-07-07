@@ -3,6 +3,7 @@
 //
 
 #include <string.h>
+#include <util/delay.h>
 
 #include "ApplicationMenu.h"
 
@@ -12,8 +13,18 @@ ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp){
 }
 
 // HIGH LEVEL FUNCTIONS
-void ApplicationMenu::update() {
-    //TODO update members of the class
+void ApplicationMenu::updateFromBtns() {
+    // get buttons input and compute what to do with it
+    if(*_btn1){         // lock-unlock rotary encoder
+        _delay_us(500);
+        isLocked = !isLocked;
+        *_btn1 = false;
+    }else if(*_btn2){   // access selection menu
+        _delay_us(500);
+        //todo
+
+        *_btn2 = false;
+    }
 }
 void ApplicationMenu::refreshScreen() {
     _lcd->clear();
@@ -21,7 +32,10 @@ void ApplicationMenu::refreshScreen() {
     _lcd->setCursor(0,0); printSetTemp(*setTemp,tempUnity);
     // print second line
     _lcd->setCursor(0,1); printMesTemp(*mesTemp,tempUnity);
-    //TODO include locked symbol
+    //TODO change locked symbol
+    if(this->isLocked){
+        _lcd->setCursor(7,0); _lcd->print('&');
+    }
 }
 
 // MID LEVEL FUNCTIONS

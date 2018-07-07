@@ -13,8 +13,6 @@
 #include <util/delay.h>
 
 
-
-
 static RotaryEncoder* thisRotaryEncoder = nullptr;
 
 ISR(PCINT0_vect){
@@ -70,7 +68,7 @@ int RotaryEncoder::update() {
             return 10;
             break;
         case RotaryEncoder::RotaryState::DOWN_FAST:
-            return - 10;
+            return -10;
             break;
     }
     return 0;

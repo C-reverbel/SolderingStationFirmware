@@ -24,8 +24,6 @@ public:
     } rotaryState = NONE;
 
 
-
-
 public:
     RotaryEncoder(Pin* rotA, Pin* rotB);
 

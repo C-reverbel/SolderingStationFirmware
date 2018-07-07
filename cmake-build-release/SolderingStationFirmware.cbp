@@ -228,6 +228,12 @@
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>

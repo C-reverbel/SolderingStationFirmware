@@ -52,6 +52,7 @@ set(srcs Source/main.cpp
         Source/Menu/Menu.cpp
         Source/Menu/ApplicationMenu.cpp
         Source/USER_IO/RotaryEncoder.cpp
+        Source/USER_IO/Button.cpp
         Source/PID/PID_v1.cpp
         Source/AVRTools/SystemClock.cpp
         #Source/LCD/Printable.h

@@ -963,7 +963,7 @@ ISR( TWI_vect )
 #ifdef DEBUG_I2cMasterDiary
                     DebugDiaryEntry( 0, kSendRestartSameMsg, TW_STATUS );
 #endif
-                    // Need to set a restart and update txMode accordingly
+                    // Need to set a restart and updateFromBtns txMode accordingly
                     gI2cBuffer.setCurrentTxMode( kI2cRead );
                     sendRestart();
                 }

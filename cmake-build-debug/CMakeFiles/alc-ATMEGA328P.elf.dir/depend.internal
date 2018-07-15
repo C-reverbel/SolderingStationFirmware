@@ -49,6 +49,16 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj
  ../Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj
+ ../Source/GPIO/GPIO.h
+ ../Source/LCD/LCD.h
+ ../Source/LCD/Print.h
+ ../Source/LCD/Printable.h
+ ../Source/LCD/WString.h
+ ../Source/USER_IO/Button.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/PID/PID_v1.cpp.obj
  ../Source/AVRTools/SystemClock.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.cpp
@@ -71,6 +81,7 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h

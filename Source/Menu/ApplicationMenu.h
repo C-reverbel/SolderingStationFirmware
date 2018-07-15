@@ -1,7 +1,3 @@
-//
-// Created by carlos on 08/05/2018.
-//
-
 #ifndef SOLDERINGSTATIONFIRMWARE_APPLICATIONMENU_H
 #define SOLDERINGSTATIONFIRMWARE_APPLICATIONMENU_H
 
@@ -17,21 +13,18 @@ private:
         CELSIUS,
         FAHRENHEIT
     } tempUnity = CELSIUS;
-    bool isLocked = false;
 
 public:
     ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp);
 
-    // updateFromBtns menu variables based on rotary state
-    void updateFromBtns();
-    void refreshScreen();
+    Menu::MenuScreen updateFromBtns() override;
+    void refreshScreen() override;
 
 private:
     void printSetTemp(uint16_t temperature, TempUnity unity);
     void printMesTemp(uint16_t temperature, TempUnity unity);
 
     String getTempString(uint16_t value, TempUnity unity);
-
 };
 
 

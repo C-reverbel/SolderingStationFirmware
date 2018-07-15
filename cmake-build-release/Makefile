@@ -484,6 +484,33 @@ Source\Menu\Menu.cpp.s:
 	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\Menu.cpp.s
 .PHONY : Source\Menu\Menu.cpp.s
 
+Source\Menu\SelectionMenu.obj: Source\Menu\SelectionMenu.cpp.obj
+
+.PHONY : Source\Menu\SelectionMenu.obj
+
+# target to build an object file
+Source\Menu\SelectionMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj
+.PHONY : Source\Menu\SelectionMenu.cpp.obj
+
+Source\Menu\SelectionMenu.i: Source\Menu\SelectionMenu.cpp.i
+
+.PHONY : Source\Menu\SelectionMenu.i
+
+# target to preprocess a source file
+Source\Menu\SelectionMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.i
+.PHONY : Source\Menu\SelectionMenu.cpp.i
+
+Source\Menu\SelectionMenu.s: Source\Menu\SelectionMenu.cpp.s
+
+.PHONY : Source\Menu\SelectionMenu.s
+
+# target to generate assembly for a file
+Source\Menu\SelectionMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.s
+.PHONY : Source\Menu\SelectionMenu.cpp.s
+
 Source\PID\PID_v1.obj: Source\PID\PID_v1.cpp.obj
 
 .PHONY : Source\PID\PID_v1.obj
@@ -637,6 +664,9 @@ help:
 	@echo ... Source/Menu/Menu.obj
 	@echo ... Source/Menu/Menu.i
 	@echo ... Source/Menu/Menu.s
+	@echo ... Source/Menu/SelectionMenu.obj
+	@echo ... Source/Menu/SelectionMenu.i
+	@echo ... Source/Menu/SelectionMenu.s
 	@echo ... Source/PID/PID_v1.obj
 	@echo ... Source/PID/PID_v1.i
 	@echo ... Source/PID/PID_v1.s

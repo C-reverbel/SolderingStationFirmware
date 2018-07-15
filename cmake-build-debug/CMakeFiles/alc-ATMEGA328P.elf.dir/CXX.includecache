@@ -186,6 +186,16 @@ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/USER_IO/Button.
 LCD/LCD.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/LCD/LCD.h
 
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp
+util/delay.h
+-
+SelectionMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.cpp
 AVRTools/SystemClock.h
 -
@@ -241,6 +251,8 @@ Menu/Menu.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
 Menu/ApplicationMenu.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
+Menu/SelectionMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
 USER_IO/RotaryEncoder.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h
 USER_IO/Button.h

@@ -1,30 +1,26 @@
-//
-// Created by carlos on 08/05/2018.
-//
-
 #include <string.h>
 #include <util/delay.h>
 
 #include "ApplicationMenu.h"
 
-ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp){
+ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp) {
     this->mesTemp = mesTemp;
     this->setTemp = setTemp;
 }
 
 // HIGH LEVEL FUNCTIONS
-void ApplicationMenu::updateFromBtns() {
+Menu::MenuScreen ApplicationMenu::updateFromBtns() {
     // get buttons input and compute what to do with it
     if(*_btn1){         // lock-unlock rotary encoder
         _delay_us(500);
-        isLocked = !isLocked;
+        *_locked_rotary_flag = !(*_locked_rotary_flag);
         *_btn1 = false;
     }else if(*_btn2){   // access selection menu
         _delay_us(500);
-        //todo
-
         *_btn2 = false;
+        return MenuScreen::SELECTION_MENU;
     }
+    return MenuScreen::APP_MENU;
 }
 void ApplicationMenu::refreshScreen() {
     _lcd->clear();
@@ -33,7 +29,7 @@ void ApplicationMenu::refreshScreen() {
     // print second line
     _lcd->setCursor(0,1); printMesTemp(*mesTemp,tempUnity);
     //TODO change locked symbol
-    if(this->isLocked){
+    if(*_locked_rotary_flag){
         _lcd->setCursor(7,0); _lcd->print('&');
     }
 }
@@ -47,7 +43,7 @@ void ApplicationMenu::printMesTemp(uint16_t temperature, TempUnity unity) {
 }
 
 // LOW LEVEL FUNCTIONS
-String ApplicationMenu::getTempString(uint16_t value, ApplicationMenu::TempUnity unity){
+String ApplicationMenu::getTempString(uint16_t value, ApplicationMenu::TempUnity unity) {
     String result = "";
     switch(unity){
         case CELSIUS:

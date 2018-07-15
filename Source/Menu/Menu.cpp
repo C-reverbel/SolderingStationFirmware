@@ -4,9 +4,8 @@
 LiquidCrystal *Menu::_lcd;
 bool* Menu::_btn1;
 bool* Menu::_btn2;
-
-Menu::Menu(){
-}
+bool* Menu::_locked_rotary_flag;
+int* Menu::_rotaryIncr;
 
 void Menu::attachLCD(LiquidCrystal* lcd){
     _lcd = lcd;
@@ -18,4 +17,12 @@ void Menu::attachLCD(LiquidCrystal* lcd){
 void Menu::attachButtonsValues(bool* btn1, bool* btn2){
     _btn1 = btn1;
     _btn2 = btn2;
+}
+
+void Menu::attachLockedRotaryFlag(bool* locked_rotary_flag){
+    _locked_rotary_flag = locked_rotary_flag;
+}
+
+void Menu::attachRotaryEncoder(int* rotaryIncr){
+    _rotaryIncr = rotaryIncr;
 }

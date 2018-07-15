@@ -8,6 +8,7 @@
 #include "LCD/LCD.h"
 #include "Menu/Menu.h"
 #include "Menu/ApplicationMenu.h"
+#include "Menu/SelectionMenu.h"
 #include "USER_IO/RotaryEncoder.h"
 #include "USER_IO/Button.h"
 #include "PID/PID_v1.h"
@@ -33,15 +34,16 @@ LCD_DB6   | PC4         | A4
 LCD_DB7   | PD1         | 1
 -----------------------------------------------
 
- LCD_TO_ARDUINO CONNECTIONS
+ LCD_TO_ARDUINO CONNECTIONS (for development)
 -----------------------------------------------
- 1      A4
- 0      A5
- NC     NC
- NC     NC
- A3     GND
- A2     GND
- 5V     GND
+              __________________________
+ 1      A4   |  ______________________  |
+ 0      A5   | |                      | |
+ NC     NC   | |                      | |
+ NC     NC   | |                      | |
+ A3     GND  | |                      | |
+ A2     GND  | |______________________| |
+ 5V     GND  |__________________________|
  */
 
 /*
@@ -65,6 +67,11 @@ int main(){
     uint16_t mesTemp = 100;
     uint16_t pwmVal = 10;
 
+    int rotaryIncr = 0;
+    bool locked_rotary_flag = false;
+
+    Menu::MenuScreen nextMenu;
+
     // PID INITIALIZATION
     double Setpoint, Input, Output;
     double Kp=2, Ki=5, Kd=1;
@@ -78,7 +85,7 @@ int main(){
     Pin d5(IO_D0);
     Pin d6(IO_C4);
     Pin d7(IO_D1);
-    LiquidCrystal lcd(rs,en,d4,d5,d6,d7);
+    LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
     // ROTARY ENCODER INITIALIZATION
     Pin rotA(IO_B0);
@@ -88,10 +95,14 @@ int main(){
     // MENUS INITIALIZATION
     Menu::attachLCD(&lcd);
     Menu::attachButtonsValues(&btn1_pressed, &btn2_pressed);
+    Menu::attachLockedRotaryFlag(&locked_rotary_flag);
+    Menu::attachRotaryEncoder(&rotaryIncr);
+    SelectionMenu::setOldMenu(&nextMenu);
 
     ApplicationMenu appMenu(&setTemp, &mesTemp);
+    SelectionMenu selectionMenu{}; // black magic here
 
-    Menu* currentMenu = &appMenu;
+    Menu* currentMenu = &appMenu; // Application starts on appMenu
 
     // PWM INITIALIZATION
     FastPWMPin dimOut(OC1B);
@@ -102,6 +113,7 @@ int main(){
     // ADC INITIALIZATION
     AnalogPin ptc_read(IO_C0, SINGLE_CONVERSION);
 
+
     lcd.clear();
     appMenu.refreshScreen();
 
@@ -109,24 +121,37 @@ int main(){
         _delay_ms(100);
 
         // updateFromBtns rotary encoder
-        setTemp += rotEnc.update();
+        rotaryIncr = rotEnc.update();
+        if(!locked_rotary_flag)
+            setTemp += rotaryIncr;
         if(setTemp > 400)
             setTemp = 400;
         else if (setTemp < 100)
             setTemp = 100;
 
         // read iron temperature and updateFromBtns display
+        //todo apply corrections
         mesTemp = ptc_read.getAnalogValue();
 
         // calculate and set PWM value
         Setpoint = (double) setTemp;
         Input = (double) mesTemp;
         myPID.Compute();
-        pwmVal = (float) Output;
+        pwmVal = (uint16_t) Output;
         dimOut.setPWMValue(pwmVal);
 
+        // select next menu
+        nextMenu = currentMenu->updateFromBtns();
+        switch(nextMenu){
+            case Menu::MenuScreen::APP_MENU:
+                currentMenu = &appMenu;
+            break;
+            case Menu::MenuScreen::SELECTION_MENU:
+                //currentMenu = &selectionMenu;
+            break;
+        }
+
         // refresh current screen
-        currentMenu->updateFromBtns();
         currentMenu->refreshScreen();
     }
 }

@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/Button.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/PID/PID_v1.cpp.obj"

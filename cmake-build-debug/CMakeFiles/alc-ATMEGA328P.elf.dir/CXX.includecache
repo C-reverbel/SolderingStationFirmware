@@ -186,6 +186,34 @@ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/USER_IO/Button.
 LCD/LCD.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/LCD/LCD.h
 
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.cpp
+MenuPresenter.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp
+MenuView.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+avr/interrupt.h
+-
+util/delay.h
+-
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ApplicationMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
+SelectionMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
+../LCD/LCD.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
+../USER_IO/Button.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
+../USER_IO/RotaryEncoder.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h
+
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp
 util/delay.h
 -
@@ -259,4 +287,6 @@ USER_IO/Button.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
 PID/PID_v1.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h
+Menu/MenuView.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
 

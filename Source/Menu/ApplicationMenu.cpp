@@ -6,6 +6,7 @@
 ApplicationMenu::ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp) {
     this->mesTemp = mesTemp;
     this->setTemp = setTemp;
+    this->screen = Menu::MenuScreen::APP_MENU;
 }
 
 // HIGH LEVEL FUNCTIONS

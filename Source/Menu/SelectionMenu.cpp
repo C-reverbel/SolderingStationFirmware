@@ -5,6 +5,7 @@ Menu::MenuScreen* SelectionMenu::_oldMenu;
 
 SelectionMenu::SelectionMenu() {
     _nextMenu = *_oldMenu;
+    this->screen = Menu::MenuScreen::SELECTION_MENU;
 }
 
 Menu::MenuScreen SelectionMenu::updateFromBtns(){

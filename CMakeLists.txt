@@ -56,6 +56,8 @@ set(srcs Source/main.cpp
         Source/USER_IO/Button.cpp
         Source/PID/PID_v1.cpp
         Source/AVRTools/SystemClock.cpp
+        Source/Menu/MenuPresenter.cpp
+        Source/Menu/MenuView.cpp
         #Source/LCD/Printable.h
         #${AVRTools}
         )

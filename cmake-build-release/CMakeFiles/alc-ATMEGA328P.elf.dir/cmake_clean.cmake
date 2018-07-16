@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/Button.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/PID/PID_v1.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/AVRTools/SystemClock.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuPresenter.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj"
   "alc-ATMEGA328P.elf.pdb"
   "alc-ATMEGA328P.elf"
   "alc-ATMEGA328P.elf.manifest"

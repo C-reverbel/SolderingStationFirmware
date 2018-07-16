@@ -49,6 +49,24 @@ CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\Menu.cpp.obj: ..\Source\USER_IO\Bu
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\Menu.cpp.obj: ..\Source\Menu\Menu.cpp
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\Menu.cpp.obj: ..\Source\Menu\Menu.h
 
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj: ..\Source\Menu\MenuPresenter.cpp
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj: ..\Source\Menu\MenuPresenter.h
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\LCD\LCD.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\USER_IO\Button.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\GPIO\GPIO.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\LCD\LCD.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\LCD\Print.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\LCD\Printable.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\LCD\WString.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\ApplicationMenu.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\Menu.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\MenuView.cpp
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\MenuView.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\SelectionMenu.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\USER_IO\Button.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\USER_IO\RotaryEncoder.h
+
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj: ..\Source\GPIO\GPIO.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj: ..\Source\LCD\LCD.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj: ..\Source\LCD\Print.h
@@ -80,6 +98,7 @@ CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\LCD\Printable.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\LCD\WString.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\Menu\ApplicationMenu.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\Menu\Menu.h
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\Menu\MenuView.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\Menu\SelectionMenu.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\PID\PID_v1.h
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj: ..\Source\USER_IO\Button.h

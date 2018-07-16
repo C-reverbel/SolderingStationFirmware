@@ -1,0 +1,14 @@
+#ifndef SOLDERINGSTATIONFIRMWARE_MENUPRESENTER_H
+#define SOLDERINGSTATIONFIRMWARE_MENUPRESENTER_H
+
+
+class MenuPresenter {
+public:
+    MenuPresenter();
+
+public:
+
+};
+
+
+#endif //SOLDERINGSTATIONFIRMWARE_MENUPRESENTER_H

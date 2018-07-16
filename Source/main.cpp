@@ -13,6 +13,8 @@
 #include "USER_IO/Button.h"
 #include "PID/PID_v1.h"
 
+#include "Menu/MenuView.h"
+
 /*
 MICROCONTROLLER PINOUT
 -----------------------------------------------
@@ -56,16 +58,11 @@ LCD_DB7   | PD1         | 1
  * BUTTONS INPUT    OK
  */
 
-// BUTTONS INITIALIZATION
-Button btn1(IO_D5);
-Button btn2(IO_D6);
-bool btn1_pressed, btn2_pressed;
-
 int main(){
 
-    uint16_t setTemp = 150;
-    uint16_t mesTemp = 100;
-    uint16_t pwmVal = 10;
+    uint16_t setTemp = 150; // 100º to 400º
+    uint16_t mesTemp = 100; // 100º to 400º
+    uint16_t pwmVal = 10;   // 0 to 100%
 
     int rotaryIncr = 0;
     bool locked_rotary_flag = false;
@@ -92,17 +89,12 @@ int main(){
     Pin rotB(IO_D7);
     RotaryEncoder rotEnc(&rotA, &rotB);
 
-    // MENUS INITIALIZATION
-    Menu::attachLCD(&lcd);
-    Menu::attachButtonsValues(&btn1_pressed, &btn2_pressed);
-    Menu::attachLockedRotaryFlag(&locked_rotary_flag);
-    Menu::attachRotaryEncoder(&rotaryIncr);
-    SelectionMenu::setOldMenu(&nextMenu);
+    // BUTTONS INITIALIZATION
+    Button btn1(IO_D5);
+    Button btn2(IO_D6);
 
-    ApplicationMenu appMenu(&setTemp, &mesTemp);
-    SelectionMenu selectionMenu{}; // black magic here
-
-    Menu* currentMenu = &appMenu; // Application starts on appMenu
+    // MENU VIEW INITIALIZATION
+    MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
 
     // PWM INITIALIZATION
     FastPWMPin dimOut(OC1B);
@@ -113,9 +105,6 @@ int main(){
     // ADC INITIALIZATION
     AnalogPin ptc_read(IO_C0, SINGLE_CONVERSION);
 
-
-    lcd.clear();
-    appMenu.refreshScreen();
 
     while(1){
         _delay_ms(100);
@@ -150,22 +139,21 @@ int main(){
                 //currentMenu = &selectionMenu;
             break;
         }
-
         // refresh current screen
         currentMenu->refreshScreen();
     }
 }
 
-ISR(PCINT2_vect){
-    _delay_us(800);
-    // read btn 1
-    if(btn1.isPressed()){
-        btn1_pressed = true;
-    }
-
-    // read btn 2
-    if(btn2.isPressed()){
-        btn2_pressed = true;
-    }
-    // buttons will be cleared on read inside updateFromBtns() function
-}
+//ISR(PCINT2_vect){
+//    _delay_us(800);
+//    // read btn 1
+//    if(btn1.isPressed()){
+//        btn1_pressed = true;
+//    }
+//
+//    // read btn 2
+//    if(btn2.isPressed()){
+//        btn2_pressed = true;
+//    }
+//    // buttons will be cleared on read inside updateFromBtns() function
+//}

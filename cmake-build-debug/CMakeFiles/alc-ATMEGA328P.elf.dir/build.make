@@ -394,6 +394,54 @@ CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj.provides: 
 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj.provides.build: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj
 
 
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj: CMakeFiles\alc-ATMEGA328P.elf.dir\flags.make
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj: ..\Source\Menu\MenuPresenter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuPresenter.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuPresenter.cpp
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuPresenter.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuPresenter.cpp > CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.i
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuPresenter.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuPresenter.cpp -o CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.s
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.requires:
+
+.PHONY : CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.requires
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.provides: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.provides.build
+.PHONY : CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.provides
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.provides.build: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj
+
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: CMakeFiles\alc-ATMEGA328P.elf.dir\flags.make
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj: ..\Source\Menu\MenuView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp > CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.i
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp -o CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.s
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.requires:
+
+.PHONY : CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.requires
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.provides: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\alc-ATMEGA328P.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.provides.build
+.PHONY : CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.provides
+
+CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.provides.build: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj
+
+
 # Object files for target alc-ATMEGA328P.elf
 alc__ATMEGA328P_elf_OBJECTS = \
 "CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj" \
@@ -409,7 +457,9 @@ alc__ATMEGA328P_elf_OBJECTS = \
 "CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\RotaryEncoder.cpp.obj" \
 "CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.obj" \
 "CMakeFiles\alc-ATMEGA328P.elf.dir\Source\PID\PID_v1.cpp.obj" \
-"CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj"
+"CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj" \
+"CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj" \
+"CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj"
 
 # External object files for target alc-ATMEGA328P.elf
 alc__ATMEGA328P_elf_EXTERNAL_OBJECTS =
@@ -428,8 +478,10 @@ alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\RotaryEncod
 alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.obj
 alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\PID\PID_v1.cpp.obj
 alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj
+alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj
+alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj
 alc-ATMEGA328P.elf: CMakeFiles\alc-ATMEGA328P.elf.dir\build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable alc-ATMEGA328P.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable alc-ATMEGA328P.elf"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe   -flto -Os -Os  -mmcu=ATMEGA328P -Wl,--gc-sections -mrelax -Wl,-Map,alc-ATMEGA328P.map $(alc__ATMEGA328P_elf_OBJECTS) $(alc__ATMEGA328P_elf_EXTERNAL_OBJECTS)  -o alc-ATMEGA328P.elf 
 
 # Rule to build all files generated by this target.
@@ -451,6 +503,8 @@ CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\So
 CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.obj.requires
 CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\PID\PID_v1.cpp.obj.requires
 CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj.requires
+CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuPresenter.cpp.obj.requires
+CMakeFiles\alc-ATMEGA328P.elf.dir\requires: CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj.requires
 
 .PHONY : CMakeFiles\alc-ATMEGA328P.elf.dir\requires
 

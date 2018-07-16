@@ -19,6 +19,11 @@ public:
         SELECTION_MENU,
         APP_MENU
     };
+    struct userIO{
+        bool btn1;
+        bool btn2;
+        int rotIncr;
+    };
 
 public:
     Menu(){};
@@ -30,9 +35,10 @@ public:
 
     virtual void refreshScreen() = 0;
     virtual MenuScreen updateFromBtns() = 0;
+public:
+    MenuScreen screen;
 
 
 };
-
 
 #endif //SOLDERINGSTATIONFIRMWARE_SCREEN_H

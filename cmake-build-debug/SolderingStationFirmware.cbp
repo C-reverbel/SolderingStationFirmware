@@ -222,10 +222,16 @@
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.cpp">
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.h">
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp">

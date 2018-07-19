@@ -45,7 +45,7 @@ bool FastPWMPin::startPWM(double pwmFreq){
     return true;
 }
 
-void FastPWMPin::setPWMValue(float percent){
+void FastPWMPin::setPWMValue(double percent){
     // select correct OCR
     if(percent){
         // enable PWM

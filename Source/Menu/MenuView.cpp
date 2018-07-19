@@ -3,7 +3,7 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-// reserve memory to the static variable to avoid linker errors
+// reserve memory to the static variables to avoid linker errors
 LiquidCrystal*  MenuView::_lcd;
 Button*         MenuView::_btn1;
 Button*         MenuView::_btn2;
@@ -11,9 +11,12 @@ RotaryEncoder*  MenuView::_rotaryEnc;
 
 uint16_t MenuView::setTemp = 150;
 uint16_t MenuView::mesTemp = 150;
+
+Menu::MenuScreen MenuView::currentScreen = Menu::MenuScreen::APP_MENU;
+Menu::MenuScreen MenuView::lastScreen = Menu::MenuScreen::APP_MENU;
+
 bool MenuView::btn1Val = false;
 bool MenuView::btn2Val = false;
-int MenuView::rotaryIncr = 0;
 
 ApplicationMenu MenuView::appMenu(&setTemp, &mesTemp);
 SelectionMenu MenuView::selectMenu;
@@ -23,8 +26,6 @@ MenuView::MenuView(LiquidCrystal *lcd, Button *btn1, Button *btn2, RotaryEncoder
     attachLCD(lcd);
     attachButtons(btn1, btn2);
     attachRotaryEncoder(rotaryEnc);
-
-    currentMenu = &appMenu;
 }
 
 void MenuView::attachLCD(LiquidCrystal* lcd){
@@ -42,13 +43,19 @@ void MenuView::attachRotaryEncoder(RotaryEncoder* rotaryEnc){
 }
 
 void MenuView::refreshScreen() {
-    currentMenu->refreshScreen();
+    switch(currentScreen){
+        case Menu::MenuScreen::APP_MENU:
+            appMenu.refreshScreen();
+        break;
+        case Menu::MenuScreen::SELECTION_MENU:
+            selectMenu.refreshScreen();
+        break;
+    }
 }
 Menu::userIO MenuView::getIOValues(){
     Menu::userIO result;
     // update rotary encoder
-    rotaryIncr = _rotaryEnc->update();
-    result.rotIncr = rotaryIncr;
+    result.rotIncr = _rotaryEnc->update();
     // update buttons and reset them
     result.btn1 = getBtn1Val();
     result.btn2 = getBtn2Val();
@@ -61,12 +68,10 @@ Menu::userIO MenuView::getIOValues(){
 ISR(PCINT2_vect){
     _delay_us(800);
     // read btn 1
-    if(MenuView::_btn1->isPressed()){
-        MenuView::btn1Val = true;
-    }
+    if(MenuView::_btn1->isPressed())
+        MenuView::setBtn1Val(true);
     // read btn 2
-    if(MenuView::_btn2->isPressed()){
-        MenuView::btn2Val = true;
-    }
+    if(MenuView::_btn2->isPressed())
+        MenuView::setBtn2Val(true);
     // buttons will be cleared on read inside updateFromBtns() function
 }

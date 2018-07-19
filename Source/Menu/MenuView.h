@@ -18,14 +18,15 @@ public:
 
     static uint16_t setTemp;
     static uint16_t mesTemp;
-    static bool btn1Val;
-    static bool btn2Val;
-    static int rotaryIncr;
 
-    Menu* currentMenu;
-private:
+    static Menu::MenuScreen currentScreen;
+    static Menu::MenuScreen lastScreen;
+
     static ApplicationMenu appMenu;
     static SelectionMenu selectMenu;
+private:
+    static bool btn1Val;
+    static bool btn2Val;
 
 public:
     MenuView(LiquidCrystal* lcd, Button* btn1, Button* btn2, RotaryEncoder* rotaryEnc);

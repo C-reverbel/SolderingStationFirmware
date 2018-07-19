@@ -14,6 +14,8 @@
 #include "PID/PID_v1.h"
 
 #include "Menu/MenuView.h"
+#include "Menu/MenuController.h"
+#include "Menu/MenuModel.h"
 
 /*
 MICROCONTROLLER PINOUT
@@ -50,30 +52,11 @@ LCD_DB7   | PD1         | 1
 
 /*
  * TODO
- * TIMER
- * PWM              OK -- OK p/ timer 1
- * ANALOG READ      OK
- * OTHER MENUS
- * PID              OK -- Falta testar
- * BUTTONS INPUT    OK
+ * edit appMenu & selectionMenu to be compatible with MenuView
+ * finish handle user IO
  */
 
 int main(){
-
-    uint16_t setTemp = 150; // 100º to 400º
-    uint16_t mesTemp = 100; // 100º to 400º
-    uint16_t pwmVal = 10;   // 0 to 100%
-
-    int rotaryIncr = 0;
-    bool locked_rotary_flag = false;
-
-    Menu::MenuScreen nextMenu;
-
-    // PID INITIALIZATION
-    double Setpoint, Input, Output;
-    double Kp=2, Ki=5, Kd=1;
-    PID myPID(&Input, &Output, &Setpoint, Kp, Ki, Kd, DIRECT);
-
     // LCD INITIALIZATION
     //todo verificar se eh melhor passar os pinos como referencia
     Pin rs(IO_C2);
@@ -83,77 +66,28 @@ int main(){
     Pin d6(IO_C4);
     Pin d7(IO_D1);
     LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
-
     // ROTARY ENCODER INITIALIZATION
     Pin rotA(IO_B0);
     Pin rotB(IO_D7);
     RotaryEncoder rotEnc(&rotA, &rotB);
-
     // BUTTONS INITIALIZATION
     Button btn1(IO_D5);
     Button btn2(IO_D6);
-
-    // MENU VIEW INITIALIZATION
-    MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
-
+    // ADC INITIALIZATION
+    AnalogPin ptcRead(IO_C0, SINGLE_CONVERSION);
     // PWM INITIALIZATION
     FastPWMPin dimOut(OC1B);
-    dimOut.startPWM(10e3);
-    dimOut.setOutputHigh();
-    dimOut.setPWMValue(pwmVal);
-
-    // ADC INITIALIZATION
-    AnalogPin ptc_read(IO_C0, SINGLE_CONVERSION);
-
+    // MENU VIEW INITIALIZATION
+    MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
+    MenuModel menuModel(&ptcRead, &dimOut);
+    MenuController menuController(&menuView, &menuModel);
 
     while(1){
         _delay_ms(100);
 
-        // updateFromBtns rotary encoder
-        rotaryIncr = rotEnc.update();
-        if(!locked_rotary_flag)
-            setTemp += rotaryIncr;
-        if(setTemp > 400)
-            setTemp = 400;
-        else if (setTemp < 100)
-            setTemp = 100;
-
-        // read iron temperature and updateFromBtns display
-        //todo apply corrections
-        mesTemp = ptc_read.getAnalogValue();
-
-        // calculate and set PWM value
-        Setpoint = (double) setTemp;
-        Input = (double) mesTemp;
-        myPID.Compute();
-        pwmVal = (uint16_t) Output;
-        dimOut.setPWMValue(pwmVal);
-
-        // select next menu
-        nextMenu = currentMenu->updateFromBtns();
-        switch(nextMenu){
-            case Menu::MenuScreen::APP_MENU:
-                currentMenu = &appMenu;
-            break;
-            case Menu::MenuScreen::SELECTION_MENU:
-                //currentMenu = &selectionMenu;
-            break;
-        }
-        // refresh current screen
-        currentMenu->refreshScreen();
+        menuController.handleUserIO();
+        menuController.updateTemperatures();
+        menuController.updatePWMValue();
+        menuController.refreshScreen();
     }
 }
-
-//ISR(PCINT2_vect){
-//    _delay_us(800);
-//    // read btn 1
-//    if(btn1.isPressed()){
-//        btn1_pressed = true;
-//    }
-//
-//    // read btn 2
-//    if(btn2.isPressed()){
-//        btn2_pressed = true;
-//    }
-//    // buttons will be cleared on read inside updateFromBtns() function
-//}

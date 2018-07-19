@@ -65,7 +65,7 @@ private:
 public:
     FastPWMPin(uint8_t pin);
     bool startPWM(double pwmFreq);
-    void setPWMValue(float percent);
+    void setPWMValue(double percent);
 
 
 };

@@ -8,6 +8,14 @@
 
 ../Source/AVRTools/SystemClock.h
 
+../Source/GPIO/AnalogPin.h
+GPIO.h
+../Source/GPIO/GPIO.h
+
+../Source/GPIO/FastPWMPin.h
+GPIO.h
+../Source/GPIO/GPIO.h
+
 ../Source/GPIO/GPIO.h
 avr/io.h
 -
@@ -49,6 +57,8 @@ ctype.h
 -
 avr/pgmspace.h
 -
+
+../Source/PID/PID_v1.h
 
 ../Source/USER_IO/Button.h
 stdint.h
@@ -186,11 +196,31 @@ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/USER_IO/Button.
 LCD/LCD.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/LCD/LCD.h
 
-C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.cpp
-MenuPresenter.h
-C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.cpp
+MenuController.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
 
-C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuPresenter.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
+MenuView.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+MenuModel.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.cpp
+MenuModel.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
+avr/io.h
+-
+PID/PID_v1.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/PID/PID_v1.h
+GPIO/FastPWMPin.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/GPIO/FastPWMPin.h
+GPIO/AnalogPin.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/GPIO/AnalogPin.h
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp
 MenuView.h
@@ -289,4 +319,8 @@ PID/PID_v1.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h
 Menu/MenuView.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+Menu/MenuController.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
+Menu/MenuModel.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
 

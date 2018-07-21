@@ -1,42 +1,44 @@
 #ifndef SOLDERINGSTATIONFIRMWARE_SCREEN_H
 #define SOLDERINGSTATIONFIRMWARE_SCREEN_H
 
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "USER_IO/Button.h"
 #include "LCD/LCD.h"
 
 
 class Menu {
-
 protected:
     static const char degree_symbol = '\337';
+    const char leftArrow = '<';
+    const char rightArrow = '>';
+
+    static String app_menu_selection;
+    static String cal_menu_selection;
+    static String opts_menu_selection;
+    static String menu_text;
+
     static LiquidCrystal* _lcd;
-    static bool* _btn1;
-    static bool* _btn2;
-    static bool* _locked_rotary_flag;
-    static int* _rotaryIncr;
 public:
     enum MenuScreen{
         SELECTION_MENU,
-        APP_MENU
+        APP_MENU,
+        OPTIONS_MENU
     };
     struct userIO{
         bool btn1;
         bool btn2;
         int rotIncr;
     };
+    MenuScreen screen;
 
 public:
     Menu(){};
 
     static void attachLCD(LiquidCrystal* lcd);
-    static void attachButtonsValues(bool* btn1, bool* btn2);
-    static void attachLockedRotaryFlag(bool* locked_rotary_flag);
-    static void attachRotaryEncoder(int* rotaryIncr);
+    static String getMenuString(Menu::MenuScreen screen);
 
-    virtual void refreshScreen() = 0;
-    virtual MenuScreen updateFromBtns() = 0;
-public:
-    MenuScreen screen;
 
 
 };

@@ -2,29 +2,20 @@
 #define SOLDERINGSTATIONFIRMWARE_APPLICATIONMENU_H
 
 #include <stdint.h>
+
 #include "Menu.h"
+#include "MenuModel.h"
 
 
 class ApplicationMenu : public Menu {
-private:
-    uint16_t* mesTemp;
-    uint16_t* setTemp;
-    enum TempUnity {
-        CELSIUS,
-        FAHRENHEIT
-    } tempUnity = CELSIUS;
-
 public:
-    ApplicationMenu(uint16_t* setTemp, uint16_t* mesTemp);
-
-    Menu::MenuScreen updateFromBtns() override;
-    void refreshScreen() override;
-
+    ApplicationMenu();
+    void refreshScreen(uint16_t setTemp, uint16_t mesTemp, MenuModel::TempUnity tempUnity, bool isRotaryLocked);
 private:
-    void printSetTemp(uint16_t temperature, TempUnity unity);
-    void printMesTemp(uint16_t temperature, TempUnity unity);
+    void printSetTemp(uint16_t temperature, MenuModel::TempUnity unity);
+    void printMesTemp(uint16_t temperature, MenuModel::TempUnity unity);
 
-    String getTempString(uint16_t value, TempUnity unity);
+    String getTempString(uint16_t value, MenuModel::TempUnity unity);
 };
 
 

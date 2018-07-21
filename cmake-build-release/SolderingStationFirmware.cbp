@@ -240,6 +240,12 @@
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.cpp">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h">
+			<Option target="alc-ATMEGA328P.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp">
 			<Option target="alc-ATMEGA328P.elf"/>
 		</Unit>

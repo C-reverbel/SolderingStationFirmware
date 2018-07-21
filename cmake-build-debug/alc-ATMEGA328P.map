@@ -81,35 +81,35 @@ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-ardu
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_umulhisi3.o)
                               c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_muluhisi3.o) (__umulhisi3)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodhi4.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__udivmodhi4)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__udivmodhi4)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_copy_data.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__do_copy_data)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__do_copy_data)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o (__do_global_ctors)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o (__do_global_ctors)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_dtors.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o (__do_global_dtors)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o (__do_global_dtors)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
                               c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_ctors.o) (__tablejump2__)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__subsf3)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__subsf3)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
                               c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__divsf3)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__divsf3)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
                               c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__fixunssfsi)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__fixunssfsi)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o (__gtsf2)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (__gtsf2)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o (free)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (free)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o (realloc)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o (realloc)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(memcpy.o)
                               c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o) (memcpy)
 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                              C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o (strcpy)
+                              C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o (strcpy)
 
 Allocating common symbols
 Common symbol       size              file
@@ -125,8 +125,8 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj (symbol from plugin)
  .gnu.linkonce.t._ZN13LiquidCrystalC5E3PinS0_S0_S0_S0_S0_
                 0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj (symbol from plugin)
- .text          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
- .data          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+ .data          0x00000000        0x0 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\LCD\LCD.cpp.obj (symbol from plugin)
  .gnu.linkonce.t._ZN13LiquidCrystal13PinCollectionC5E3PinS1_S1_S1_S1_S1_S1_S1_
                 0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\LCD\LCD.cpp.obj (symbol from plugin)
@@ -153,24 +153,15 @@ Discarded input sections
                 0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\LCD\Print.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\Menu.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\ApplicationMenu.cpp.obj (symbol from plugin)
- .gnu.linkonce.t._ZTV4Menu
-                0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\ApplicationMenu.cpp.obj (symbol from plugin)
- .gnu.linkonce.t._ZTV15ApplicationMenu
-                0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\ApplicationMenu.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj (symbol from plugin)
- .gnu.linkonce.t._ZTV4Menu
-                0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj (symbol from plugin)
- .gnu.linkonce.t._ZTV13SelectionMenu
-                0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\SelectionMenu.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\RotaryEncoder.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\USER_IO\Button.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\PID\PID_v1.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj (symbol from plugin)
- .gnu.linkonce.t._ZN13SelectionMenuD5Ev
-                0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuController.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuModel.cpp.obj (symbol from plugin)
+ .text          0x00000000        0x0 CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\OptionsMenu.cpp.obj (symbol from plugin)
  .text          0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  .data          0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
@@ -534,8 +525,8 @@ Linker script and memory map
 Address of section .data set to 0x800100
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\main.cpp.obj
-LOAD C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
-LOAD C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
+LOAD C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+LOAD C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\LCD\LCD.cpp.obj
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\GPIO\GPIO.cpp.obj
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\GPIO\FastPWMPin.cpp.obj
@@ -552,6 +543,7 @@ LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\AVRTools\SystemClock.cpp.obj
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuView.cpp.obj
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuController.cpp.obj
 LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\MenuModel.cpp.obj
+LOAD CMakeFiles\alc-ATMEGA328P.elf.dir\Source\Menu\OptionsMenu.cpp.obj
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a
 LOAD c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a
 START GROUP
@@ -658,7 +650,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1fe8
+.text           0x00000000     0x22ac
  *(.vectors)
  .vectors       0x00000000       0x68 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -681,11 +673,11 @@ END GROUP
  *(.lowtext*)
                 0x00000068                __ctors_start = .
  *(.ctors)
- .ctors         0x00000068        0x2 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
+ .ctors         0x00000068        0x2 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
                 0x0000006a                __ctors_end = .
                 0x0000006a                __dtors_start = .
  *(.dtors)
- .dtors         0x0000006a        0x2 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
+ .dtors         0x0000006a        0x2 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
                 0x0000006c                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
@@ -744,137 +736,146 @@ END GROUP
                 0x000000ba                __vector_10
                 0x000000ba                __vector_18
                 0x000000ba                __vector_20
- .text          0x000000bc      0x9dc C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
-                0x000000e6                _ZN5Print5writeEPKhj
-                0x00000468                __vector_5
-                0x000004e0                __vector_16
-                0x00000574                __vector_3
-                0x00000606                _ZN3Pin23setInterruptOnPinChangeEv
-                0x0000068c                _ZN3Pin12setOutputLowEv
-                0x000006e8                _ZN3Pin18setAsInputPulledUpEv
-                0x00000744                _ZN3Pin9setOutputEb
-                0x00000850                _ZN13LiquidCrystal10write4bitsEh
-                0x000008b6                _ZN13LiquidCrystal5writeEh
-                0x000008c0                _ZN13LiquidCrystal7commandEh
-                0x000008c4                _ZN13LiquidCrystal9setCursorEhh
-                0x0000091e                _ZN13LiquidCrystal5clearEv
-                0x00000930                _ZN13SelectionMenu13refreshScreenEv
-                0x000009b2                _ZN15ApplicationMenu13refreshScreenEv
-                0x00000a98                . = ALIGN (0x2)
+ .text          0x000000bc       0x4e C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+                0x000000bc                _ZN13LiquidCrystal13PinCollectionaSEh
+ .text          0x0000010a      0x884 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
+                0x0000010a                _ZN5Print5writeEPKhj
+                0x00000160                _ZNK6String14StringIfHelperEv
+                0x00000326                __vector_5
+                0x0000039e                __vector_16
+                0x00000432                __vector_3
+                0x000004c4                _ZN5Print5printEc
+                0x000004d2                _ZN5Print5printEPKc
+                0x000004fc                _ZN5Print5printERK6String
+                0x00000518                _ZN6StringaSERKS_
+                0x00000558                _ZN6StringD2Ev
+                0x00000562                _ZN6StringC2EPKc
+                0x0000058a                _ZN15ApplicationMenu13getTempStringEjN9MenuModel9TempUnityE
+                0x000005f6                _ZN3Pin23setInterruptOnPinChangeEv
+                0x0000067c                _ZN3Pin12setOutputLowEv
+                0x000006d8                _ZN3Pin18setAsInputPulledUpEv
+                0x00000734                _ZN3Pin9setOutputEb
+                0x000007f2                _ZN13LiquidCrystal10write4bitsEh
+                0x00000858                _ZN13LiquidCrystal5writeEh
+                0x00000862                _ZN13LiquidCrystal7commandEh
+                0x00000866                _ZN13LiquidCrystal9setCursorEhh
+                0x000008c0                _ZN13LiquidCrystal5clearEv
+                0x000008d2                _ZN13SelectionMenu13refreshScreenE6String
+                0x0000098e                . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x00000a98      0xb62 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
-                0x00000a98                main
- .text.exit     0x000015fa       0x2c C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
- .text.startup  0x00001626       0x8a C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
+ .text.startup  0x0000098e      0xf96 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+                0x0000098e                main
+ .text.exit     0x00001924       0x20 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
+ .text.startup  0x00001944       0x30 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
  .text.avr-libc
-                0x000016b0       0x32 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
-                0x000016b0                __utoa_ncheck
-                0x000016b2                __utoa_common
+                0x00001974       0x32 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x00001974                __utoa_ncheck
+                0x00001976                __utoa_common
  .text.avr-libc
-                0x000016e2       0x20 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrev.o)
-                0x000016e2                strrev
+                0x000019a6       0x20 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x000019a6                strrev
  .text.avr-libc.fplib
-                0x00001702        0x8 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
-                0x00001702                __nesf2
-                0x00001702                __eqsf2
-                0x00001702                __cmpsf2
-                0x00001702                __ltsf2
-                0x00001702                __lesf2
+                0x000019c6        0x8 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(cmpsf2.o)
+                0x000019c6                __nesf2
+                0x000019c6                __eqsf2
+                0x000019c6                __cmpsf2
+                0x000019c6                __ltsf2
+                0x000019c6                __lesf2
  .text.avr-libc.fplib
-                0x0000170a       0x7a c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(floatsisf.o)
-                0x0000170a                __floatunsisf
-                0x0000170e                __floatsisf
+                0x000019ce       0x7a c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(floatsisf.o)
+                0x000019ce                __floatunsisf
+                0x000019d2                __floatsisf
  .text.avr-libc.fplib
-                0x00001784       0x48 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
-                0x00001784                __fp_cmp
+                0x00001a48       0x48 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_cmp.o)
+                0x00001a48                __fp_cmp
  .text.avr-libc.fplib
-                0x000017cc        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsf3.o)
-                0x000017cc                __mulsf3
+                0x00001a90        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsf3.o)
+                0x00001a90                __mulsf3
  .text.avr-libc.fplib
-                0x000017d0       0xc2 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
-                0x000017e4                __mulsf3x
-                0x000017e8                __mulsf3_pse
+                0x00001a94       0xc2 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(mulsf3x.o)
+                0x00001aa8                __mulsf3x
+                0x00001aac                __mulsf3_pse
  .text.avr-libc.fplib
-                0x00001892        0xc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_inf.o)
-                0x00001892                __fp_inf
+                0x00001b56        0xc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_inf.o)
+                0x00001b56                __fp_inf
  .text.avr-libc.fplib
-                0x0000189e        0x6 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_nan.o)
-                0x0000189e                __fp_nan
+                0x00001b62        0x6 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_nan.o)
+                0x00001b62                __fp_nan
  .text.avr-libc.fplib
-                0x000018a4        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
-                0x000018a4                __fp_pscA
+                0x00001b68        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_pscA.o)
+                0x00001b68                __fp_pscA
  .text.avr-libc.fplib
-                0x000018b2        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
-                0x000018b2                __fp_pscB
+                0x00001b76        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_pscB.o)
+                0x00001b76                __fp_pscB
  .text.avr-libc.fplib
-                0x000018c0       0x22 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_round.o)
-                0x000018c0                __fp_round
+                0x00001b84       0x22 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_round.o)
+                0x00001b84                __fp_round
  .text.avr-libc.fplib
-                0x000018e2       0x44 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_split3.o)
-                0x000018e2                __fp_split3
-                0x000018f2                __fp_splitA
+                0x00001ba6       0x44 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_split3.o)
+                0x00001ba6                __fp_split3
+                0x00001bb6                __fp_splitA
  .text.avr-libc.fplib
-                0x00001926        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_zero.o)
-                0x00001926                __fp_zero
-                0x00001928                __fp_szero
+                0x00001bea        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(fp_zero.o)
+                0x00001bea                __fp_zero
+                0x00001bec                __fp_szero
  .text.libgcc.prologue
-                0x00001934       0x38 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
-                0x00001934                __prologue_saves__
+                0x00001bf8       0x38 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_prologue.o)
+                0x00001bf8                __prologue_saves__
  .text.libgcc.prologue
-                0x0000196c       0x36 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
-                0x0000196c                __epilogue_restores__
+                0x00001c30       0x36 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_epilogue.o)
+                0x00001c30                __epilogue_restores__
  .text.libgcc.div
-                0x000019a2       0x28 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodhi4.o)
-                0x000019a2                __udivmodhi4
- .text.libgcc   0x000019ca        0xc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
-                0x000019ca                __tablejump2__
+                0x00001c66       0x28 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001c66                __udivmodhi4
+ .text.libgcc   0x00001c8e        0xc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_tablejump2.o)
+                0x00001c8e                __tablejump2__
  .text.avr-libc.fplib
-                0x000019d6        0xa c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x000019d6                __subsf3
-                0x000019d8                __addsf3
+                0x00001c9a        0xa c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00001c9a                __subsf3
+                0x00001c9c                __addsf3
  .text.avr-libc.fplib
-                0x000019e0       0xc0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x000019fa                __addsf3x
+                0x00001ca4       0xc0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00001cbe                __addsf3x
  .text.avr-libc.fplib
-                0x00001aa0        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00001aa0                __divsf3
+                0x00001d64        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00001d64                __divsf3
  .text.avr-libc.fplib
-                0x00001aa4       0xcc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x00001aba                __divsf3x
-                0x00001abe                __divsf3_pse
+                0x00001d68       0xcc c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00001d7e                __divsf3x
+                0x00001d82                __divsf3_pse
  .text.avr-libc.fplib
-                0x00001b70       0x58 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00001b70                __fixunssfsi
+                0x00001e34       0x58 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00001e34                __fixunssfsi
  .text.avr-libc.fplib
-                0x00001bc8        0x8 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x00001bc8                __gesf2
-                0x00001bc8                __gtsf2
+                0x00001e8c        0x8 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x00001e8c                __gesf2
+                0x00001e8c                __gtsf2
  .text.avr-libc
-                0x00001bd0      0x25a c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00001bd0                malloc
-                0x00001cfa                free
+                0x00001e94      0x25a c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00001e94                malloc
+                0x00001fbe                free
  .text.avr-libc
-                0x00001e2a      0x186 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x00001e2a                realloc
+                0x000020ee      0x186 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x000020ee                realloc
  .text.avr-libc
-                0x00001fb0       0x12 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x00001fb0                memcpy
+                0x00002274       0x12 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00002274                memcpy
  .text.avr-libc
-                0x00001fc2        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                0x00001fc2                strcpy
-                0x00001fd0                . = ALIGN (0x2)
+                0x00002286        0xe c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00002286                strcpy
+                0x00002294                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001fd0        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
-                0x00001fd0                _exit
-                0x00001fd0                exit
+ .fini9         0x00002294        0x0 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+                0x00002294                _exit
+                0x00002294                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00001fd0       0x14 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_dtors.o)
-                0x00001fd0                __do_global_dtors
+ .fini6         0x00002294       0x14 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_dtors.o)
+                0x00002294                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -887,60 +888,63 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00001fe4        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x000022a8        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00001fe8                _etext = .
+                0x000022ac                _etext = .
 
-.data           0x00800100      0x10c load address 0x00001fe8
+.data           0x00800100       0xf8 load address 0x000022ac
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
- .data          0x00800100        0x4 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
- .data          0x00800104        0x6 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800104                __malloc_heap_end
-                0x00800106                __malloc_heap_start
-                0x00800108                __malloc_margin
+ .data          0x00800100        0x6 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800100                __malloc_heap_end
+                0x00800102                __malloc_heap_start
+                0x00800104                __malloc_margin
  *(.data*)
  *(.rodata)
- .rodata        0x0080010a       0x28 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
- .rodata        0x00800132       0xc0 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
-                0x0080013a                _ZL10pinStructs.lto_priv.7
+ .rodata        0x00800106       0x28 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+ .rodata        0x0080012e       0xb0 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
+                0x00800136                _ZL10pinStructs.lto_priv.6
  *(.rodata*)
  .rodata.str1.1
-                0x008001f2       0x1a C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
-                                 0x1b (size before relaxing)
+                0x008001de        0x6 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+                                  0x7 (size before relaxing)
+ .rodata.str1.1
+                0x008001e4       0x14 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
+                                 0x15 (size before relaxing)
  *(.gnu.linkonce.d*)
-                0x0080020c                . = ALIGN (0x2)
-                0x0080020c                _edata = .
-                0x0080020c                PROVIDE (__data_end, .)
+                0x008001f8                . = ALIGN (0x2)
+                0x008001f8                _edata = .
+                0x008001f8                PROVIDE (__data_end, .)
 
-.bss            0x0080020c       0x4d
-                0x0080020c                PROVIDE (__bss_start, .)
+.bss            0x008001f8       0x31
+                0x008001f8                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x0080020c        0x4 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
- .bss           0x00800210       0x45 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
-                0x00800210                _ZL17thisRotaryEncoder.lto_priv.8
-                0x00800212                _ZN12_GLOBAL__N_113timer0_millisE.lto_priv.6
-                0x00800216                _ZN8MenuView7btn2ValE
-                0x00800217                _ZN8MenuView5_btn2E
-                0x00800219                _ZN8MenuView7btn1ValE
-                0x0080021a                _ZN8MenuView5_btn1E
-                0x0080021c                _ZN8MenuView10selectMenuE
-                0x0080023c                _ZN8MenuView7appMenuE
+ .bss           0x008001f8        0x2 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
+ .bss           0x008001fa       0x2b C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
+                0x008001fa                _ZN4Menu19opts_menu_selectionE
+                0x00800200                _ZN4Menu18app_menu_selectionE
+                0x00800206                _ZN4Menu4_lcdE
+                0x00800208                _ZL17thisRotaryEncoder.lto_priv.7
+                0x0080020a                _ZN12_GLOBAL__N_113timer0_millisE.lto_priv.5
+                0x0080020e                _ZN8MenuView7btn2ValE
+                0x0080020f                _ZN8MenuView5_btn2E
+                0x00800211                _ZN8MenuView7btn1ValE
+                0x00800212                _ZN8MenuView5_btn1E
  *(.bss*)
  *(COMMON)
- COMMON         0x00800255        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x00800255                __brkval
-                0x00800257                __flp
-                0x00800259                PROVIDE (__bss_end, .)
-                0x00001fe8                __data_load_start = LOADADDR (.data)
-                0x000020f4                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800225        0x4 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800225                __brkval
+                0x00800227                __flp
+                0x00800229                PROVIDE (__bss_end, .)
+                0x000022ac                __data_load_start = LOADADDR (.data)
+                0x000023a4                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800259        0x0
+.noinit         0x00800229        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800259                _end = .
-                0x00800259                PROVIDE (__heap_start, .)
+                0x00800229                _end = .
+                0x00800229                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -981,9 +985,9 @@ END GROUP
 
 .comment        0x00000000       0x11
  *(.comment)
- .comment       0x00000000       0x11 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans0.ltrans.o
+ .comment       0x00000000       0x11 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans0.ltrans.o
                                  0x12 (size before relaxing)
- .comment       0x00000011       0x12 C:\Users\carlos\AppData\Local\Temp\ccfnd4Xb.ltrans1.ltrans.o
+ .comment       0x00000011       0x12 C:\Users\carlos\AppData\Local\Temp\cc24QiAw.ltrans1.ltrans.o
  .comment       0x00000011       0x12 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(malloc.o)
  .comment       0x00000011       0x12 c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr5\libc.a(realloc.o)
 

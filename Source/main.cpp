@@ -52,7 +52,7 @@ LCD_DB7   | PD1         | 1
 
 /*
  * TODO
- * edit appMenu & selectionMenu to be compatible with MenuView
+ * edit selectionMenu to be compatible with MenuView
  * finish handle user IO
  */
 
@@ -85,8 +85,7 @@ int main(){
     while(1){
         _delay_ms(100);
 
-        menuController.handleUserIO();
-        menuController.updateTemperatures();
+        menuController.handleUserInput();
         menuController.updatePWMValue();
         menuController.refreshScreen();
     }

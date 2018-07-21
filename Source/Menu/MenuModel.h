@@ -20,12 +20,9 @@ public:
         MenuModel::TempUnity tempUnity = MenuModel::TempUnity::CELSIUS;
         Menu::MenuScreen defaultScreen = Menu::MenuScreen::APP_MENU;
         bool lockedRotaryFlag = false;
-        uint16_t defaultTemp = 150;
+        double defaultTemp = 300.0;
         //todo add calibration variables
     } options;
-
-    uint16_t setTemp;
-    uint16_t mesTemp;
 
     Menu::MenuScreen lastScreen;
     Menu::MenuScreen currentScreen;
@@ -33,15 +30,13 @@ public:
     FastPWMPin* _pwmOut;
     AnalogPin* _ptcRead;
 
-    double pwmVal;
-    double pidIn;
-    double pidOut;
-    double pidSetpoint;
+    double pwmVal_PIDOut;
+    double mesTemp_PIDIn;
+    double setTemp_PIDSetpoint;
     PID myPID;
 
 public:
     MenuModel(AnalogPin* ptcRead, FastPWMPin* pwmOut);
-    uint16_t convertTemp(TempUnity unity);
     double measureTemp();
     //todo handle soldering station options
     void loadOptions();

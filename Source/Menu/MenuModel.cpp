@@ -1,7 +1,7 @@
 #include "MenuModel.h"
 
 MenuModel::MenuModel(AnalogPin *ptcRead, FastPWMPin *pwmOut) :
-        myPID(&pidIn, &pidOut, &pidSetpoint, 2, 5, 1, DIRECT)
+        myPID(&mesTemp_PIDIn, &pwmVal_PIDOut, &setTemp_PIDSetpoint, 2, 5, 1, DIRECT)
 {
     _ptcRead = ptcRead;
     _pwmOut = pwmOut;
@@ -13,17 +13,6 @@ MenuModel::MenuModel(AnalogPin *ptcRead, FastPWMPin *pwmOut) :
     currentScreen = Menu::MenuScreen::APP_MENU;
 
     myPID.SetOutputLimits(0, 100);
-}
-uint16_t MenuModel::convertTemp(TempUnity unity){
-    switch(unity){
-        case MenuModel::TempUnity::CELSIUS:
-            return (uint16_t) measureTemp();
-        break;
-        case MenuModel::TempUnity::FAHRENHEIT:
-            return (uint16_t) (measureTemp() * 9 / 5 + 32);
-        break;
-    }
-    return 0;
 }
 
 double MenuModel::measureTemp(){

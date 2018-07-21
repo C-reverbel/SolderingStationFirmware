@@ -59,6 +59,7 @@ set(srcs Source/main.cpp
         Source/Menu/MenuView.cpp
         Source/Menu/MenuController.cpp
         Source/Menu/MenuModel.cpp
+        Source/Menu/OptionsMenu.cpp
         #Source/LCD/Printable.h
         #${AVRTools}
         )

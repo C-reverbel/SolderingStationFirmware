@@ -8,22 +8,24 @@
 #include "../LCD/LCD.h"
 #include "../USER_IO/Button.h"
 #include "../USER_IO/RotaryEncoder.h"
+#include "OptionsMenu.h"
 
 class MenuView {
 public:
-    static LiquidCrystal* _lcd;
     static Button* _btn1;
     static Button* _btn2;
     static RotaryEncoder* _rotaryEnc;
 
-    static uint16_t setTemp;
-    static uint16_t mesTemp;
-
-    static Menu::MenuScreen currentScreen;
-    static Menu::MenuScreen lastScreen;
-
-    static ApplicationMenu appMenu;
-    static SelectionMenu selectMenu;
+    ApplicationMenu appMenu;
+    SelectionMenu selectMenu;
+    OptionsMenu optionsMenu;
+    // edit here to add new menu
+    static const uint8_t numberOfSelectableMenus = 2;
+    uint8_t highlightedMenuIndex = 0;
+    Menu::MenuScreen listOfSelectableMenus[numberOfSelectableMenus] = {
+        Menu::MenuScreen::APP_MENU,
+        Menu::MenuScreen::OPTIONS_MENU
+    };
 private:
     static bool btn1Val;
     static bool btn2Val;
@@ -44,8 +46,8 @@ public:
         btn2Val = value;
     }
 
-    void refreshScreen();
     Menu::userIO getIOValues();
+    void resetSelectionMenu();
 private:
     static void attachLCD(LiquidCrystal* lcd);
     static void attachButtons(Button* btn1, Button* btn2);

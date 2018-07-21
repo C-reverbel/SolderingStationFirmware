@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj"
   "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuModel.cpp.obj"
+  "CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/OptionsMenu.cpp.obj"
   "alc-ATMEGA328P.elf.pdb"
   "alc-ATMEGA328P.elf"
   "alc-ATMEGA328P.elf.manifest"

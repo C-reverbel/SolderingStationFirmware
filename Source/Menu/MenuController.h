@@ -1,6 +1,8 @@
 #ifndef SOLDERINGSTATIONFIRMWARE_MENUCONTROLLER_H
 #define SOLDERINGSTATIONFIRMWARE_MENUCONTROLLER_H
 
+#include <avr/io.h>
+
 #include "MenuView.h"
 #include "MenuModel.h"
 
@@ -16,11 +18,11 @@ public:
 public:
     MenuController(MenuView* menuView, MenuModel* menuModel);
     // handles the View
-    void handleUserIO();
+    void handleUserInput();
     void refreshScreen();
     // handles the Model
-    void updateTemperatures();
     void updatePWMValue();
+
 private:
     void initVariables();
 };

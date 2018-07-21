@@ -185,12 +185,18 @@ stdint.h
 -
 Menu.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+MenuModel.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp
 Menu.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+stdio.h
+-
+stdlib.h
+-
 USER_IO/Button.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/USER_IO/Button.h
 LCD/LCD.h
@@ -201,6 +207,8 @@ MenuController.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
+avr/io.h
+-
 MenuView.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
 MenuModel.h
@@ -243,6 +251,16 @@ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
 ../USER_IO/RotaryEncoder.h
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h
+OptionsMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.cpp
+OptionsMenu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
+
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
+Menu.h
+C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
 
 C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp
 util/delay.h

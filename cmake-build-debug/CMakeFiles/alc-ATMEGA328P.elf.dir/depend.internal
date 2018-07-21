@@ -31,15 +31,19 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.cpp
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj
+ ../Source/GPIO/AnalogPin.h
+ ../Source/GPIO/FastPWMPin.h
  ../Source/GPIO/GPIO.h
  ../Source/LCD/LCD.h
  ../Source/LCD/Print.h
  ../Source/LCD/Printable.h
  ../Source/LCD/WString.h
+ ../Source/PID/PID_v1.h
  ../Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj
  ../Source/GPIO/GPIO.h
  ../Source/LCD/LCD.h
@@ -67,6 +71,7 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h
@@ -84,7 +89,11 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuModel.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.cpp
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj
+ ../Source/GPIO/AnalogPin.h
+ ../Source/GPIO/FastPWMPin.h
+ ../Source/GPIO/GPIO.h
  ../Source/LCD/LCD.h
+ ../Source/PID/PID_v1.h
  ../Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h
@@ -93,11 +102,23 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h
+CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/OptionsMenu.cpp.obj
+ ../Source/GPIO/GPIO.h
+ ../Source/LCD/LCD.h
+ ../Source/LCD/Print.h
+ ../Source/LCD/Printable.h
+ ../Source/LCD/WString.h
+ ../Source/USER_IO/Button.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.cpp
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
 CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj
  ../Source/GPIO/GPIO.h
  ../Source/LCD/LCD.h
@@ -133,6 +154,7 @@ CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h
+ C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h
  C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h

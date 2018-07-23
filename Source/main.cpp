@@ -23,7 +23,7 @@ MICROCONTROLLER PINOUT
 Net       | Pad         | Arduino Uno pin
 -----------------------------------------------
 PTC_READ  | PC0         | A0
-DimOut    | PB2/OC1B    | 10 (OC1B)
+DimOut    | OC1B (PB2)  | 10
 
 BTN_1     | PD5         | 5
 BTN_2     | PD6         | 6
@@ -52,8 +52,7 @@ LCD_DB7   | PD1         | 1
 
 /*
  * TODO
- * edit selectionMenu to be compatible with MenuView
- * finish handle user IO
+ * simplify creation of new menus
  */
 
 int main(){
@@ -77,14 +76,35 @@ int main(){
     AnalogPin ptcRead(IO_C0, SINGLE_CONVERSION);
     // PWM INITIALIZATION
     FastPWMPin dimOut(OC1B);
-    // MENU VIEW INITIALIZATION
+    // MENUS INITIALIZATION
     MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
     MenuModel menuModel(&ptcRead, &dimOut);
     MenuController menuController(&menuView, &menuModel);
 
+    /*
+     * /utils
+         * /GPIO
+         * /LCD
+         * /PID
+         * /USER_IO
+     * /backend
+         *
+     * /frontend
+         * /menu
+             * ...
+     * /data
+     */
+
+    /*
+     * main()
+         * backend.readIronTemperature()
+         * backend.updateTemperatureController()
+         * frontend.readUserInputs()
+         * frontend.updateScreen()
+     */
+
     while(1){
         _delay_ms(100);
-
         menuController.handleUserInput();
         menuController.updatePWMValue();
         menuController.refreshScreen();

@@ -55,5 +55,4 @@ private:
 
 };
 
-
 #endif //SOLDERINGSTATIONFIRMWARE_MENUVIEW_H

@@ -47,10 +47,8 @@ void MenuView::resetSelectionMenu(){
 ISR(PCINT2_vect){
     _delay_us(1800);
     // read btn 1
-    if(MenuView::_btn1->isPressed())
-        MenuView::setBtn1Val(true);
+    if(MenuView::_btn1->isPressed()){ MenuView::setBtn1Val(true); }
     // read btn 2
-    if(MenuView::_btn2->isPressed())
-        MenuView::setBtn2Val(true);
+    if(MenuView::_btn2->isPressed()){ MenuView::setBtn2Val(true); }
     // buttons will be cleared on read inside updateFromBtns() function
 }

@@ -2,16 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
+      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
+      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
+      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
       <config projectName="SolderingStationFirmware" targetName="set_calibration" />
       <config projectName="SolderingStationFirmware" targetName="get_status" />
-      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
-      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
-      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
-      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
       <config projectName="SolderingStationFirmware" targetName="alc" />
-      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
       <config projectName="SolderingStationFirmware" targetName="disassemble_alc" />
-      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,87 +22,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02601ca3-10fc-4113-906a-c2fcd90bf415" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Menu/OptionsMenu.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/ApplicationMenu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/ApplicationMenu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/Menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/Menu.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Menu/MenuController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuModel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuModel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuModel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuModel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Menu/MenuView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuView.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Menu/MenuView.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuView.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/SelectionMenu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/SelectionMenu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/SelectionMenu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/SelectionMenu.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuModel.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuModel.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SolderingStationFirmware.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SolderingStationFirmware.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/SolderingStationFirmware.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/SolderingStationFirmware.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
@@ -118,14 +47,33 @@
     <splitter split-orientation="horizontal" split-proportion="0.50823826">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Source/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+                <state relative-caret-position="197">
+                  <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#439#1428#0" />
+                    <element signature="e#1430#1478#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/main.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="68">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RotaryEncoder.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1054">
+                  <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -133,18 +81,16 @@
           <file leaf-file-name="MenuController.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+                <state relative-caret-position="799">
+                  <caret line="47" column="21" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="21" />
                   <folding>
                     <element signature="e#29#181#0" />
-                    <element signature="e#1878#2209#0" />
-                    <element signature="e#2236#2697#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Menu.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Menu.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
@@ -156,35 +102,15 @@
           <file leaf-file-name="MenuView.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+                <state relative-caret-position="714">
+                  <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
                   <folding>
                     <element signature="e#311#494#0" />
                     <element signature="e#496#569#0" />
                     <element signature="e#570#665#0" />
                     <element signature="e#666#757#0" />
                     <element signature="e#759#1061#0" />
-                    <element signature="e#1062#1095#0" />
-                    <element signature="e#1080#1357#0" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MenuModel.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OptionsMenu.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                 </state>
               </provider>
             </entry>
@@ -196,14 +122,10 @@
           <file leaf-file-name="MenuView.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="571">
+                  <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
                   <folding>
                     <element signature="e#89#106#0" expanded="true" />
-                    <element signature="e#594#649#0" />
-                    <element signature="e#654#720#0" />
-                    <element signature="e#725#780#0" />
-                    <element signature="e#785#851#0" />
                   </folding>
                 </state>
               </provider>
@@ -212,7 +134,7 @@
           <file leaf-file-name="Menu.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
+                <state relative-caret-position="391">
                   <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
                   <folding>
                     <element signature="e#85#103#0" expanded="true" />
@@ -225,7 +147,7 @@
             <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
             </entry>
@@ -245,7 +167,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_FG_PIN(B</find>
       <find>_FG_PIN(C</find>
       <find>print</find>
       <find>command</find>
@@ -275,6 +196,7 @@
       <find>setTunin</find>
       <find>100</find>
       <find>POn</find>
+      <find>if(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,7 +217,6 @@
         <option value="$PROJECT_DIR$/Source/GPIO/FastGPIO.h" />
         <option value="$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp" />
         <option value="$PROJECT_DIR$/Source/LCD/LiquidCrystal.h" />
-        <option value="$PROJECT_DIR$/Source/main.h" />
         <option value="$PROJECT_DIR$/Source/LCD/WString.cpp" />
         <option value="$PROJECT_DIR$/Source/LCD/LCD.cpp" />
         <option value="$PROJECT_DIR$/Source/LCD/LCD.h" />
@@ -321,19 +242,20 @@
         <option value="$PROJECT_DIR$/Source/Menu/ApplicationMenu.h" />
         <option value="$PROJECT_DIR$/Source/Menu/MenuModel.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/MenuController.h" />
-        <option value="$PROJECT_DIR$/Source/main.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/MenuModel.h" />
         <option value="$PROJECT_DIR$/Source/Menu/SelectionMenu.cpp" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuView.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/Menu/SelectionMenu.h" />
         <option value="$PROJECT_DIR$/Source/Menu/OptionsMenu.h" />
         <option value="$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/Menu.h" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuView.h" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuController.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/Menu.cpp" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuController.cpp" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuView.cpp" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuView.h" />
+        <option value="$PROJECT_DIR$/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/Source/main.h" />
       </list>
     </option>
   </component>
@@ -345,8 +267,6 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="800" />
     <option name="height" value="860" />
   </component>
@@ -370,12 +290,6 @@
               <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
               <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
-              <item name="Source" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -482,11 +396,14 @@
       <workItem from="1532010206972" duration="2108000" />
       <workItem from="1532114666700" duration="1990000" />
       <workItem from="1532126354622" duration="8078000" />
+      <workItem from="1532137390261" duration="1937000" />
+      <workItem from="1532220205831" duration="2825000" />
+      <workItem from="1532308223959" duration="10153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232525000" />
+    <option name="totallyTimeSpent" value="247440000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,12 +417,11 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14131813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14131813" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.37262872" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" weight="0.37262872" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.2682927" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -518,20 +434,21 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14131813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14131813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" visible="true" weight="0.37262872" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" weight="0.37262872" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -548,7 +465,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -608,13 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="454" column="8" selection-start-line="454" selection-start-column="8" selection-end-line="454" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/main.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -731,13 +641,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuPresenter.cpp" />
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuPresenter.h" />
     <entry file="file://$PROJECT_DIR$/Source/PID/PID_v1.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,24 +680,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding>
-            <element signature="e#75#160#0" />
-            <element signature="e#162#610#0" />
-            <element signature="e#612#792#0" />
-            <element signature="e#793#950#0" />
-            <element signature="e#952#1353#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,21 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#92#111#0" expanded="true" />
-            <element signature="e#243#301#1" />
-            <element signature="e#354#632#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,16 +715,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="391">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#85#103#0" expanded="true" />
@@ -861,21 +728,7 @@
     <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#89#106#0" expanded="true" />
-            <element signature="e#594#649#0" />
-            <element signature="e#654#720#0" />
-            <element signature="e#725#780#0" />
-            <element signature="e#785#851#0" />
-          </folding>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -883,36 +736,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding>
-            <element signature="e#311#494#0" />
-            <element signature="e#496#569#0" />
-            <element signature="e#570#665#0" />
-            <element signature="e#666#757#0" />
-            <element signature="e#759#1061#0" />
-            <element signature="e#1062#1095#0" />
-            <element signature="e#1080#1357#0" />
-          </folding>
+        <state relative-caret-position="1054">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+        <state relative-caret-position="799">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="e#29#181#0" />
-            <element signature="e#1878#2209#0" />
-            <element signature="e#2236#2697#0" />
           </folding>
         </state>
       </provider>
@@ -921,6 +760,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+          <folding>
+            <element signature="e#311#494#0" />
+            <element signature="e#496#569#0" />
+            <element signature="e#570#665#0" />
+            <element signature="e#666#757#0" />
+            <element signature="e#759#1061#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#89#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/main.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+          <folding>
+            <element signature="e#439#1428#0" />
+            <element signature="e#1430#1478#0" />
+          </folding>
         </state>
       </provider>
     </entry>

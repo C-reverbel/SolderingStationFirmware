@@ -14,20 +14,21 @@ void MenuController::handleUserInput(){
     switch(_menuModel->currentScreen){
         case Menu::MenuScreen::APP_MENU:
             // handle buttons
-            if(userIO.btn1)
+            if(userIO.btn1){
                 lockedRotaryFlag = !lockedRotaryFlag;
-            if(userIO.btn2){
+            }if(userIO.btn2){
                 _menuModel->lastScreen = _menuModel->currentScreen;
                 _menuModel->currentScreen = Menu::MenuScreen::SELECTION_MENU;
                 _menuView->resetSelectionMenu();
             }
             // handle rotary encoder
-            if(!lockedRotaryFlag)
+            if(!lockedRotaryFlag){
                 _menuModel->setTemp_PIDSetpoint += userIO.rotIncr;
-            if(_menuModel->setTemp_PIDSetpoint > 400)
+            }if(_menuModel->setTemp_PIDSetpoint > 400){
                 _menuModel->setTemp_PIDSetpoint = 400;
-            else if (_menuModel->setTemp_PIDSetpoint < 100)
+            } else if (_menuModel->setTemp_PIDSetpoint < 100){
                 _menuModel->setTemp_PIDSetpoint = 100;
+            }
         break;
         case Menu::MenuScreen::SELECTION_MENU:
             // handle buttons
@@ -42,16 +43,12 @@ void MenuController::handleUserInput(){
             // handle rotary encoder
             if(userIO.rotIncr > 0){
                 temp = _menuView->highlightedMenuIndex + 1;
-                if(temp > _menuView->numberOfSelectableMenus - 1)
-                    _menuView->highlightedMenuIndex = _menuView->numberOfSelectableMenus - 1;
-                else
-                    _menuView->highlightedMenuIndex = temp;
+                if(temp > _menuView->numberOfSelectableMenus - 1) { _menuView->highlightedMenuIndex = _menuView->numberOfSelectableMenus - 1; }
+                else { _menuView->highlightedMenuIndex = temp; }
             }else if(userIO.rotIncr < 0){
                 temp = _menuView->highlightedMenuIndex - 1;
-                if(temp < 0)
-                    _menuView->highlightedMenuIndex = 0;
-                else
-                    _menuView->highlightedMenuIndex = temp;
+                if(temp < 0) { _menuView->highlightedMenuIndex = 0; }
+                else { _menuView->highlightedMenuIndex = temp; }
             }
         break;
     }

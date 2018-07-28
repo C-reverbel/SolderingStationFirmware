@@ -1,22 +1,19 @@
 #ifndef SOLDERINGSTATIONFIRMWARE_SCREEN_H
 #define SOLDERINGSTATIONFIRMWARE_SCREEN_H
 
-#include <stdio.h>
-#include <stdlib.h>
-
-#include "USER_IO/Button.h"
-#include "LCD/LCD.h"
+#include "frontend/USER_IO/Button.h"
+#include "utils/LCD/LCD.h"
 
 
 class Menu {
 protected:
     static const char degree_symbol = '\337';
-    const char leftArrow = '<';
-    const char rightArrow = '>';
+    static const char leftArrow = '<';
+    static const char rightArrow = '>';
 
+    static String opts_menu_selection;
     static String app_menu_selection;
     static String cal_menu_selection;
-    static String opts_menu_selection;
     static String menu_text;
 
     static LiquidCrystal* _lcd;

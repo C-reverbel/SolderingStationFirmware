@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/3.12.0/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/avr-g++.exe 
@@ -24,28 +24,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/3.12.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_cb1c4\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_cb1c4.dir\build.make /nologo -L                  CMakeFiles\cmTC_cb1c4.dir\build
-Building C object CMakeFiles/cmTC_cb1c4.dir/testCCompiler.c.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG -o CMakeFiles\cmTC_cb1c4.dir\testCCompiler.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_cb1c4
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    "CMakeFiles\cmTC_cb1c4.dir\testCCompiler.c.obj"   -o cmTC_cb1c4
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_8c171/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_8c171.dir\build.make CMakeFiles/cmTC_8c171.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c171.dir/testCCompiler.c.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -o CMakeFiles\cmTC_8c171.dir\testCCompiler.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_8c171
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8c171.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    CMakeFiles/cmTC_8c171.dir/testCCompiler.c.obj  -o cmTC_8c171 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_5549f\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_5549f.dir\build.make /nologo -L                  CMakeFiles\cmTC_5549f.dir\build
-Building C object CMakeFiles/cmTC_5549f.dir/CMakeCCompilerABI.c.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG -o CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_5549f
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -v "CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj"   -o cmTC_5549f
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7639b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7639b.dir\build.make CMakeFiles/cmTC_7639b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -o CMakeFiles\cmTC_7639b.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_7639b
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7639b.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -v CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj  -o cmTC_7639b 
 Using built-in specs.
 Reading specs from c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2
 COLLECT_GCC=C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe
@@ -56,20 +61,23 @@ Thread model: single
 gcc version 4.9.2 (GCC) 
 COMPILER_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/
 LIBRARY_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_5549f' '-specs=device-specs/specs-avr2'
- c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cceVuBLh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_5549f -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_7639b' '-specs=device-specs/specs-avr2'
+ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccCQNv8L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_7639b -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"nmake" "/NOLOGO" "cmTC_5549f\fast"]
-  ignore line: [	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_5549f.dir\build.make /nologo -L                  CMakeFiles\cmTC_5549f.dir\build]
-  ignore line: [Building C object CMakeFiles/cmTC_5549f.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG -o CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_5549f]
-  ignore line: [	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -v "CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj"   -o cmTC_5549f]
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7639b/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7639b.dir\build.make CMakeFiles/cmTC_7639b.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -o CMakeFiles\cmTC_7639b.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_7639b]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7639b.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -v CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj  -o cmTC_7639b ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2]
   ignore line: [COLLECT_GCC=C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe]
@@ -84,22 +92,22 @@ Parsed C implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/]
   ignore line: [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/]
   ignore line: [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_5549f' '-specs=device-specs/specs-avr2']
-  link line: [ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cceVuBLh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_5549f -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_7639b' '-specs=device-specs/specs-avr2']
+  link line: [ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccCQNv8L.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_7639b -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
     arg [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cceVuBLh.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccCQNv8L.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lm] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5549f] ==> ignore
+    arg [cmTC_7639b] ==> ignore
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2]
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc]
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib]
-    arg [CMakeFiles\cmTC_5549f.dir\CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_7639b.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lm] ==> lib [m]
@@ -118,12 +126,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_47bf0\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_47bf0.dir\build.make /nologo -L                  CMakeFiles\cmTC_47bf0.dir\build
-Building C object CMakeFiles/cmTC_47bf0.dir/feature_tests.c.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c11 -o CMakeFiles\cmTC_47bf0.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
-Linking C executable cmTC_47bf0
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    "CMakeFiles\cmTC_47bf0.dir\feature_tests.c.obj"   -o cmTC_47bf0
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_d43f7/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d43f7.dir\build.make CMakeFiles/cmTC_d43f7.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43f7.dir/feature_tests.c.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c11 -o CMakeFiles\cmTC_d43f7.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_d43f7
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d43f7.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    CMakeFiles/cmTC_d43f7.dir/feature_tests.c.obj  -o cmTC_d43f7 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -135,12 +146,15 @@ Linking C executable cmTC_47bf0
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_66079\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_66079.dir\build.make /nologo -L                  CMakeFiles\cmTC_66079.dir\build
-Building C object CMakeFiles/cmTC_66079.dir/feature_tests.c.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c99 -o CMakeFiles\cmTC_66079.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
-Linking C executable cmTC_66079
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    "CMakeFiles\cmTC_66079.dir\feature_tests.c.obj"   -o cmTC_66079
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_7ce79/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_7ce79.dir\build.make CMakeFiles/cmTC_7ce79.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ce79.dir/feature_tests.c.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c99 -o CMakeFiles\cmTC_7ce79.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_7ce79
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7ce79.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    CMakeFiles/cmTC_7ce79.dir/feature_tests.c.obj  -o cmTC_7ce79 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,12 +166,15 @@ Linking C executable cmTC_66079
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_61aca\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_61aca.dir\build.make /nologo -L                  CMakeFiles\cmTC_61aca.dir\build
-Building C object CMakeFiles/cmTC_61aca.dir/feature_tests.c.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c90 -o CMakeFiles\cmTC_61aca.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
-Linking C executable cmTC_61aca
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    "CMakeFiles\cmTC_61aca.dir\feature_tests.c.obj"   -o cmTC_61aca
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_f59a2/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_f59a2.dir\build.make CMakeFiles/cmTC_f59a2.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f59a2.dir/feature_tests.c.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG   -std=c90 -o CMakeFiles\cmTC_f59a2.dir\feature_tests.c.obj   -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.c
+Linking C executable cmTC_f59a2
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f59a2.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-gcc.exe   -O3 -DNDEBUG    CMakeFiles/cmTC_f59a2.dir/feature_tests.c.obj  -o cmTC_f59a2 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -167,23 +184,28 @@ Linking C executable cmTC_61aca
 Determining if the CXX compiler works passed with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_9d2fa\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_9d2fa.dir\build.make /nologo -L                  CMakeFiles\cmTC_9d2fa.dir\build
-Building CXX object CMakeFiles/cmTC_9d2fa.dir/testCXXCompiler.cxx.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG -o CMakeFiles\cmTC_9d2fa.dir\testCXXCompiler.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_9d2fa
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    "CMakeFiles\cmTC_9d2fa.dir\testCXXCompiler.cxx.obj"   -o cmTC_9d2fa
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_fd7ed/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_fd7ed.dir\build.make CMakeFiles/cmTC_fd7ed.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd7ed.dir/testCXXCompiler.cxx.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -o CMakeFiles\cmTC_fd7ed.dir\testCXXCompiler.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_fd7ed
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_fd7ed.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    CMakeFiles/cmTC_fd7ed.dir/testCXXCompiler.cxx.obj  -o cmTC_fd7ed 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_27616\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_27616.dir\build.make /nologo -L                  CMakeFiles\cmTC_27616.dir\build
-Building CXX object CMakeFiles/cmTC_27616.dir/CMakeCXXCompilerABI.cpp.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG -o CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_27616
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -v "CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj"   -o cmTC_27616
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_4a16b/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4a16b.dir\build.make CMakeFiles/cmTC_4a16b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -o CMakeFiles\cmTC_4a16b.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_4a16b
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4a16b.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -v CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_4a16b 
 Using built-in specs.
 Reading specs from c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2
 COLLECT_GCC=C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe
@@ -194,20 +216,23 @@ Thread model: single
 gcc version 4.9.2 (GCC) 
 COMPILER_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/bin/
 LIBRARY_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/;c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/
-COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_27616' '-specs=device-specs/specs-avr2'
- c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccmVyvvI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_27616 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_4a16b' '-specs=device-specs/specs-avr2'
+ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cc3Vf4HC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_4a16b -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(avr-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"nmake" "/NOLOGO" "cmTC_27616\fast"]
-  ignore line: [	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_27616.dir\build.make /nologo -L                  CMakeFiles\cmTC_27616.dir\build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_27616.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG -o CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.1\bin\cmake\share\cmake-3.10\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_27616]
-  ignore line: [	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -v "CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj"   -o cmTC_27616]
+  ignore line: [Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_4a16b/fast"]
+  ignore line: [C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4a16b.dir\build.make CMakeFiles/cmTC_4a16b.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -o CMakeFiles\cmTC_4a16b.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_4a16b]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4a16b.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -v CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_4a16b ]
   ignore line: [Using built-in specs.]
   ignore line: [Reading specs from c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/device-specs/specs-avr2]
   ignore line: [COLLECT_GCC=C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe]
@@ -222,22 +247,22 @@ Parsed CXX implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/]
   ignore line: [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/]
   ignore line: [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_27616' '-specs=device-specs/specs-avr2']
-  link line: [ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccmVyvvI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_27616 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+  ignore line: [COLLECT_GCC_OPTIONS='-O3' '-D' 'NDEBUG' '-v' '-o' 'cmTC_4a16b' '-specs=device-specs/specs-avr2']
+  link line: [ c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe -plugin c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll -plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cc3Vf4HC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_4a16b -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2 -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc -Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
     arg [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../libexec/gcc/avr/4.9.2/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\ccmVyvvI.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\carlos\AppData\Local\Temp\cc3Vf4HC.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lm] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_27616] ==> ignore
+    arg [cmTC_4a16b] ==> ignore
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2]
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc]
     arg [-Lc:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib] ==> dir [c:/users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib]
-    arg [CMakeFiles\cmTC_27616.dir\CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_4a16b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -258,12 +283,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_21345\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_21345.dir\build.make /nologo -L                  CMakeFiles\cmTC_21345.dir\build
-Building CXX object CMakeFiles/cmTC_21345.dir/feature_tests.cxx.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++14 -o CMakeFiles\cmTC_21345.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_21345
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    "CMakeFiles\cmTC_21345.dir\feature_tests.cxx.obj"   -o cmTC_21345
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_dae2a/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_dae2a.dir\build.make CMakeFiles/cmTC_dae2a.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dae2a.dir/feature_tests.cxx.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++14 -o CMakeFiles\cmTC_dae2a.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_dae2a
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_dae2a.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    CMakeFiles/cmTC_dae2a.dir/feature_tests.cxx.obj  -o cmTC_dae2a 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -328,12 +356,15 @@ Linking CXX executable cmTC_21345
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_d80ce\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_d80ce.dir\build.make /nologo -L                  CMakeFiles\cmTC_d80ce.dir\build
-Building CXX object CMakeFiles/cmTC_d80ce.dir/feature_tests.cxx.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++11 -o CMakeFiles\cmTC_d80ce.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d80ce
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    "CMakeFiles\cmTC_d80ce.dir\feature_tests.cxx.obj"   -o cmTC_d80ce
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_2b45c/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_2b45c.dir\build.make CMakeFiles/cmTC_2b45c.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b45c.dir/feature_tests.cxx.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++11 -o CMakeFiles\cmTC_2b45c.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_2b45c
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2b45c.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    CMakeFiles/cmTC_2b45c.dir/feature_tests.cxx.obj  -o cmTC_2b45c 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -398,12 +429,15 @@ Linking CXX executable cmTC_d80ce
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp
 
-Run Build Command:"nmake" "/NOLOGO" "cmTC_3a3d7\fast"
-	"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_3a3d7.dir\build.make /nologo -L                  CMakeFiles\cmTC_3a3d7.dir\build
-Building CXX object CMakeFiles/cmTC_3a3d7.dir/feature_tests.cxx.obj
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++98 -o CMakeFiles\cmTC_3a3d7.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_3a3d7
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    "CMakeFiles\cmTC_3a3d7.dir\feature_tests.cxx.obj"   -o cmTC_3a3d7
+Run Build Command:"C:/MinGW/bin/mingw32-make.exe" "cmTC_defb1/fast"
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_defb1.dir\build.make CMakeFiles/cmTC_defb1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_defb1.dir/feature_tests.cxx.obj
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG   -std=c++98 -o CMakeFiles\cmTC_defb1.dir\feature_tests.cxx.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_defb1
+"C:\Program Files\JetBrains\CLion 2018.2\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_defb1.dir\link.txt --verbose=1
+C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe    -O3 -DNDEBUG    CMakeFiles/cmTC_defb1.dir/feature_tests.cxx.obj  -o cmTC_defb1 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

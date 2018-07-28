@@ -1,22 +1,3 @@
-#include <avr/io.h>
-#include <avr/interrupt.h>
-#include <util/delay.h>
-
-#include "GPIO/GPIO.h"
-#include "GPIO/FastPWMPin.h"
-#include "GPIO/AnalogPin.h"
-#include "LCD/LCD.h"
-#include "Menu/Menu.h"
-#include "Menu/ApplicationMenu.h"
-#include "Menu/SelectionMenu.h"
-#include "USER_IO/RotaryEncoder.h"
-#include "USER_IO/Button.h"
-#include "PID/PID_v1.h"
-
-#include "Menu/MenuView.h"
-#include "Menu/MenuController.h"
-#include "Menu/MenuModel.h"
-
 /*
 MICROCONTROLLER PINOUT
 -----------------------------------------------
@@ -55,6 +36,8 @@ LCD_DB7   | PD1         | 1
  * simplify creation of new menus
  */
 
+#include "main.h"
+
 int main(){
     // LCD INITIALIZATION
     //todo verificar se eh melhor passar os pinos como referencia
@@ -73,12 +56,12 @@ int main(){
     Button btn1(IO_D5);
     Button btn2(IO_D6);
     // ADC INITIALIZATION
-    AnalogPin ptcRead(IO_C0, SINGLE_CONVERSION);
+    AnalogPin ptcPin(IO_C0, SINGLE_CONVERSION);
     // PWM INITIALIZATION
-    FastPWMPin dimOut(OC1B);
+    FastPWMPin pwmPin(OC1B);
     // MENUS INITIALIZATION
     MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
-    MenuModel menuModel(&ptcRead, &dimOut);
+    MenuModel menuModel(&ptcPin, &pwmPin);
     MenuController menuController(&menuView, &menuModel);
 
     /*
@@ -99,7 +82,7 @@ int main(){
      * main()
          * backend.readIronTemperature()
          * backend.updateTemperatureController()
-         * frontend.readUserInputs()
+         * frontend.updateUserInputs()
          * frontend.updateScreen()
      */
 

@@ -11,270 +11,288 @@
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="alc">
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 alc"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="alc-ATMEGA328P.elf">
-				<Option output="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/alc-ATMEGA328P.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DF_CPU=16000000UL"/>
-					<Add directory="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 alc-ATMEGA328P.elf"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="alc-ATMEGA328P.elf/fast">
-				<Option output="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/alc-ATMEGA328P.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DF_CPU=16000000UL"/>
-					<Add directory="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
-					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 alc-ATMEGA328P.elf/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="upload_eeprom">
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 upload_eeprom"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="upload_alc">
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 upload_alc"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="get_fuses">
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 get_fuses"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="get_status">
-				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 get_status"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="set_fuses">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 set_fuses"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 set_fuses"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firmware-atmega328p.elf">
+				<Option output="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/firmware-atmega328p.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DF_CPU=16000000UL"/>
+					<Add directory="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 firmware-atmega328p.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firmware-atmega328p.elf/fast">
+				<Option output="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/firmware-atmega328p.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DF_CPU=16000000UL"/>
+					<Add directory="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/include-fixed"/>
+					<Add directory="c:\users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\../lib/gcc/avr/4.9.2/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 firmware-atmega328p.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="get_calibration">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 get_calibration"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 get_calibration"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="firmware">
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 firmware"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="set_calibration">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 set_calibration"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 set_calibration"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="disassemble_alc">
+			<Target title="upload_firmware">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 disassemble_alc"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 upload_firmware"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload_eeprom">
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 upload_eeprom"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_fuses">
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 get_fuses"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_status">
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 get_status"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="disassemble_firmware">
+				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 disassemble_firmware"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\Makefile VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/carlos/Desktop/Git/SolderingStationFirmware/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/AVRTools/SystemClock.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/AVRTools/SystemClock.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/AnalogPin.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/AnalogPin.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastPWMPin.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/FastPWMPin.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/GPIO/GPIO.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/LCD.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/Print.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/Print.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/LCD/WString.h">
-			<Option target="alc-ATMEGA328P.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/backend/Backend.cpp">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/PID/PID_v1.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/backend/Backend.h">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/Frontend.cpp">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/Button.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/Frontend.h">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/MenuItem.cpp">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/USER_IO/RotaryEncoder.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/MenuItem.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/USER_IO/Button.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/USER_IO/Button.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/USER_IO/RotaryEncoder.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/USER_IO/RotaryEncoder.h">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.cpp">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/main.h">
-			<Option target="alc-ATMEGA328P.elf"/>
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/AVRTools/SystemClock.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/AVRTools/SystemClock.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/AnalogPin.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/AnalogPin.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/FastPWMPin.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/FastPWMPin.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/GPIO.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/GPIO/GPIO.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/LCD.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/LCD.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/Print.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/Print.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/WString.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/LCD/WString.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/PID/PID_v1.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/utils/PID/PID_v1.h">
+			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

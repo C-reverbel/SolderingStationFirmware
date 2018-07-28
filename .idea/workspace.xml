@@ -2,115 +2,376 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
-      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
-      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
-      <config projectName="SolderingStationFirmware" targetName="alc-ATMEGA328P.elf" />
-      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
-      <config projectName="SolderingStationFirmware" targetName="upload_alc" />
-      <config projectName="SolderingStationFirmware" targetName="set_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="upload_firmware" />
       <config projectName="SolderingStationFirmware" targetName="get_status" />
-      <config projectName="SolderingStationFirmware" targetName="alc" />
-      <config projectName="SolderingStationFirmware" targetName="disassemble_alc" />
+      <config projectName="SolderingStationFirmware" targetName="set_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="disassemble_firmware" />
+      <config projectName="SolderingStationFirmware" targetName="set_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="get_calibration" />
+      <config projectName="SolderingStationFirmware" targetName="get_fuses" />
+      <config projectName="SolderingStationFirmware" targetName="upload_eeprom" />
+      <config projectName="SolderingStationFirmware" targetName="firmware" />
+      <config projectName="SolderingStationFirmware" targetName="firmware-atmega328p.elf" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot; -IS_WINDOWS=TRUE -DAVR_UPLOADTOOL_PORT=&quot;COM7&quot;" />
-      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot; -IS_WINDOWS=TRUE -DAVR_UPLOADTOOL_PORT=&quot;COM7&quot;" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot;" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" GENERATION_OPTIONS="-DCMAKE_PREFIX_PATH=&quot;C:/Users/carlos/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/&quot;" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02601ca3-10fc-4113-906a-c2fcd90bf415" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/SolderingStationData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/backend/Backend.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/backend/Backend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/frontend/Frontend.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/frontend/Frontend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuView.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuView.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMake/Toolchains/AVR.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMake/Toolchains/AVR.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Analog2Digital.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Analog2Digital.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Analog2Digital.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Analog2Digital.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/ArduinoMegaPins.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/ArduinoMegaPins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/ArduinoPins.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/ArduinoPins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/ArduinoUnoPins.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/ArduinoUnoPins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/COPYING" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/GpioPinMacros.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/GpioPinMacros.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cLcd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cLcd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cLcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cLcd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cMaster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cMaster.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cMaster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cMaster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cSlave.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cSlave.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/I2cSlave.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/I2cSlave.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/InitSystem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/InitSystem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/InitSystem.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/InitSystem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/InterruptUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/InterruptUtils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/MemUtils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/MemUtils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/MemUtils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/MemUtils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Pwm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Pwm.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Pwm.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Pwm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Reader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Reader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Reader.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Reader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/RingBuffer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/RingBuffer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/RingBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/RingBuffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/RingBufferT.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/RingBufferT.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SPI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SPI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SimpleDelays.S" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SimpleDelays.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SimpleDelays.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SimpleDelays.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SimpleDelays12MHz.inc.S" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SimpleDelays12MHz.inc.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SimpleDelays16MHz.inc.S" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SimpleDelays16MHz.inc.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SimpleDelays8MHz.inc.S" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SimpleDelays8MHz.inc.S" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SystemClock.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SystemClock.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/SystemClock.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/SystemClock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART0.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART0.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART0.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART0.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART0Minimal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART0Minimal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART0Minimal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART0Minimal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART1Minimal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART1Minimal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART1Minimal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART1Minimal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART2.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART2Minimal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART2Minimal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART2Minimal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART2Minimal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART3Minimal.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART3Minimal.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/USART3Minimal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/USART3Minimal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Writer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Writer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/Writer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/Writer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/abi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/abi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/abi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/abi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/new.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/new.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/AVRTools/new.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/AVRTools/new.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/AnalogPin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/AnalogPin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/AnalogPin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/AnalogPin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/FastPWMPin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/FastPWMPin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/FastPWMPin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/GPIO.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/GPIO.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GPIO/GPIO.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/GPIO/GPIO.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/LCD.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/LCD.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/LCD.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/LCD.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/Print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/Print.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/Print.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/Print.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/Printable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/Printable.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/WString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/WString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/LCD/WString.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/LCD/WString.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Menu/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Menu/MenuModel.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuModel.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Menu/MenuView.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Menu/MenuView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PID/PID_v1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/PID/PID_v1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/PID/PID_v1.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/utils/PID/PID_v1.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/USER_IO/Button.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/frontend/USER_IO/Button.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/USER_IO/Button.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/frontend/USER_IO/Button.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/frontend/USER_IO/RotaryEncoder.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/frontend/USER_IO/RotaryEncoder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AllogicaLightController.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/AVRTools/SystemClock.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/AnalogPin.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/FastPWMPin.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/GPIO/GPIO.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/LCD.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/Print.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/LCD/WString.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/ApplicationMenu.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/Menu.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuController.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuModel.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/MenuView.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/OptionsMenu.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/Menu/SelectionMenu.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/PID/PID_v1.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/Button.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/USER_IO/RotaryEncoder.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/Source/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/disassemble_alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/disassemble_alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/disassemble_alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/disassemble_alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_calibration.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_fuses.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/get_status.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_calibration.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/set_fuses.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/upload_eeprom.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SolderingStationFirmware.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SolderingStationFirmware.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P-eeprom.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/alc-ATMEGA328P.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/3.10.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc-ATMEGA328P.elf.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/disassemble_alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/disassemble_alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/disassemble_alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/disassemble_alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_calibration.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_fuses.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/get_status.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_calibration.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/set_fuses.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_alc.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/upload_eeprom.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/SolderingStationFirmware.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/SolderingStationFirmware.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/alc-ATMEGA328P.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/alc-ATMEGA328P.hex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/alc-ATMEGA328P.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="2115229131">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="839" />
+          <entry key="h" value="1840" />
+          <entry key="txt" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="58" />
+          <entry key="ObjectiveC" value="2679" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="15" />
+          <entry key="h" value="31" />
+          <entry key="txt" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="ObjectiveC" value="46" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50823826">
+    <splitter split-orientation="horizontal" split-proportion="0.51863754">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/backend/Backend.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#201#230#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Source/main.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="197">
-                  <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+                <state relative-caret-position="504">
+                  <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
                   <folding>
-                    <element signature="e#439#1428#0" />
-                    <element signature="e#1430#1478#0" />
+                    <element signature="e#0#989#0" />
+                    <element signature="e#991#1039#0" />
+                    <element signature="e#1839#2025#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/main.h">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/SolderingStationData.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="RotaryEncoder.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1054">
-                  <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="MenuController.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
-                  <caret line="47" column="21" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="21" />
+                <state relative-caret-position="408">
+                  <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
                   <folding>
-                    <element signature="e#29#181#0" />
+                    <element signature="e#155#224#1" />
+                    <element signature="e#226#272#1" />
+                    <element signature="e#523#635#1" />
+                    <element signature="e#946#1048#0" />
+                    <element signature="e#1204#1268#0" />
+                    <element signature="e#1062#1112#0" />
+                    <element signature="e#1117#1165#0" />
+                    <element signature="e#1170#1505#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Menu.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.cpp">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MenuView.cpp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.cpp">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Source/frontend/Frontend.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
-                  <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#311#494#0" />
-                    <element signature="e#496#569#0" />
-                    <element signature="e#570#665#0" />
-                    <element signature="e#666#757#0" />
-                    <element signature="e#759#1061#0" />
-                  </folding>
+                <state relative-caret-position="102">
+                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -118,45 +379,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="MenuView.h" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-                  <folding>
-                    <element signature="e#89#106#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Menu.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.h">
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
-                  <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+                  <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
                   <folding>
-                    <element signature="e#85#103#0" expanded="true" />
+                    <element signature="e#81#100#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SelectionMenu.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.h">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Source/frontend/Frontend.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="OptionsMenu.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="255">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                  <folding>
+                    <element signature="e#160#193#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -167,16 +410,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_FG_PIN(C</find>
-      <find>print</find>
-      <find>command</find>
-      <find>lto</find>
-      <find>::send</find>
-      <find>write</find>
-      <find>ATmega328p</find>
-      <find>PCICR</find>
-      <find>log2</find>
-      <find>log</find>
       <find>_pin</find>
       <find>COM</find>
       <find>COM7</find>
@@ -197,6 +430,16 @@
       <find>100</find>
       <find>POn</find>
       <find>if(</find>
+      <find>avr-size</find>
+      <find>comp</find>
+      <find>AVR_CC</find>
+      <find>%1</find>
+      <find>EXECUTABLE</find>
+      <find>EXECUTABLE_NAME</find>
+      <find>${</find>
+      <find>${target</find>
+      <find>alc</find>
+      <find>elf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,20 +448,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Source/LCD/lcd.hpp" />
-        <option value="$PROJECT_DIR$/Source/LCD/lcd.cpp" />
-        <option value="$PROJECT_DIR$/CMake/Toolchains/AVR.cmake" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/InitSystem.h" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/InitSystem.cpp" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/USART1.h" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/USART1.cpp" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/USART2.cpp" />
-        <option value="$PROJECT_DIR$/Source/AVRTools/USART3.cpp" />
-        <option value="$PROJECT_DIR$/Source/GPIO/FastGPIO.h" />
-        <option value="$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp" />
-        <option value="$PROJECT_DIR$/Source/LCD/LiquidCrystal.h" />
-        <option value="$PROJECT_DIR$/Source/LCD/WString.cpp" />
-        <option value="$PROJECT_DIR$/Source/LCD/LCD.cpp" />
         <option value="$PROJECT_DIR$/Source/LCD/LCD.h" />
         <option value="$PROJECT_DIR$/Source/LCD/Print.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/Screen.h" />
@@ -243,19 +472,33 @@
         <option value="$PROJECT_DIR$/Source/Menu/MenuModel.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/MenuController.h" />
         <option value="$PROJECT_DIR$/Source/Menu/ApplicationMenu.cpp" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuModel.h" />
         <option value="$PROJECT_DIR$/Source/Menu/SelectionMenu.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Source/Menu/SelectionMenu.h" />
         <option value="$PROJECT_DIR$/Source/Menu/OptionsMenu.h" />
         <option value="$PROJECT_DIR$/Source/Menu/OptionsMenu.cpp" />
-        <option value="$PROJECT_DIR$/Source/Menu/Menu.h" />
-        <option value="$PROJECT_DIR$/Source/Menu/Menu.cpp" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuController.cpp" />
         <option value="$PROJECT_DIR$/Source/Menu/MenuView.cpp" />
-        <option value="$PROJECT_DIR$/Source/Menu/MenuView.h" />
-        <option value="$PROJECT_DIR$/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuController.cpp" />
+        <option value="$PROJECT_DIR$/Source/Menu/Menu.cpp" />
+        <option value="$PROJECT_DIR$/CMake/Toolchains/AVR.cmake" />
+        <option value="$PROJECT_DIR$/Source/utils/USER_IO/Button.h" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuModel.h" />
+        <option value="$PROJECT_DIR$/Source/utils/USER_IO/RotaryEncoder.h" />
         <option value="$PROJECT_DIR$/Source/main.h" />
+        <option value="$PROJECT_DIR$/Source/Menu/MenuView.h" />
+        <option value="$PROJECT_DIR$/Source/Menu/Menu.h" />
+        <option value="$PROJECT_DIR$/Source/utils/PID/PID_v1.cpp" />
+        <option value="$PROJECT_DIR$/Source/backend/Backend.cpp" />
+        <option value="$PROJECT_DIR$/Source/backend/Backend.h" />
+        <option value="$PROJECT_DIR$/Source/utils/LCD/LCD.h" />
+        <option value="$PROJECT_DIR$/Source/frontend/Frontend.cpp" />
+        <option value="$PROJECT_DIR$/Source/main.cpp" />
+        <option value="$PROJECT_DIR$/Source/SolderingStationData.h" />
+        <option value="$PROJECT_DIR$/Source/frontend/MenuStructure/Menu.cpp" />
+        <option value="$PROJECT_DIR$/Source/frontend/MenuStructure/Menu.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.cpp" />
+        <option value="$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.h" />
+        <option value="$PROJECT_DIR$/Source/frontend/Frontend.h" />
       </list>
     </option>
   </component>
@@ -278,7 +521,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,10 +533,30 @@
               <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
               <item name="Source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="MenuStructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolderingStationFirmware" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolderingStationFirmware" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +564,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend" />
+      <recent name="C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -316,31 +584,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.upload_alc">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="alc-ATMEGA328P.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="alc-ATMEGA328P.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="alc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="disassemble_alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="disassemble_alc" CONFIG_NAME="Debug" />
-    <configuration name="get_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_calibration" CONFIG_NAME="Debug" />
-    <configuration name="get_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="get_status" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_status" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="set_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_calibration" CONFIG_NAME="Debug" />
-    <configuration name="set_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="upload_alc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_alc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" />
-    <configuration name="upload_eeprom" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_eeprom" CONFIG_NAME="Debug" />
-    <configuration xmlns:elmot-ocd="https://github.com/elmot/clion-embedded-arm" default="true" type="elmot.embedded.openocd.conf.type" factoryName="elmot.embedded.openocd.conf.factory" singleton="false" PASS_PARENT_ENVS_2="true" elmot-ocd:gdb-port="3333" elmot-ocd:telnet-port="4444" elmot-ocd:reset-type="INIT" elmot-ocd:download-type="ALWAYS" />
+  <component name="RunManager" selected="Application.upload_firmware">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="disassemble_firmware" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="disassemble_firmware" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firmware-atmega328p.elf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="firmware-atmega328p.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="firmware-atmega328p.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="firmware" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="firmware" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_calibration" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-atmega328p.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="get_status" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="get_status" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-atmega328p.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="set_calibration" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_calibration" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="set_fuses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="set_fuses" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="alc-ATMEGA328P.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="upload_eeprom" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_eeprom" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="upload_firmware" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SolderingStationFirmware" TARGET_NAME="upload_firmware" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SolderingStationFirmware" RUN_TARGET_NAME="firmware-atmega328p.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration xmlns:elmot-ocd="https://github.com/elmot/clion-embedded-arm" default="true" type="elmot.embedded.openocd.conf.type" factoryName="elmot.embedded.openocd.conf.factory" singleton="false" PASS_PARENT_ENVS_2="true" elmot-ocd:gdb-port="3333" elmot-ocd:telnet-port="4444" elmot-ocd:reset-type="INIT" elmot-ocd:download-type="ALWAYS">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.alc" />
-      <item itemvalue="Application.alc-ATMEGA328P.elf" />
-      <item itemvalue="Application.disassemble_alc" />
+      <item itemvalue="Application.disassemble_firmware" />
+      <item itemvalue="Application.firmware" />
+      <item itemvalue="Application.firmware-atmega328p.elf" />
       <item itemvalue="Application.get_calibration" />
       <item itemvalue="Application.get_fuses" />
       <item itemvalue="Application.get_status" />
       <item itemvalue="Application.set_calibration" />
       <item itemvalue="Application.set_fuses" />
-      <item itemvalue="Application.upload_alc" />
       <item itemvalue="Application.upload_eeprom" />
+      <item itemvalue="Application.upload_firmware" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -399,11 +715,22 @@
       <workItem from="1532137390261" duration="1937000" />
       <workItem from="1532220205831" duration="2825000" />
       <workItem from="1532308223959" duration="10153000" />
+      <workItem from="1532389215675" duration="3424000" />
+      <workItem from="1532471749565" duration="598000" />
+      <workItem from="1532492423770" duration="95000" />
+      <workItem from="1532527699912" duration="26000" />
+      <workItem from="1532569559208" duration="1162000" />
+      <workItem from="1532613363917" duration="21000" />
+      <workItem from="1532613794818" duration="56000" />
+      <workItem from="1532626159485" duration="136000" />
+      <workItem from="1532636809299" duration="4071000" />
+      <workItem from="1532735512846" duration="23000" />
+      <workItem from="1532736139039" duration="11322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247440000" />
+    <option name="totallyTimeSpent" value="268374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,44 +744,48 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14131813" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" weight="0.37262872" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.2682927" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12596402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.4987245" visible="true" weight="0.37196764" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.26819408" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14131813" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.12596402" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4987245" weight="0.37262872" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.2682927" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" sideWeight="0.4987245" visible="true" weight="0.37196764" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50127554" side_tool="true" weight="0.18563686" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884097" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.26819408" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,57 +794,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="34" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Source/LCD/Print.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/avr/include/string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="242" column="44" selection-start-line="242" selection-start-column="38" selection-end-line="242" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/LiquidCrystal.cpp" />
-    <entry file="file://$PROJECT_DIR$/Source/AVRTools/InterruptUtils.h" />
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/InterruptUtils.h" />
-    <entry file="file://$USER_HOME$/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/avr/include/avr/interrupt.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/AVRTools/Pwm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="271" column="52" lean-forward="true" selection-start-line="271" selection-start-column="52" selection-end-line="271" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/AVRTools/Pwm.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/avr/include/math.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="72" column="11" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.arduinocdt/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2/avr/include/avr/sfr_defs.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -528,35 +809,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMake/Toolchains/AVR.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3249">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.h">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/AnalogPin.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/AVRTools/SystemClock.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/AVRTools/SystemClock.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/AVRTools/I2cMaster.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/AVRTools/I2cMaster.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10931">
           <caret line="643" column="7" selection-start-line="643" selection-start-column="7" selection-end-line="643" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/AnalogPin.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/AnalogPin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
@@ -570,70 +844,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.h">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/GPIO.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/GPIO.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/GPIO.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/Button.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/Button.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/frontend/USER_IO/Button.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/LCD.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="80" column="27" selection-start-line="80" selection-start-column="27" selection-end-line="80" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/LCD.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/LCD/WString.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="121" column="9" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/WString.h">
+    <entry file="file://$PROJECT_DIR$/Source/utils/LCD/WString.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/LCD/Print.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/LCD/Print.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="130" column="21" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="21" />
@@ -642,41 +888,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuPresenter.cpp" />
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuPresenter.h" />
-    <entry file="file://$PROJECT_DIR$/Source/PID/PID_v1.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="86" column="20" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/PID/PID_v1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/FastPWMPin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/GPIO/FastPWMPin.h">
+    <entry file="file://$PROJECT_DIR$/Source/utils/GPIO/FastPWMPin.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#101#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,44 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="e#85#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -739,34 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/USER_IO/RotaryEncoder.cpp">
+    <entry file="file://$PROJECT_DIR$/Source/frontend/USER_IO/RotaryEncoder.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="e#29#181#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -779,42 +939,277 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMake/Toolchains/AVR.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="149" column="43" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/USER_IO/RotaryEncoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/USER_IO/Button.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/SelectionMenu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/OptionsMenu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/utils/PID/PID_v1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#311#494#0" />
-            <element signature="e#496#569#0" />
-            <element signature="e#570#665#0" />
-            <element signature="e#666#757#0" />
-            <element signature="e#759#1061#0" />
+            <element signature="e#463#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/utils/PID/PID_v1.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuController.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+          <folding>
+            <element signature="e#183#2288#0" />
+            <element signature="e#2289#3030#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/utils/LCD/LCD.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#122#124#0" />
+            <element signature="e#1254#2466#1" />
+            <element signature="e#1341#1895#0" />
+            <element signature="e#1905#2003#0" />
+            <element signature="e#2013#2237#0" />
+            <element signature="e#2255#2440#0" />
+            <element signature="e#2473#2530#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/utils/LCD/LCD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="231" column="46" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#114#553#0" />
+            <element signature="e#557#2736#0" />
+            <element signature="e#2738#2954#0" />
+            <element signature="e#2956#3104#0" />
+            <element signature="e#3106#3372#0" />
+            <element signature="e#3374#3536#0" />
+            <element signature="e#3537#3659#0" />
+            <element signature="e#3661#3821#0" />
+            <element signature="e#3822#3942#0" />
+            <element signature="e#3944#4104#0" />
+            <element signature="e#4105#4223#0" />
+            <element signature="e#4225#4397#0" />
+            <element signature="e#4398#4510#0" />
+            <element signature="e#4512#4679#0" />
+            <element signature="e#4681#4849#0" />
+            <element signature="e#4851#5032#0" />
+            <element signature="e#5034#5217#0" />
+            <element signature="e#5219#5267#0" />
+            <element signature="e#5546#5678#0" />
+            <element signature="e#5679#5786#0" />
+            <element signature="e#5788#6168#0" />
+            <element signature="e#6169#6375#0" />
+            <element signature="e#6376#6463#0" />
+            <element signature="e#6464#6551#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/MenuModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="e#92#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/backend/Backend.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#543#716#0" />
+            <element signature="e#717#850#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/Menu/MenuView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#89#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="237">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="63" column="54" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/main.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="19" />
+          <folding>
+            <element signature="e#81#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Source/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        <state relative-caret-position="504">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           <folding>
-            <element signature="e#439#1428#0" />
-            <element signature="e#1430#1478#0" />
+            <element signature="e#0#989#0" />
+            <element signature="e#991#1039#0" />
+            <element signature="e#1839#2025#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/SolderingStationData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#155#224#1" />
+            <element signature="e#226#272#1" />
+            <element signature="e#523#635#1" />
+            <element signature="e#946#1048#0" />
+            <element signature="e#1204#1268#0" />
+            <element signature="e#1062#1112#0" />
+            <element signature="e#1117#1165#0" />
+            <element signature="e#1170#1505#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/Menu/Menu.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/backend/Backend.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#201#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="e#81#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/MenuStructure/MenuItem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/Frontend.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/frontend/Frontend.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#160#193#0" expanded="true" />
           </folding>
         </state>
       </provider>

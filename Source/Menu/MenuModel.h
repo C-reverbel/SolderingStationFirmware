@@ -4,9 +4,9 @@
 
 #include <avr/io.h>
 
-#include "PID/PID_v1.h"
-#include "GPIO/FastPWMPin.h"
-#include "GPIO/AnalogPin.h"
+#include "../utils/PID/PID_v1.h"
+#include "utils/GPIO/FastPWMPin.h"
+#include "utils/GPIO/AnalogPin.h"
 #include "Menu.h"
 
 class MenuModel {

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "alc-ATMEGA328P.map"
+  "firmware-atmega328p.map"
   "CMakeFiles/set_calibration"
 )
 

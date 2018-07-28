@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "alc-ATMEGA328P.map"
+  "firmware-atmega328p.map"
   "CMakeFiles/upload_eeprom"
-  "alc-ATMEGA328P-eeprom.hex"
+  "firmware-atmega328p-eeprom.hex"
 )
 
 # Per-language clean rules from dependency scanning.

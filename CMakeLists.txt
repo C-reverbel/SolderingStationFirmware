@@ -11,7 +11,7 @@ set(AVR_UPLOADTOOL_PORT COM3)
 
 # AVR and fuses needs to be set
 
-set(AVR_MCU         ATMEGA328P)
+set(AVR_MCU atmega328p)
 set(AVR_H_FUSE 0xde)
 set(AVR_L_FUSE 0xff)
 #set(AVR_E_FUSE 0x05)
@@ -41,31 +41,31 @@ set(CMAKE_CXX_FLAGS_DEBUG "-Os")
 
 #file(GLOB_RECURSE AVRTools Source/AVRTools/*.cpp)
 
-set(srcs Source/main.cpp
-        Source/LCD/LCD.cpp
-        #Source/LCD/LiquidCrystal.cpp
-        Source/GPIO/GPIO.cpp
-        Source/GPIO/FastPWMPin.cpp
-        Source/GPIO/AnalogPin.cpp
-        Source/LCD/WString.cpp
-        Source/LCD/Print.cpp
-        Source/Menu/Menu.cpp
-        Source/Menu/ApplicationMenu.cpp
-        Source/Menu/SelectionMenu.cpp
-        Source/USER_IO/RotaryEncoder.cpp
-        Source/USER_IO/Button.cpp
-        Source/PID/PID_v1.cpp
-        Source/AVRTools/SystemClock.cpp
-        Source/Menu/MenuView.cpp
-        Source/Menu/MenuController.cpp
-        Source/Menu/MenuModel.cpp
-        Source/Menu/OptionsMenu.cpp
-        #Source/LCD/Printable.h
-        #${AVRTools}
-        )
+set(srcs    Source/main.cpp
+            Source/utils/LCD/LCD.cpp
+            Source/utils/GPIO/GPIO.cpp
+            Source/utils/GPIO/FastPWMPin.cpp
+            Source/utils/GPIO/AnalogPin.cpp
+            Source/utils/LCD/WString.cpp
+            Source/utils/LCD/Print.cpp
+            Source/Menu/Menu.cpp
+            Source/Menu/ApplicationMenu.cpp
+            Source/Menu/SelectionMenu.cpp
+            Source/frontend/USER_IO/RotaryEncoder.cpp
+            Source/frontend/USER_IO/Button.cpp
+            Source/utils/PID/PID_v1.cpp
+            Source/utils/AVRTools/SystemClock.cpp
+            Source/Menu/MenuView.cpp
+            Source/Menu/MenuController.cpp
+            Source/Menu/MenuModel.cpp
+            Source/Menu/OptionsMenu.cpp
+            Source/backend/Backend.cpp
+            Source/frontend/Frontend.cpp
+            Source/frontend/MenuStructure/MenuItem.cpp
+    )
 
-add_avr_executable(alc ${srcs})
-target_include_directories(alc-${AVR_MCU}.elf
+add_avr_executable(firmware ${srcs})
+target_include_directories(firmware-${AVR_MCU}.elf
         PUBLIC Source)
 
 add_definitions("-DF_CPU=${MCU_SPEED}")

@@ -5,9 +5,9 @@
 #include "ApplicationMenu.h"
 #include "SelectionMenu.h"
 
-#include "../LCD/LCD.h"
-#include "../USER_IO/Button.h"
-#include "../USER_IO/RotaryEncoder.h"
+#include "../utils/LCD/LCD.h"
+#include "../frontend/USER_IO/Button.h"
+#include "../frontend/USER_IO/RotaryEncoder.h"
 #include "OptionsMenu.h"
 
 class MenuView {

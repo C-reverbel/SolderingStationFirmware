@@ -104,7 +104,7 @@ if(NOT AVR_SIZE_ARGS)
     if(APPLE)
         set(AVR_SIZE_ARGS -B)
     else(APPLE)
-        set(AVR_SIZE_ARGS -C;--mcu=${AVR_MCU})
+        set(AVR_SIZE_ARGS -C;--mcu=${AVR_MCU};--format=avr)
     endif(APPLE)
 endif(NOT AVR_SIZE_ARGS)
 
@@ -212,7 +212,7 @@ function(add_avr_executable EXECUTABLE_NAME)
     
     # upload - with avrdude
     add_custom_target(
-            upload_${EXECUTABLE_NAME}
+            upload_firmware
             ${AVR_UPLOADTOOL} -p ${AVR_UPLOAD_MCU} -c ${AVR_PROGRAMMER} ${AVR_UPLOADTOOL_OPTIONS}
             -U flash:w:${hex_file}:i
             -P ${AVR_UPLOADTOOL_PORT} -v

@@ -1,20 +1,31 @@
 #include "MenuItem.h"
 
-uint8_t MenuItem::stackIndex = 0;
 SolderingStationData* MenuItem::_solderingStationData;
+MenuItem::StackEvent MenuItem::_stackEvent = MenuItem::StackEvent::NOTHING;
+MenuItem::MenuScreen MenuItem::_nextScreen = MenuItem::MenuScreen::APP_MENU;
+LiquidCrystal* MenuItem::_lcd;
 
-void MenuItem::update(){
-    menuStack[stackIndex]->refreshScreen();
-    menuStack[stackIndex]->handleUserInput();
+MenuItem::StackEvent MenuItem::update(){
+    _stackEvent = StackEvent::NOTHING;
+    handleUserInputTask();
+    refreshScreenTask();
+    return _stackEvent;
+}
+void MenuItem::enteringStack(){
+    _stackEvent = MenuItem::StackEvent::NOTHING;
+    enteringStackTask();
+}
+void MenuItem::leavingStack(){
+    leavingStackTask();
 }
 
-void MenuItem::pop(){
-    menuStack[stackIndex--]->leavingStack();
-}
-void MenuItem::push(MenuItem* menu){
-    menuStack[++stackIndex] = menu;
-    menuStack[stackIndex]->enteringStack();
-}
+
 void MenuItem::attachSolderingStationData(SolderingStationData* data){
     _solderingStationData = data;
+}
+void MenuItem::attachLCD(LiquidCrystal* lcd){
+    _lcd = lcd;
+    _lcd->begin(8,2);
+    _lcd->clear();
+    _lcd->setCursor(0,0);
 }

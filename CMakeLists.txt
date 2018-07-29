@@ -41,28 +41,28 @@ set(CMAKE_CXX_FLAGS_DEBUG "-Os")
 
 #file(GLOB_RECURSE AVRTools Source/AVRTools/*.cpp)
 
-set(srcs    Source/main.cpp
-            Source/utils/LCD/LCD.cpp
-            Source/utils/GPIO/GPIO.cpp
-            Source/utils/GPIO/FastPWMPin.cpp
-            Source/utils/GPIO/AnalogPin.cpp
-            Source/utils/LCD/WString.cpp
-            Source/utils/LCD/Print.cpp
-            Source/Menu/Menu.cpp
-            Source/Menu/ApplicationMenu.cpp
-            Source/Menu/SelectionMenu.cpp
-            Source/frontend/USER_IO/RotaryEncoder.cpp
-            Source/frontend/USER_IO/Button.cpp
-            Source/utils/PID/PID_v1.cpp
-            Source/utils/AVRTools/SystemClock.cpp
-            Source/Menu/MenuView.cpp
-            Source/Menu/MenuController.cpp
-            Source/Menu/MenuModel.cpp
-            Source/Menu/OptionsMenu.cpp
-            Source/backend/Backend.cpp
-            Source/frontend/Frontend.cpp
-            Source/frontend/MenuStructure/MenuItem.cpp
-    )
+set(srcs Source/main.cpp
+         Source/utils/LCD/LCD.cpp
+         Source/utils/GPIO/GPIO.cpp
+         Source/utils/GPIO/FastPWMPin.cpp
+         Source/utils/GPIO/AnalogPin.cpp
+         Source/utils/LCD/WString.cpp
+         Source/utils/LCD/Print.cpp
+         Source/frontend/USER_IO/RotaryEncoder.cpp
+         Source/frontend/USER_IO/Button.cpp
+         Source/utils/PID/PID_v1.cpp
+         Source/utils/AVRTools/SystemClock.cpp
+         Source/backend/Backend.cpp
+         Source/frontend/Frontend.cpp
+         Source/frontend/MenuStructure/MenuItem.cpp
+         Source/frontend/MenuStructure/rootMenu/RootMenu.cpp
+         Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp
+         Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp
+         Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp
+         Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp
+         Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp
+         Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp
+        )
 
 add_avr_executable(firmware ${srcs})
 target_include_directories(firmware-${AVR_MCU}.elf

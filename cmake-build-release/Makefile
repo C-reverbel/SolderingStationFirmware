@@ -239,195 +239,6 @@ disassemble_firmware/fast:
 	$(MAKE) -f CMakeFiles\disassemble_firmware.dir\build.make CMakeFiles/disassemble_firmware.dir/build
 .PHONY : disassemble_firmware/fast
 
-Source/Menu/ApplicationMenu.obj: Source/Menu/ApplicationMenu.cpp.obj
-
-.PHONY : Source/Menu/ApplicationMenu.obj
-
-# target to build an object file
-Source/Menu/ApplicationMenu.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj
-.PHONY : Source/Menu/ApplicationMenu.cpp.obj
-
-Source/Menu/ApplicationMenu.i: Source/Menu/ApplicationMenu.cpp.i
-
-.PHONY : Source/Menu/ApplicationMenu.i
-
-# target to preprocess a source file
-Source/Menu/ApplicationMenu.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.i
-.PHONY : Source/Menu/ApplicationMenu.cpp.i
-
-Source/Menu/ApplicationMenu.s: Source/Menu/ApplicationMenu.cpp.s
-
-.PHONY : Source/Menu/ApplicationMenu.s
-
-# target to generate assembly for a file
-Source/Menu/ApplicationMenu.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.s
-.PHONY : Source/Menu/ApplicationMenu.cpp.s
-
-Source/Menu/Menu.obj: Source/Menu/Menu.cpp.obj
-
-.PHONY : Source/Menu/Menu.obj
-
-# target to build an object file
-Source/Menu/Menu.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj
-.PHONY : Source/Menu/Menu.cpp.obj
-
-Source/Menu/Menu.i: Source/Menu/Menu.cpp.i
-
-.PHONY : Source/Menu/Menu.i
-
-# target to preprocess a source file
-Source/Menu/Menu.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.i
-.PHONY : Source/Menu/Menu.cpp.i
-
-Source/Menu/Menu.s: Source/Menu/Menu.cpp.s
-
-.PHONY : Source/Menu/Menu.s
-
-# target to generate assembly for a file
-Source/Menu/Menu.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.s
-.PHONY : Source/Menu/Menu.cpp.s
-
-Source/Menu/MenuController.obj: Source/Menu/MenuController.cpp.obj
-
-.PHONY : Source/Menu/MenuController.obj
-
-# target to build an object file
-Source/Menu/MenuController.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj
-.PHONY : Source/Menu/MenuController.cpp.obj
-
-Source/Menu/MenuController.i: Source/Menu/MenuController.cpp.i
-
-.PHONY : Source/Menu/MenuController.i
-
-# target to preprocess a source file
-Source/Menu/MenuController.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.i
-.PHONY : Source/Menu/MenuController.cpp.i
-
-Source/Menu/MenuController.s: Source/Menu/MenuController.cpp.s
-
-.PHONY : Source/Menu/MenuController.s
-
-# target to generate assembly for a file
-Source/Menu/MenuController.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.s
-.PHONY : Source/Menu/MenuController.cpp.s
-
-Source/Menu/MenuModel.obj: Source/Menu/MenuModel.cpp.obj
-
-.PHONY : Source/Menu/MenuModel.obj
-
-# target to build an object file
-Source/Menu/MenuModel.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj
-.PHONY : Source/Menu/MenuModel.cpp.obj
-
-Source/Menu/MenuModel.i: Source/Menu/MenuModel.cpp.i
-
-.PHONY : Source/Menu/MenuModel.i
-
-# target to preprocess a source file
-Source/Menu/MenuModel.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.i
-.PHONY : Source/Menu/MenuModel.cpp.i
-
-Source/Menu/MenuModel.s: Source/Menu/MenuModel.cpp.s
-
-.PHONY : Source/Menu/MenuModel.s
-
-# target to generate assembly for a file
-Source/Menu/MenuModel.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.s
-.PHONY : Source/Menu/MenuModel.cpp.s
-
-Source/Menu/MenuView.obj: Source/Menu/MenuView.cpp.obj
-
-.PHONY : Source/Menu/MenuView.obj
-
-# target to build an object file
-Source/Menu/MenuView.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj
-.PHONY : Source/Menu/MenuView.cpp.obj
-
-Source/Menu/MenuView.i: Source/Menu/MenuView.cpp.i
-
-.PHONY : Source/Menu/MenuView.i
-
-# target to preprocess a source file
-Source/Menu/MenuView.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.i
-.PHONY : Source/Menu/MenuView.cpp.i
-
-Source/Menu/MenuView.s: Source/Menu/MenuView.cpp.s
-
-.PHONY : Source/Menu/MenuView.s
-
-# target to generate assembly for a file
-Source/Menu/MenuView.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.s
-.PHONY : Source/Menu/MenuView.cpp.s
-
-Source/Menu/OptionsMenu.obj: Source/Menu/OptionsMenu.cpp.obj
-
-.PHONY : Source/Menu/OptionsMenu.obj
-
-# target to build an object file
-Source/Menu/OptionsMenu.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj
-.PHONY : Source/Menu/OptionsMenu.cpp.obj
-
-Source/Menu/OptionsMenu.i: Source/Menu/OptionsMenu.cpp.i
-
-.PHONY : Source/Menu/OptionsMenu.i
-
-# target to preprocess a source file
-Source/Menu/OptionsMenu.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.i
-.PHONY : Source/Menu/OptionsMenu.cpp.i
-
-Source/Menu/OptionsMenu.s: Source/Menu/OptionsMenu.cpp.s
-
-.PHONY : Source/Menu/OptionsMenu.s
-
-# target to generate assembly for a file
-Source/Menu/OptionsMenu.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.s
-.PHONY : Source/Menu/OptionsMenu.cpp.s
-
-Source/Menu/SelectionMenu.obj: Source/Menu/SelectionMenu.cpp.obj
-
-.PHONY : Source/Menu/SelectionMenu.obj
-
-# target to build an object file
-Source/Menu/SelectionMenu.cpp.obj:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj
-.PHONY : Source/Menu/SelectionMenu.cpp.obj
-
-Source/Menu/SelectionMenu.i: Source/Menu/SelectionMenu.cpp.i
-
-.PHONY : Source/Menu/SelectionMenu.i
-
-# target to preprocess a source file
-Source/Menu/SelectionMenu.cpp.i:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.i
-.PHONY : Source/Menu/SelectionMenu.cpp.i
-
-Source/Menu/SelectionMenu.s: Source/Menu/SelectionMenu.cpp.s
-
-.PHONY : Source/Menu/SelectionMenu.s
-
-# target to generate assembly for a file
-Source/Menu/SelectionMenu.cpp.s:
-	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.s
-.PHONY : Source/Menu/SelectionMenu.cpp.s
-
 Source/backend/Backend.obj: Source/backend/Backend.cpp.obj
 
 .PHONY : Source/backend/Backend.obj
@@ -508,6 +319,195 @@ Source/frontend/MenuStructure/MenuItem.s: Source/frontend/MenuStructure/MenuItem
 Source/frontend/MenuStructure/MenuItem.cpp.s:
 	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.s
 .PHONY : Source/frontend/MenuStructure/MenuItem.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/RootMenu.obj: Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/RootMenu.i: Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/RootMenu.s: Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.obj: Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.i: Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.s: Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.obj: Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.i: Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.s: Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.obj: Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.i: Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.s: Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.obj: Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.i: Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.s: Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.obj: Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.i: Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.s: Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s
+
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.obj: Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.obj
+
+# target to build an object file
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj
+
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.i: Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.i
+
+# target to preprocess a source file
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i
+
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.s: Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s
+
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.s
+
+# target to generate assembly for a file
+Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s:
+	$(MAKE) -f CMakeFiles\firmware-atmega328p.elf.dir\build.make CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s
+.PHONY : Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s
 
 Source/frontend/USER_IO/Button.obj: Source/frontend/USER_IO/Button.cpp.obj
 
@@ -824,27 +824,6 @@ help:
 	@echo ... disassemble_firmware
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Source/Menu/ApplicationMenu.obj
-	@echo ... Source/Menu/ApplicationMenu.i
-	@echo ... Source/Menu/ApplicationMenu.s
-	@echo ... Source/Menu/Menu.obj
-	@echo ... Source/Menu/Menu.i
-	@echo ... Source/Menu/Menu.s
-	@echo ... Source/Menu/MenuController.obj
-	@echo ... Source/Menu/MenuController.i
-	@echo ... Source/Menu/MenuController.s
-	@echo ... Source/Menu/MenuModel.obj
-	@echo ... Source/Menu/MenuModel.i
-	@echo ... Source/Menu/MenuModel.s
-	@echo ... Source/Menu/MenuView.obj
-	@echo ... Source/Menu/MenuView.i
-	@echo ... Source/Menu/MenuView.s
-	@echo ... Source/Menu/OptionsMenu.obj
-	@echo ... Source/Menu/OptionsMenu.i
-	@echo ... Source/Menu/OptionsMenu.s
-	@echo ... Source/Menu/SelectionMenu.obj
-	@echo ... Source/Menu/SelectionMenu.i
-	@echo ... Source/Menu/SelectionMenu.s
 	@echo ... Source/backend/Backend.obj
 	@echo ... Source/backend/Backend.i
 	@echo ... Source/backend/Backend.s
@@ -854,6 +833,27 @@ help:
 	@echo ... Source/frontend/MenuStructure/MenuItem.obj
 	@echo ... Source/frontend/MenuStructure/MenuItem.i
 	@echo ... Source/frontend/MenuStructure/MenuItem.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/RootMenu.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/RootMenu.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/RootMenu.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.s
+	@echo ... Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.obj
+	@echo ... Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.i
+	@echo ... Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.s
 	@echo ... Source/frontend/USER_IO/Button.obj
 	@echo ... Source/frontend/USER_IO/Button.i
 	@echo ... Source/frontend/USER_IO/Button.s

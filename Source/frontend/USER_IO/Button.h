@@ -11,5 +11,4 @@ public:
 
 };
 
-
 #endif //SOLDERINGSTATIONFIRMWARE_BUTTON_H

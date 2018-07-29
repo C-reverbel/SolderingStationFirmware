@@ -147,48 +147,9 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/Print.cpp.s"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\utils\LCD\Print.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\utils\LCD\Print.cpp.s
 
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj: ../Source/Menu/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\Menu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\Menu.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\Menu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\Menu.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\Menu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\Menu.cpp.s
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj: ../Source/Menu/ApplicationMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\ApplicationMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\ApplicationMenu.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\ApplicationMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\ApplicationMenu.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\ApplicationMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\ApplicationMenu.cpp.s
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj: ../Source/Menu/SelectionMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\SelectionMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\SelectionMenu.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\SelectionMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\SelectionMenu.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\SelectionMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\SelectionMenu.cpp.s
-
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj: ../Source/frontend/USER_IO/RotaryEncoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\USER_IO\RotaryEncoder.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\USER_IO\RotaryEncoder.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.i: cmake_force
@@ -201,7 +162,7 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj: ../Source/frontend/USER_IO/Button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\USER_IO\Button.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\USER_IO\Button.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.i: cmake_force
@@ -214,7 +175,7 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.s: cma
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj: ../Source/utils/PID/PID_v1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\utils\PID\PID_v1.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\utils\PID\PID_v1.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.i: cmake_force
@@ -227,7 +188,7 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.s: cmake_forc
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj: ../Source/utils/AVRTools/SystemClock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\utils\AVRTools\SystemClock.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\utils\AVRTools\SystemClock.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.i: cmake_force
@@ -238,61 +199,9 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.s"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\utils\AVRTools\SystemClock.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\utils\AVRTools\SystemClock.cpp.s
 
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj: ../Source/Menu/MenuView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuView.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuView.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuView.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuView.cpp.s
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj: ../Source/Menu/MenuController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuController.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuController.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuController.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuController.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuController.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuController.cpp.s
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj: ../Source/Menu/MenuModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuModel.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuModel.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuModel.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuModel.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\MenuModel.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\MenuModel.cpp.s
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj: ../Source/Menu/OptionsMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\OptionsMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\OptionsMenu.cpp
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.i"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\OptionsMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\OptionsMenu.cpp.i
-
-CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.s"
-	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\Menu\OptionsMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\Menu\OptionsMenu.cpp.s
-
 CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj: ../Source/backend/Backend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\backend\Backend.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\backend\Backend.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.i: cmake_force
@@ -305,7 +214,7 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.s: cmake_force
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj: ../Source/frontend/Frontend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\Frontend.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\Frontend.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.i: cmake_force
@@ -318,7 +227,7 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.s: cmake_for
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj: ../Source/frontend/MenuStructure/MenuItem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\MenuItem.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\MenuItem.cpp
 
 CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.i: cmake_force
@@ -329,6 +238,97 @@ CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.s"
 	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\MenuItem.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\MenuItem.cpp.s
 
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/RootMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\RootMenu.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\appMenu\AppMenu.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\selectionMenu\SelectionMenu.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\OptionsMenu.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MinTempOption.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\MaxTempOption.cpp.s
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj: CMakeFiles/firmware-atmega328p.elf.dir/flags.make
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj: ../Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp.obj -c C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.i"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp > CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp.i
+
+CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.s"
+	C:\Users\carlos\.arduinocdt\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.4-arduino2\bin\avr-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\carlos\Desktop\Git\SolderingStationFirmware\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp -o CMakeFiles\firmware-atmega328p.elf.dir\Source\frontend\MenuStructure\rootMenu\optionsMenu\TempUnitOption.cpp.s
+
 # Object files for target firmware-atmega328p.elf
 firmware__atmega328p_elf_OBJECTS = \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/main.cpp.obj" \
@@ -338,20 +338,20 @@ firmware__atmega328p_elf_OBJECTS = \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/GPIO/AnalogPin.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/WString.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/Print.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj" \
 "CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj" \
-"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj"
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj" \
+"CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj"
 
 # External object files for target firmware-atmega328p.elf
 firmware__atmega328p_elf_EXTERNAL_OBJECTS =
@@ -363,20 +363,20 @@ firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/GPI
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/GPIO/AnalogPin.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/WString.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/LCD/Print.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/Menu.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/ApplicationMenu.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/SelectionMenu.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/RotaryEncoder.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/USER_IO/Button.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/PID/PID_v1.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/utils/AVRTools/SystemClock.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuView.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuController.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/MenuModel.cpp.obj
-firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/Menu/OptionsMenu.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/backend/Backend.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/Frontend.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/MenuItem.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp.obj
+firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp.obj
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/build.make
 firmware-atmega328p.elf: CMakeFiles/firmware-atmega328p.elf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carlos\Desktop\Git\SolderingStationFirmware\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable firmware-atmega328p.elf"

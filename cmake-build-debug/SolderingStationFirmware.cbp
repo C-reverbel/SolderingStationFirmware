@@ -168,48 +168,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/ApplicationMenu.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/Menu.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuController.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuModel.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/MenuView.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/OptionsMenu.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.cpp">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/Menu/SelectionMenu.h">
-			<Option target="firmware-atmega328p.elf"/>
-		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/backend/Backend.cpp">
 			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
@@ -226,6 +184,48 @@
 			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/MenuItem.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/RootMenu.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/RootMenu.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/appMenu/AppMenu.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/MaxTempOption.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/optionsMenu/TempUnitOption.h">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.cpp">
+			<Option target="firmware-atmega328p.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/MenuStructure/rootMenu/selectionMenu/SelectionMenu.h">
 			<Option target="firmware-atmega328p.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/carlos/Desktop/Git/SolderingStationFirmware/Source/frontend/USER_IO/Button.cpp">

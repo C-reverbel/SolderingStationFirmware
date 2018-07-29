@@ -17,7 +17,7 @@ struct StartupOptions{
     TempUnit defaultTempUnity = TempUnit::CELSIUS;
     MenuScreen defaultScreen = MenuScreen::APP_MENU;
     bool defaultRotaryFlag = false;
-    double defaultSetTempInCelsius = 300.0;
+    double defaultSetTempInCelsius = 250.0;
     uint16_t defaultMinTempInCelsius = 100;
     uint16_t defaultMaxTempInCelsius = 400;
     //todo add calibration variables

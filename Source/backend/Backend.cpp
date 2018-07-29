@@ -1,12 +1,12 @@
 #include "Backend.h"
 
 
-Backend::Backend(   SolderingStationData& solderingStationData,
-                    AnalogPin& ptcPin,
-                    FastPWMPin& pwmPin) :
-    myPID(  &solderingStationData.mesTemperatureInCelsius,
-            &solderingStationData.pwmValueInPercent,
-            &solderingStationData.setTemperatureInCelsius, 2, 5, 1, DIRECT),
+Backend::Backend( SolderingStationData& solderingStationData,
+                  AnalogPin& ptcPin,
+                  FastPWMPin& pwmPin) :
+    myPID( &solderingStationData.mesTemperatureInCelsius,
+           &solderingStationData.pwmValueInPercent,
+           &solderingStationData.setTemperatureInCelsius, 2, 5, 1, DIRECT),
     _solderingStationData(solderingStationData),
     _ptcPin(ptcPin),
     _pwmPin(pwmPin)

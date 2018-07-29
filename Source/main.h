@@ -9,15 +9,17 @@
 #include "utils/GPIO/FastPWMPin.h"
 #include "utils/GPIO/AnalogPin.h"
 #include "utils/LCD/LCD.h"
-#include "Menu/Menu.h"
-#include "Menu/ApplicationMenu.h"
-#include "Menu/SelectionMenu.h"
-#include "frontend/USER_IO/RotaryEncoder.h"
-#include "frontend/USER_IO/Button.h"
 #include "utils/PID/PID_v1.h"
 
-#include "Menu/MenuView.h"
-#include "Menu/MenuController.h"
-#include "Menu/MenuModel.h"
+#include "frontend/USER_IO/RotaryEncoder.h"
+#include "frontend/USER_IO/Button.h"
+#include "frontend/MenuStructure/MenuItem.h"
+#include "frontend/MenuStructure/rootMenu/RootMenu.h"
+#include "frontend/MenuStructure/rootMenu/appMenu/AppMenu.h"
+#include "frontend/MenuStructure/rootMenu/optionsMenu/OptionsMenu.h"
+#include "frontend/MenuStructure/rootMenu/optionsMenu/MinTempOption.h"
+
+#include "backend/Backend.h"
+#include "frontend/Frontend.h"
 
 #endif //SOLDERINGSTATIONFIRMWARE_MAIN_H

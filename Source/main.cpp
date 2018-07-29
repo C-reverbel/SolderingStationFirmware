@@ -31,11 +31,6 @@ LCD_DB7   | PD1         | 1
  5V     GND  |__________________________|
  */
 
-/*
- * TODO
- * simplify creation of new menus
- */
-
 #include "main.h"
 
 int main(){
@@ -60,9 +55,9 @@ int main(){
     // PWM INITIALIZATION
     FastPWMPin pwmPin(OC1B);
     // MENUS INITIALIZATION
-    MenuView menuView(&lcd, &btn1, &btn2, &rotEnc);
-    MenuModel menuModel(&ptcPin, &pwmPin);
-    MenuController menuController(&menuView, &menuModel);
+    SolderingStationData applicationData;
+    Backend backend(applicationData, ptcPin, pwmPin);
+    Frontend frontend(&applicationData, &lcd, &btn1, &btn2, &rotEnc);
 
     /*
      * /utils
@@ -78,18 +73,11 @@ int main(){
      * /data
      */
 
-    /*
-     * main()
-         * backend.readIronTemperature()
-         * backend.updateTemperatureController()
-         * frontend.updateUserInputs()
-         * frontend.updateScreen()
-     */
-
     while(1){
-        _delay_ms(100);
-        menuController.handleUserInput();
-        menuController.updatePWMValue();
-        menuController.refreshScreen();
+        _delay_ms(150);
+        backend.readIronTemperature();
+        backend.updateTemperatureController();
+        frontend.updateUserInputs();
+        frontend.updateMenu();
     }
 }
